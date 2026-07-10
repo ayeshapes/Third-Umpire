@@ -1,0 +1,9 @@
+data/staging_csv/
+data/raw_yaml/
+*.csv
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.vscode/
