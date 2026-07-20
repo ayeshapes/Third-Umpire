@@ -1,0 +1,2451 @@
+---
+meta:
+  data_version: 0.93
+  created: '2024-02-19'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Multan
+  competition: Pakistan Super League
+  dates:
+  - '2024-02-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Multan Sultans
+    by:
+      runs: 55
+  overs: 20
+  player_of_match:
+  - RR Hendricks
+  players:
+    Multan Sultans:
+    - Mohammad Rizwan
+    - DJ Malan
+    - RR Hendricks
+    - Khushdil Shah
+    - Yasir Khan
+    - Iftikhar Ahmed
+    - DJ Willey
+    - Usama Mir
+    - Abbas Afridi
+    - Mohammad Ali
+    - Shahnawaz Dhani
+    Karachi Kings:
+    - Shan Masood
+    - JM Vince
+    - Saad Baig
+    - Shoaib Malik
+    - Mohammad Nawaz
+    - KA Pollard
+    - DR Sams
+    - Hasan Ali
+    - Mir Hamza
+    - T Shamsi
+    - Mohammad Amir Khan
+  registry:
+    people:
+      Abbas Afridi: 2cec2a92
+      Abdul Muqeet: e1ac7789
+      Ali Naqvi: 3c89fc88
+      CB Gaffaney: d5ac41d8
+      DJ Malan: ad9c32a2
+      DJ Willey: 7f048519
+      DR Sams: caf69bf7
+      Faisal Afridi: ed0bc503
+      Hasan Ali: 2911de16
+      Iftikhar Ahmed: 29e253dd
+      Irfan Khan: ee95065d
+      JM Vince: a15618fe
+      KA Pollard: a757b0d8
+      Khushdil Shah: fce581b5
+      Mir Hamza: cb1a782a
+      Mohammad Ali: a86a37ab
+      Mohammad Amir Khan: 72f03be4
+      Mohammad Nawaz: 3086f7a4
+      Mohammad Rizwan: 2f26ac1a
+      RR Hendricks: b8cc58c9
+      Rashid Riaz: fb82725e
+      Saad Baig: eb75d76c
+      Shahnawaz Dhani: 7ccbb09f
+      Shan Masood: 6843a783
+      Shoaib Malik: 64c34cd0
+      T Shamsi: a03bba42
+      Usama Mir: 6dd8b88c
+      Yasir Khan: 4f1bb625
+  teams:
+  - Multan Sultans
+  - Karachi Kings
+  toss:
+    winner: Karachi Kings
+    decision: field
+  umpires:
+  - CB Gaffaney
+  - Rashid Riaz
+  venue: Multan Cricket Stadium
+  team_type: club
+innings:
+- 1st innings:
+    team: Multan Sultans
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: Mohammad Rizwan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Mohammad Rizwan
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: DJ Malan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: DJ Malan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mohammad Rizwan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: DJ Malan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: DJ Malan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: DJ Malan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+        wicket:
+          player_out: Mohammad Rizwan
+          kind: lbw
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Malan
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RR Hendricks
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Malan
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RR Hendricks
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: RR Hendricks
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DJ Malan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RR Hendricks
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Malan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: RR Hendricks
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: DJ Malan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: RR Hendricks
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: DJ Malan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RR Hendricks
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: RR Hendricks
+        bowler: Shoaib Malik
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DJ Malan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Hendricks
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: RR Hendricks
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: RR Hendricks
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: DJ Malan
+        bowler: Shoaib Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Hendricks
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Hendricks
+    - 12.3:
+        actual_delivery: '12.1'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 12.4:
+        actual_delivery: '12.2'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Malan
+    - 12.5:
+        actual_delivery: '12.2'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 12.6:
+        actual_delivery: '12.3'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 12.7:
+        actual_delivery: '12.4'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 12.8:
+        actual_delivery: '12.5'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 12.9:
+        actual_delivery: '12.6'
+        non_striker: DJ Malan
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: DJ Malan
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: DJ Malan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: RR Hendricks
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: DJ Malan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+        wicket:
+          player_out: DJ Malan
+          fielders:
+          - Irfan Khan (sub)
+          kind: caught
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Khushdil Shah
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Khushdil Shah
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Khushdil Shah
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Khushdil Shah
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RR Hendricks
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Khushdil Shah
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Khushdil Shah
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Khushdil Shah
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Khushdil Shah
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Khushdil Shah
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Khushdil Shah
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: RR Hendricks
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Khushdil Shah
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Khushdil Shah
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Khushdil Shah
+    - 19.3:
+        actual_delivery: '19.2'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Khushdil Shah
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: RR Hendricks
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+- 2nd innings:
+    team: Karachi Kings
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shan Masood
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: JM Vince
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Shan Masood
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Shan Masood
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: JM Vince
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: JM Vince
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: JM Vince
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: JM Vince
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+        wicket:
+          player_out: JM Vince
+          fielders:
+          - Mohammad Ali
+          kind: caught
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saad Baig
+        wicket:
+          player_out: Saad Baig
+          kind: bowled
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Shoaib Malik
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Shan Masood
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shoaib Malik
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Shoaib Malik
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Shoaib Malik
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Shan Masood
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Shan Masood
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Shan Masood
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Shoaib Malik
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Shoaib Malik
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Shan Masood
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Shoaib Malik
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shan Masood
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Shoaib Malik
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Shoaib Malik
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Malik
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Malik
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Shoaib Malik
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Shoaib Malik
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Shoaib Malik
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Shan Masood
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Shoaib Malik
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Shoaib Malik
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Shan Masood
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shoaib Malik
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Shoaib Malik
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shoaib Malik
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Shan Masood
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Shoaib Malik
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shan Masood
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Shoaib Malik
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Shoaib Malik
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Shan Masood
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Shan Masood
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          fielders:
+          - DJ Willey
+          kind: caught
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shoaib Malik
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Shoaib Malik
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Shoaib Malik
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Shoaib Malik
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shoaib Malik
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Malik
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shoaib Malik
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Malik
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Mohammad Nawaz
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Shoaib Malik
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shoaib Malik
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Shoaib Malik
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Mohammad Nawaz
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Mohammad Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Malik
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Mohammad Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+        wicket:
+          player_out: Shoaib Malik
+          fielders:
+          - Usama Mir
+          kind: caught
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Mohammad Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KA Pollard
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+        wicket:
+          player_out: Mohammad Nawaz
+          fielders:
+          - RR Hendricks
+          kind: caught
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KA Pollard
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KA Pollard
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: DR Sams
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KA Pollard
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: KA Pollard
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+        wicket:
+          player_out: DR Sams
+          kind: bowled
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: KA Pollard
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KA Pollard
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+        wicket:
+          player_out: Hasan Ali
+          kind: lbw
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KA Pollard
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mir Hamza
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Mir Hamza
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Mir Hamza
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Mir Hamza
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Mir Hamza
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Mir Hamza
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: KA Pollard
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mir Hamza
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Mir Hamza
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Mir Hamza
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Mir Hamza
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KA Pollard
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Mir Hamza
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Pollard
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Mir Hamza
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: KA Pollard
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mir Hamza
+        wicket:
+          player_out: Mir Hamza
+          kind: lbw
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KA Pollard
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Pollard
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: T Shamsi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: T Shamsi
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: T Shamsi
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: T Shamsi
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Pollard
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: T Shamsi
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: T Shamsi
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: T Shamsi
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Pollard
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: KA Pollard
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T Shamsi
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: T Shamsi
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: T Shamsi
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KA Pollard
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: T Shamsi
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: T Shamsi
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: T Shamsi
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: T Shamsi
+        bowler: Shahnawaz Dhani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    target:
+      overs: 20
+      runs: 186

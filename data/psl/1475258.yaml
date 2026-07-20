@@ -1,0 +1,756 @@
+---
+meta:
+  data_version: 0.93
+  created: '2025-05-04'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2025-05-01'
+  gender: male
+  match_type: T20
+  outcome:
+    result: no result
+  overs: 20
+  players:
+    Lahore Qalandars:
+    - Fakhar Zaman
+    - Muhammad Naeem
+    - Abdullah Shafique
+    - DJ Mitchell
+    - SW Billings
+    - Sikandar Raza
+    - Asif Ali
+    - Shaheen Shah Afridi
+    - TK Curran
+    - Haris Rauf
+    - Asif Afridi
+    Quetta Gladiators:
+    - Saud Shakeel
+    - FH Allen
+    - RR Rossouw
+    - BKG Mendis
+    - MS Chapman
+    - Faheem Ashraf
+    - Hassan Nawaz
+    - Mohammad Wasim
+    - Mohammad Zeeshan
+    - Khurram Shahzad
+    - Abrar Ahmed
+  registry:
+    people:
+      Abdullah Shafique: fc2fffb5
+      Abrar Ahmed: abb7c76c
+      Asif Afridi: 9489623e
+      Asif Ali: 0a4736eb
+      Asif Yaqoob: 6b35790c
+      BKG Mendis: 5d1e7582
+      DJ Mitchell: eade4650
+      FH Allen: bf74b130
+      Faheem Ashraf: bd4ea627
+      Faisal Afridi: ed0bc503
+      Fakhar Zaman: 1777c020
+      Haris Rauf: 24bb1c2f
+      Hassan Nawaz: 26a8b2fe
+      Khurram Shahzad: 27c5715d
+      MS Chapman: 7fa12533
+      Mohammad Wasim: 9e9af5f2
+      Mohammad Zeeshan: 68d11420
+      Muhammad Naeem: e35b7b91
+      PR Reiffel: c9354f29
+      RR Rossouw: cad00a4d
+      RS Madugalle: 766b5798
+      SW Billings: c16d4035
+      Saud Shakeel: d07c1b2f
+      Shaheen Shah Afridi: 45a7e761
+      Sikandar Raza: 26d041c4
+      TK Curran: e86754b2
+      Tariq Rasheed: 1008518c
+  teams:
+  - Lahore Qalandars
+  - Quetta Gladiators
+  toss:
+    winner: Quetta Gladiators
+    decision: field
+  umpires:
+  - Faisal Afridi
+  - PR Reiffel
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Lahore Qalandars
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Muhammad Naeem
+        batsman: Fakhar Zaman
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Muhammad Naeem
+        batsman: Fakhar Zaman
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Muhammad Naeem
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+        wicket:
+          player_out: Fakhar Zaman
+          kind: bowled
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Muhammad Naeem
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Muhammad Naeem
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Muhammad Naeem
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Muhammad Naeem
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Muhammad Naeem
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Abdullah Shafique
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Naeem
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Abdullah Shafique
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Muhammad Naeem
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Naeem
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Muhammad Naeem
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Abdullah Shafique
+        bowler: Khurram Shahzad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Muhammad Naeem
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Naeem
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Muhammad Naeem
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Muhammad Naeem
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Muhammad Naeem
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Muhammad Naeem
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Muhammad Naeem
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Abdullah Shafique
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Abdullah Shafique
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Abdullah Shafique
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Abdullah Shafique
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Shafique
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Muhammad Naeem
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Abdullah Shafique
+        bowler: Saud Shakeel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Muhammad Naeem
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abdullah Shafique
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Shafique
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Shafique
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Abdullah Shafique
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Muhammad Naeem
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Naeem
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Muhammad Naeem
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Naeem
+        wicket:
+          player_out: Muhammad Naeem
+          fielders:
+          - Hassan Nawaz
+          kind: caught
+    - 10.1:
+        actual_delivery: '10.1'
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DJ Mitchell
+        batsman: Abdullah Shafique
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Mitchell
+    - 10.3:
+        actual_delivery: '10.2'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: DJ Mitchell
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: DJ Mitchell
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: DJ Mitchell
+        bowler: Mohammad Zeeshan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DJ Mitchell
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Abdullah Shafique
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+        wicket:
+          player_out: DJ Mitchell
+          fielders:
+          - RR Rossouw
+          kind: caught

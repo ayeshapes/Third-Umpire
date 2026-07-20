@@ -1,0 +1,2139 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-04-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2026-04-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Multan Sultans
+    by:
+      wickets: 7
+  overs: 20
+  player_of_match:
+  - Faisal Akram
+  players:
+    Rawalpindiz:
+    - Mohammad Rizwan
+    - Yasir Khan
+    - Kamran Ghulam
+    - Abdullah Fazal
+    - DJ Mitchell
+    - SW Billings
+    - D Forrester
+    - Rishad Hossain
+    - Asif Afridi
+    - Mohammad Amir Khan
+    - Mohammad Amir
+    Multan Sultans:
+    - Sahibzada Farhan
+    - SPD Smith
+    - JR Philippe
+    - Shan Masood
+    - AJ Turner
+    - Mohammad Nawaz
+    - Arafat Minhas
+    - PM Siddle
+    - Mohammad Wasim
+    - Muhammad Ismail
+    - Faisal Akram
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      Abdul Muqeet: e1ac7789
+      Abdullah Fazal: 88fece92
+      Arafat Minhas: f2e8b37c
+      Asif Afridi: 9489623e
+      Asif Yaqoob: 6b35790c
+      D Forrester: '23393635'
+      DJ Mitchell: eade4650
+      Faisal Akram: 14661bf3
+      JR Philippe: '39086549'
+      Kamran Ghulam: 35f4cf7e
+      Mohammad Amir: e174dadd
+      Mohammad Amir Khan: 72f03be4
+      Mohammad Nawaz: 3086f7a4
+      Mohammad Rizwan: 2f26ac1a
+      Mohammad Wasim: 9e9af5f2
+      Muhammad Ismail: f98481d3
+      PM Siddle: bd93fea4
+      RS Mahanama: '57910393'
+      Rishad Hossain: 5935d694
+      SPD Smith: 30a45b23
+      SW Billings: c16d4035
+      Sahibzada Farhan: 1aba45cd
+      Shan Masood: 6843a783
+      Sharfuddoula: 63896abb
+      Tariq Rasheed: 1008518c
+      Yasir Khan: 4f1bb625
+  teams:
+  - Rawalpindiz
+  - Multan Sultans
+  toss:
+    winner: Multan Sultans
+    decision: field
+  umpires:
+  - Abdul Muqeet
+  - Sharfuddoula
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Rawalpindiz
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Yasir Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Yasir Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Yasir Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Yasir Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Yasir Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Yasir Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohammad Rizwan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yasir Khan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Yasir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Yasir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yasir Khan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+        wicket:
+          player_out: Yasir Khan
+          kind: bowled
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kamran Ghulam
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Kamran Ghulam
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kamran Ghulam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kamran Ghulam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mohammad Rizwan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kamran Ghulam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kamran Ghulam
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mohammad Rizwan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Kamran Ghulam
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Kamran Ghulam
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Kamran Ghulam
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+        wicket:
+          player_out: Mohammad Rizwan
+          kind: lbw
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Fazal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Abdullah Fazal
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Fazal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Fazal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Abdullah Fazal
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Fazal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Abdullah Fazal
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Abdullah Fazal
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Fazal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Fazal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Abdullah Fazal
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Kamran Ghulam
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Fazal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Kamran Ghulam
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Fazal
+        wicket:
+          player_out: Abdullah Fazal
+          fielders:
+          - Muhammad Ismail
+          kind: caught
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Kamran Ghulam
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Kamran Ghulam
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Kamran Ghulam
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Kamran Ghulam
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kamran Ghulam
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+        wicket:
+          player_out: Kamran Ghulam
+          fielders:
+          - Arafat Minhas
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: DJ Mitchell
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: DJ Mitchell
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+        wicket:
+          player_out: DJ Mitchell
+          kind: caught and bowled
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: D Forrester
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SW Billings
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SW Billings
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SW Billings
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Forrester
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SW Billings
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Forrester
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SW Billings
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Forrester
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: D Forrester
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SW Billings
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SW Billings
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Forrester
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SW Billings
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Forrester
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SW Billings
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SW Billings
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: D Forrester
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: D Forrester
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: D Forrester
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: D Forrester
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SW Billings
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+        wicket:
+          player_out: D Forrester
+          fielders:
+          - Mohammad Nawaz
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: SW Billings
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishad Hossain
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishad Hossain
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishad Hossain
+        wicket:
+          player_out: Rishad Hossain
+          kind: lbw
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asif Afridi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Asif Afridi
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Asif Afridi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: SW Billings
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asif Afridi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Asif Afridi
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Asif Afridi
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Asif Afridi
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Asif Afridi
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Asif Afridi
+        bowler: Mohammad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SW Billings
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Asif Afridi
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: SW Billings
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asif Afridi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Asif Afridi
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asif Afridi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asif Afridi
+        wicket:
+          player_out: Asif Afridi
+          fielders:
+          - SPD Smith
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Mohammad Amir Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Mohammad Amir Khan
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SW Billings
+        bowler: Faisal Akram
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Amir Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Mohammad Amir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Mohammad Amir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Mohammad Amir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Mohammad Amir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Mohammad Amir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Mohammad Amir Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SW Billings
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SW Billings
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Mohammad Amir Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+- 2nd innings:
+    team: Multan Sultans
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: SPD Smith
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: SPD Smith
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SPD Smith
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SPD Smith
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+        wicket:
+          player_out: SPD Smith
+          fielders:
+          - Abdullah Fazal
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JR Philippe
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: JR Philippe
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: JR Philippe
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: JR Philippe
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: JR Philippe
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: JR Philippe
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Sahibzada Farhan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Sahibzada Farhan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Sahibzada Farhan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: JR Philippe
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JR Philippe
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: JR Philippe
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: JR Philippe
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sahibzada Farhan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: JR Philippe
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sahibzada Farhan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: JR Philippe
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sahibzada Farhan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sahibzada Farhan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: JR Philippe
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sahibzada Farhan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JR Philippe
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JR Philippe
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sahibzada Farhan
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: JR Philippe
+        bowler: Asif Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sahibzada Farhan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+        wicket:
+          player_out: JR Philippe
+          fielders:
+          - SW Billings
+          kind: caught
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Shan Masood
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sahibzada Farhan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sahibzada Farhan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Shan Masood
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Shan Masood
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Sahibzada Farhan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+        wicket:
+          player_out: Sahibzada Farhan
+          kind: bowled
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AJ Turner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AJ Turner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AJ Turner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: AJ Turner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AJ Turner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: AJ Turner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Shan Masood
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Shan Masood
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: AJ Turner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shan Masood
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: AJ Turner
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AJ Turner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shan Masood
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AJ Turner
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AJ Turner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Shan Masood
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Shan Masood
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    target:
+      overs: 20
+      runs: 183

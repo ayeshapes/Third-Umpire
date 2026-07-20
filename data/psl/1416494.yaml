@@ -1,0 +1,2408 @@
+---
+meta:
+  data_version: 0.93
+  created: '2024-03-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Rawalpindi
+  competition: Pakistan Super League
+  dates:
+  - '2024-03-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Lahore Qalandars
+    by:
+      runs: 17
+  overs: 20
+  player_of_match:
+  - HE van der Dussen
+  players:
+    Lahore Qalandars:
+    - Sahibzada Farhan
+    - Fakhar Zaman
+    - HE van der Dussen
+    - SD Hope
+    - Shaheen Shah Afridi
+    - Sikandar Raza
+    - Ahsan Hafeez
+    - D Wiese
+    - Jahandad Khan
+    - Tayyab Abbas
+    - Zaman Khan
+    Islamabad United:
+    - C Munro
+    - AD Hales
+    - Agha Salman
+    - Shadab Khan
+    - JM Cox
+    - Imad Wasim
+    - Azam Khan
+    - Faheem Ashraf
+    - Naseem Shah
+    - Hunain Shah
+    - Rumman Raees
+  registry:
+    people:
+      AD Hales: 92aeac25
+      AG Wharf: 2e0fcc58
+      Abdullah Shafique: fc2fffb5
+      Agha Salman: 89c16049
+      Ahsan Hafeez: '86229495'
+      Ahsan Raza: e0e5b209
+      Asif Yaqoob: 6b35790c
+      Azam Khan: ee8f1a6d
+      C Munro: af2c687b
+      D Wiese: aa8d28ae
+      Faheem Ashraf: bd4ea627
+      Fakhar Zaman: 1777c020
+      HE van der Dussen: 9948e262
+      Hunain Shah: 3b8679bf
+      Imad Wasim: 9cb8d7a6
+      JM Cox: ff154ecd
+      Jahandad Khan: 22d73540
+      Mohammad Asif: b7b6790a
+      Naseem Shah: 9c9af282
+      RS Mahanama: '57910393'
+      Rumman Raees: 1c790f4f
+      SD Hope: 1fc6ef83
+      Sahibzada Farhan: 1aba45cd
+      Shadab Khan: 9de62878
+      Shaheen Shah Afridi: 45a7e761
+      Sikandar Raza: 26d041c4
+      Tayyab Abbas: 6b972db7
+      Zaman Khan: 28392e11
+  teams:
+  - Lahore Qalandars
+  - Islamabad United
+  toss:
+    winner: Islamabad United
+    decision: field
+  umpires:
+  - Ahsan Raza
+  - AG Wharf
+  venue: Rawalpindi Cricket Stadium
+  team_type: club
+innings:
+- 1st innings:
+    team: Lahore Qalandars
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Sahibzada Farhan
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: Fakhar Zaman
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Fakhar Zaman
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Fakhar Zaman
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Sahibzada Farhan
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Sahibzada Farhan
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Sahibzada Farhan
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Fakhar Zaman
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sahibzada Farhan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Sahibzada Farhan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fakhar Zaman
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Sahibzada Farhan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sahibzada Farhan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+        wicket:
+          player_out: Sahibzada Farhan
+          fielders:
+          - Faheem Ashraf
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Fakhar Zaman
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: HE van der Dussen
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Fakhar Zaman
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: HE van der Dussen
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+        wicket:
+          player_out: Fakhar Zaman
+          fielders:
+          - C Munro
+          kind: caught
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: HE van der Dussen
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: SD Hope
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: HE van der Dussen
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SD Hope
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SD Hope
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SD Hope
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SD Hope
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SD Hope
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+        wicket:
+          player_out: SD Hope
+          fielders:
+          - JM Cox
+          kind: caught
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Imad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: HE van der Dussen
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: HE van der Dussen
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Shaheen Shah Afridi
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Shaheen Shah Afridi
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Shaheen Shah Afridi
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: HE van der Dussen
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shaheen Shah Afridi
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Shaheen Shah Afridi
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shaheen Shah Afridi
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shaheen Shah Afridi
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Shaheen Shah Afridi
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+        wicket:
+          player_out: Shaheen Shah Afridi
+          kind: bowled
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: HE van der Dussen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sikandar Raza
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sikandar Raza
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sikandar Raza
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sikandar Raza
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Sikandar Raza
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Sikandar Raza
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Sikandar Raza
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+        wicket:
+          player_out: Sikandar Raza
+          fielders:
+          - Azam Khan
+          kind: caught
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Ahsan Hafeez
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ahsan Hafeez
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ahsan Hafeez
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Ahsan Hafeez
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Ahsan Hafeez
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: HE van der Dussen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ahsan Hafeez
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: HE van der Dussen
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Ahsan Hafeez
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ahsan Hafeez
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Ahsan Hafeez
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Ahsan Hafeez
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: HE van der Dussen
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ahsan Hafeez
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: HE van der Dussen
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahsan Hafeez
+        wicket:
+          player_out: Ahsan Hafeez
+          fielders:
+          - C Munro
+          kind: caught
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: HE van der Dussen
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Wiese
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: D Wiese
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: D Wiese
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: D Wiese
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: D Wiese
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: D Wiese
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Wiese
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Wiese
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Wiese
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Wiese
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: HE van der Dussen
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Wiese
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+        wicket:
+          player_out: HE van der Dussen
+          kind: lbw
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Jahandad Khan
+    - 18.8:
+        actual_delivery: '18.6'
+        non_striker: D Wiese
+        bowler: Rumman Raees
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahandad Khan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: D Wiese
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahandad Khan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Jahandad Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Wiese
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Jahandad Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Wiese
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Jahandad Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Wiese
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Jahandad Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Wiese
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Jahandad Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Wiese
+- 2nd innings:
+    team: Islamabad United
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AD Hales
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Munro
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AD Hales
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Munro
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AD Hales
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: C Munro
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: C Munro
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+        wicket:
+          player_out: AD Hales
+          fielders:
+          - Jahandad Khan
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: C Munro
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Agha Salman
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Agha Salman
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Agha Salman
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Agha Salman
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Agha Salman
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+        wicket:
+          player_out: Agha Salman
+          fielders:
+          - SD Hope
+          kind: caught
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Shadab Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: C Munro
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: C Munro
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: C Munro
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Shadab Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Shadab Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shadab Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: C Munro
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: C Munro
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Shadab Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: C Munro
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Shadab Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+        wicket:
+          player_out: Shadab Khan
+          kind: bowled
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: C Munro
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: JM Cox
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: JM Cox
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: JM Cox
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: C Munro
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Cox
+        wicket:
+          player_out: C Munro
+          fielders:
+          - SD Hope
+          - Jahandad Khan
+          kind: run out
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: JM Cox
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: JM Cox
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+        wicket:
+          player_out: Imad Wasim
+          fielders:
+          - Abdullah Shafique (sub)
+          kind: caught
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Azam Khan
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Azam Khan
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: JM Cox
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Azam Khan
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Azam Khan
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+        wicket:
+          player_out: JM Cox
+          kind: caught and bowled
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Azam Khan
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Azam Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Azam Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Faheem Ashraf
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Faheem Ashraf
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Azam Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Faheem Ashraf
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Azam Khan
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Azam Khan
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Azam Khan
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Azam Khan
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        extras:
+          noballs: 1
+        batsman: Azam Khan
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Faheem Ashraf
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+        wicket:
+          player_out: Azam Khan
+          fielders:
+          - Sikandar Raza
+          kind: caught
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Faheem Ashraf
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Naseem Shah
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Faheem Ashraf
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naseem Shah
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Faheem Ashraf
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Naseem Shah
+        bowler: Sikandar Raza
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Faheem Ashraf
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: Naseem Shah
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Naseem Shah
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Naseem Shah
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Naseem Shah
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Naseem Shah
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Faheem Ashraf
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Naseem Shah
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faheem Ashraf
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Naseem Shah
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Faheem Ashraf
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Naseem Shah
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Naseem Shah
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Naseem Shah
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Faheem Ashraf
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Naseem Shah
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Faheem Ashraf
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Naseem Shah
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Naseem Shah
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naseem Shah
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naseem Shah
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Naseem Shah
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Faheem Ashraf
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Naseem Shah
+        bowler: Tayyab Abbas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naseem Shah
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Naseem Shah
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naseem Shah
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Naseem Shah
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Naseem Shah
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naseem Shah
+        wicket:
+          player_out: Naseem Shah
+          kind: bowled
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Hunain Shah
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Faheem Ashraf
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hunain Shah
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Faheem Ashraf
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hunain Shah
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Faheem Ashraf
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hunain Shah
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Hunain Shah
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Faheem Ashraf
+    - 16.6:
+        actual_delivery: '16.4'
+        non_striker: Hunain Shah
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: Faheem Ashraf
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hunain Shah
+        wicket:
+          player_out: Hunain Shah
+          kind: bowled
+    - 16.8:
+        actual_delivery: '16.6'
+        non_striker: Faheem Ashraf
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rumman Raees
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rumman Raees
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rumman Raees
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Rumman Raees
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faheem Ashraf
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Rumman Raees
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Rumman Raees
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Faheem Ashraf
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rumman Raees
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Rumman Raees
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Faheem Ashraf
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Rumman Raees
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faheem Ashraf
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Rumman Raees
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Faheem Ashraf
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Rumman Raees
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faheem Ashraf
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Rumman Raees
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Faheem Ashraf
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rumman Raees
+        wicket:
+          player_out: Rumman Raees
+          kind: lbw
+    target:
+      overs: 20
+      runs: 163

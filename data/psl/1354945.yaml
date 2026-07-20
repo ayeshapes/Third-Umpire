@@ -1,0 +1,2376 @@
+---
+meta:
+  data_version: 0.93
+  created: '2023-03-07'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Rawalpindi
+  competition: Pakistan Super League
+  dates:
+  - '2023-03-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Quetta Gladiators
+    by:
+      wickets: 4
+  overs: 20
+  player_of_match:
+  - MJ Guptill
+  players:
+    Karachi Kings:
+    - MS Wade
+    - AM Rossington
+    - Tayyab Tahir
+    - Qasim Akram
+    - Shoaib Malik
+    - Imad Wasim
+    - JK Fuller
+    - Aamer Yamin
+    - Muhammad Musa
+    - T Shamsi
+    - Mohammad Amir
+    Quetta Gladiators:
+    - Omair Yousuf
+    - MJ Guptill
+    - Mohammad Nawaz
+    - Iftikhar Ahmed
+    - Najibullah Zadran
+    - Umar Akmal
+    - Sarfraz Ahmed
+    - D Pretorius
+    - Naveen-ul-Haq
+    - Naseem Shah
+    - Aimal Khan
+  registry:
+    people:
+      AM Rossington: 7bcde3fe
+      Aamer Yamin: 907d6e58
+      Aimal Khan: 774e65b3
+      D Pretorius: 11614d87
+      Faisal Afridi: ed0bc503
+      Iftikhar Ahmed: 29e253dd
+      Imad Wasim: 9cb8d7a6
+      JK Fuller: dda5aae5
+      MJ Guptill: 2be41edb
+      MJ Saggers: 402d5937
+      MS Wade: afa7e784
+      Mohammad Amir: e174dadd
+      Mohammad Asif: b7b6790a
+      Mohammad Nawaz: 3086f7a4
+      Muhammad Musa: 9b8a3c39
+      Najibullah Zadran: 1212cbec
+      Naseem Shah: 9c9af282
+      Naveen-ul-Haq: c0c411cb
+      Omair Yousuf: f8e3c0f8
+      Qasim Akram: b6359668
+      RS Mahanama: '57910393'
+      Rashid Riaz: fb82725e
+      Sarfraz Ahmed: 2254ab79
+      Shoaib Malik: 64c34cd0
+      T Shamsi: a03bba42
+      Tayyab Tahir: 431f8af4
+      Umar Akmal: fd2bf2a0
+  teams:
+  - Karachi Kings
+  - Quetta Gladiators
+  toss:
+    winner: Quetta Gladiators
+    decision: field
+  umpires:
+  - MJ Saggers
+  - Rashid Riaz
+  venue: Rawalpindi Cricket Stadium
+  team_type: club
+innings:
+- 1st innings:
+    team: Karachi Kings
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Wade
+        wicket:
+          player_out: MS Wade
+          fielders:
+          - Sarfraz Ahmed
+          kind: caught
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Tayyab Tahir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Tayyab Tahir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Tayyab Tahir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Tayyab Tahir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tayyab Tahir
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Tayyab Tahir
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Tayyab Tahir
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Tayyab Tahir
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Tayyab Tahir
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+        wicket:
+          player_out: Tayyab Tahir
+          fielders:
+          - Naveen-ul-Haq
+          kind: caught
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Qasim Akram
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Qasim Akram
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Qasim Akram
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Qasim Akram
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Qasim Akram
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Qasim Akram
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Qasim Akram
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Qasim Akram
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rossington
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Qasim Akram
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Qasim Akram
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Qasim Akram
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Qasim Akram
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Qasim Akram
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: AM Rossington
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Qasim Akram
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Qasim Akram
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Qasim Akram
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Qasim Akram
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Qasim Akram
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Qasim Akram
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Qasim Akram
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Qasim Akram
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Qasim Akram
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Qasim Akram
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Qasim Akram
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Qasim Akram
+        wicket:
+          player_out: Qasim Akram
+          fielders:
+          - Naseem Shah
+          kind: caught
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Shoaib Malik
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Shoaib Malik
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Shoaib Malik
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shoaib Malik
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shoaib Malik
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rossington
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Shoaib Malik
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shoaib Malik
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AM Rossington
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Malik
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: AM Rossington
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Malik
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Shoaib Malik
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Shoaib Malik
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AM Rossington
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AM Rossington
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Shoaib Malik
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Malik
+        wicket:
+          player_out: Shoaib Malik
+          fielders:
+          - Umar Akmal
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Imad Wasim
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Imad Wasim
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: AM Rossington
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Imad Wasim
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AM Rossington
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Imad Wasim
+        bowler: Aimal Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Imad Wasim
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Rossington
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AM Rossington
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Imad Wasim
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Imad Wasim
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rossington
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Imad Wasim
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AM Rossington
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: AM Rossington
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+        wicket:
+          player_out: AM Rossington
+          fielders:
+          - Najibullah Zadran
+          kind: caught
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JK Fuller
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: JK Fuller
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JK Fuller
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+        wicket:
+          player_out: JK Fuller
+          kind: bowled
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Imad Wasim
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Yamin
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Aamer Yamin
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Aamer Yamin
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Yamin
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aamer Yamin
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: Aamer Yamin
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aamer Yamin
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aamer Yamin
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Yamin
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Imad Wasim
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Yamin
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aamer Yamin
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Yamin
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Aamer Yamin
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Aamer Yamin
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aamer Yamin
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Imad Wasim
+        bowler: D Pretorius
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Yamin
+- 2nd innings:
+    team: Quetta Gladiators
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Omair Yousuf
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Omair Yousuf
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Omair Yousuf
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Omair Yousuf
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Omair Yousuf
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Omair Yousuf
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Omair Yousuf
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Omair Yousuf
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Omair Yousuf
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Omair Yousuf
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Omair Yousuf
+        wicket:
+          player_out: Omair Yousuf
+          fielders:
+          - Shoaib Malik
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mohammad Nawaz
+        bowler: Mohammad Amir
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: MJ Guptill
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Nawaz
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mohammad Nawaz
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Mohammad Nawaz
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mohammad Nawaz
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mohammad Nawaz
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Nawaz
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Nawaz
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Mohammad Nawaz
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Nawaz
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+        wicket:
+          player_out: Mohammad Nawaz
+          kind: caught and bowled
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Iftikhar Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Iftikhar Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Iftikhar Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iftikhar Ahmed
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Iftikhar Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iftikhar Ahmed
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Iftikhar Ahmed
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Iftikhar Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MJ Guptill
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Iftikhar Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Iftikhar Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MJ Guptill
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iftikhar Ahmed
+        wicket:
+          player_out: Iftikhar Ahmed
+          kind: lbw
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Najibullah Zadran
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Najibullah Zadran
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Najibullah Zadran
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Najibullah Zadran
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Najibullah Zadran
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Najibullah Zadran
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Najibullah Zadran
+        wicket:
+          player_out: Najibullah Zadran
+          fielders:
+          - Tayyab Tahir
+          kind: caught
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umar Akmal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umar Akmal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Umar Akmal
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umar Akmal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Umar Akmal
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Umar Akmal
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Umar Akmal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umar Akmal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Umar Akmal
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umar Akmal
+        wicket:
+          player_out: Umar Akmal
+          fielders:
+          - Shoaib Malik
+          kind: caught
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: MJ Guptill
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Sarfraz Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sarfraz Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sarfraz Ahmed
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Sarfraz Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MJ Guptill
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Guptill
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sarfraz Ahmed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: MJ Guptill
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sarfraz Ahmed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: MJ Guptill
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sarfraz Ahmed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: MJ Guptill
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sarfraz Ahmed
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sarfraz Ahmed
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sarfraz Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Sarfraz Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Sarfraz Ahmed
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sarfraz Ahmed
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: MJ Guptill
+        bowler: T Shamsi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sarfraz Ahmed
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Sarfraz Ahmed
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sarfraz Ahmed
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sarfraz Ahmed
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Sarfraz Ahmed
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Guptill
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sarfraz Ahmed
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Sarfraz Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Guptill
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Sarfraz Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Sarfraz Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Sarfraz Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Sarfraz Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Sarfraz Ahmed
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Guptill
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sarfraz Ahmed
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Guptill
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Sarfraz Ahmed
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: MJ Guptill
+        bowler: Muhammad Musa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sarfraz Ahmed
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Sarfraz Ahmed
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sarfraz Ahmed
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Sarfraz Ahmed
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Guptill
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Sarfraz Ahmed
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Guptill
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sarfraz Ahmed
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: MJ Guptill
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfraz Ahmed
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Sarfraz Ahmed
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Guptill
+        wicket:
+          player_out: Sarfraz Ahmed
+          fielders:
+          - Aamer Yamin
+          kind: run out
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Pretorius
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Pretorius
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: MJ Guptill
+        bowler: Aamer Yamin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Pretorius
+    target:
+      overs: 20
+      runs: 165

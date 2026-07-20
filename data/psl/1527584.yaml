@@ -1,0 +1,2351 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-04-23'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Karachi
+  competition: Pakistan Super League
+  dates:
+  - '2026-04-22'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hyderabad Kingsmen
+    by:
+      wickets: 4
+  overs: 20
+  player_of_match:
+  - Usman Khan
+  players:
+    Multan Sultans:
+    - Sahibzada Farhan
+    - SPD Smith
+    - JR Philippe
+    - Shan Masood
+    - Arafat Minhas
+    - AJ Turner
+    - Mohammad Imran
+    - Mohammad Nawaz
+    - PM Siddle
+    - Mohammad Wasim
+    - Muhammad Ismail
+    Hyderabad Kingsmen:
+    - Maaz Sadaqat
+    - M Labuschagne
+    - Saim Ayub
+    - MDKJ Perera
+    - Usman Khan
+    - GJ Maxwell
+    - Irfan Khan
+    - Hassan Khan
+    - Hunain Shah
+    - Mohammad Ali
+    - Akif Javed
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      Akif Javed: 99d7d5b7
+      Arafat Minhas: f2e8b37c
+      CB Gaffaney: d5ac41d8
+      GJ Maxwell: b681e71e
+      Hassan Khan: 486065b3
+      Hunain Shah: 3b8679bf
+      Irfan Khan: ee95065d
+      JR Philippe: '39086549'
+      M Labuschagne: fa433be6
+      MDKJ Perera: f21043a5
+      Maaz Sadaqat: 6d9560f3
+      Mohammad Ali: a86a37ab
+      Mohammad Imran: 65a2fff5
+      Mohammad Nawaz: 3086f7a4
+      Mohammad Wasim: 9e9af5f2
+      Muhammad Ismail: f98481d3
+      Nasir Hussain: 5b2fe85b
+      PM Siddle: bd93fea4
+      RB Richardson: 410e2f12
+      Rashid Riaz: fb82725e
+      SPD Smith: 30a45b23
+      Sahibzada Farhan: 1aba45cd
+      Saim Ayub: 33609a8c
+      Shan Masood: 6843a783
+      Usman Khan: bafb9238
+      Zulfiqar Jan: 006de9ca
+  teams:
+  - Multan Sultans
+  - Hyderabad Kingsmen
+  toss:
+    winner: Hyderabad Kingsmen
+    decision: field
+  umpires:
+  - CB Gaffaney
+  - Zulfiqar Jan
+  venue: National Stadium, Karachi
+  team_type: club
+innings:
+- 1st innings:
+    team: Multan Sultans
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sahibzada Farhan
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sahibzada Farhan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Sahibzada Farhan
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sahibzada Farhan
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SPD Smith
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: SPD Smith
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: SPD Smith
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SPD Smith
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Sahibzada Farhan
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Sahibzada Farhan
+        bowler: Akif Javed
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: SPD Smith
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Sahibzada Farhan
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SPD Smith
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SPD Smith
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Sahibzada Farhan
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sahibzada Farhan
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Sahibzada Farhan
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sahibzada Farhan
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sahibzada Farhan
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SPD Smith
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sahibzada Farhan
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SPD Smith
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sahibzada Farhan
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SPD Smith
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: SPD Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: SPD Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: SPD Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sahibzada Farhan
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SPD Smith
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Sahibzada Farhan
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: SPD Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Sahibzada Farhan
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sahibzada Farhan
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sahibzada Farhan
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SPD Smith
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sahibzada Farhan
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sahibzada Farhan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+        wicket:
+          player_out: Sahibzada Farhan
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SPD Smith
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: JR Philippe
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: JR Philippe
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: JR Philippe
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: JR Philippe
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: JR Philippe
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SPD Smith
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SPD Smith
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SPD Smith
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SPD Smith
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SPD Smith
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SPD Smith
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SPD Smith
+        wicket:
+          player_out: SPD Smith
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: JR Philippe
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Shan Masood
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JR Philippe
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: JR Philippe
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          kind: bowled
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: JR Philippe
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arafat Minhas
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Arafat Minhas
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JR Philippe
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Arafat Minhas
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: JR Philippe
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arafat Minhas
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Arafat Minhas
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Arafat Minhas
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JR Philippe
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Arafat Minhas
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JR Philippe
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arafat Minhas
+        wicket:
+          player_out: Arafat Minhas
+          fielders:
+          - Maaz Sadaqat
+          kind: caught
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: JR Philippe
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: AJ Turner
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: JR Philippe
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          kind: bowled
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: JR Philippe
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Imran
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: JR Philippe
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Imran
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: JR Philippe
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Imran
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mohammad Imran
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JR Philippe
+        wicket:
+          player_out: JR Philippe
+          kind: bowled
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Mohammad Imran
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Nawaz
+        wicket:
+          player_out: Mohammad Nawaz
+          kind: bowled
+- 2nd innings:
+    team: Hyderabad Kingsmen
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Maaz Sadaqat
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Maaz Sadaqat
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Maaz Sadaqat
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Maaz Sadaqat
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Maaz Sadaqat
+        bowler: Muhammad Ismail
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: M Labuschagne
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Maaz Sadaqat
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Maaz Sadaqat
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+        wicket:
+          player_out: Maaz Sadaqat
+          fielders:
+          - JR Philippe
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Saim Ayub
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saim Ayub
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Saim Ayub
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Saim Ayub
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Saim Ayub
+        bowler: PM Siddle
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        extras:
+          noballs: 1
+        batsman: M Labuschagne
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Saim Ayub
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Saim Ayub
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+        wicket:
+          player_out: Saim Ayub
+          fielders:
+          - Mohammad Nawaz
+          kind: caught
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+        wicket:
+          player_out: MDKJ Perera
+          kind: bowled
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Usman Khan
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Usman Khan
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Usman Khan
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Usman Khan
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Usman Khan
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Usman Khan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: M Labuschagne
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: M Labuschagne
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: M Labuschagne
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Usman Khan
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: M Labuschagne
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: M Labuschagne
+        bowler: Mohammad Nawaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: M Labuschagne
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Usman Khan
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: M Labuschagne
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: M Labuschagne
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: M Labuschagne
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Usman Khan
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: M Labuschagne
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Usman Khan
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: M Labuschagne
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Usman Khan
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: M Labuschagne
+        bowler: Arafat Minhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: M Labuschagne
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Usman Khan
+    - 14.4:
+        actual_delivery: '14.3'
+        non_striker: M Labuschagne
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: M Labuschagne
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usman Khan
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: M Labuschagne
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          fielders:
+          - Mohammad Wasim
+          kind: caught
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: GJ Maxwell
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GJ Maxwell
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: GJ Maxwell
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Usman Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GJ Maxwell
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: GJ Maxwell
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: GJ Maxwell
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: GJ Maxwell
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: GJ Maxwell
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GJ Maxwell
+        wicket:
+          player_out: GJ Maxwell
+          fielders:
+          - Arafat Minhas
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Usman Khan
+        bowler: PM Siddle
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Irfan Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Irfan Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+        wicket:
+          player_out: Usman Khan
+          kind: caught and bowled
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Irfan Khan
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Hassan Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Irfan Khan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Hassan Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Irfan Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Khan
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Irfan Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Khan
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Irfan Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Hassan Khan
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Irfan Khan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Hassan Khan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Irfan Khan
+        bowler: Muhammad Ismail
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Khan
+    target:
+      overs: 20
+      runs: 214

@@ -64,12 +64,41 @@ def load_matches(yaml_dir):
     return out
 
 
-def bowler_charged_runs(runs_batter, extras_type, runs_extras):
-    """Runs charged against the bowler's figures: off the bat + wides/no-balls.
-    Byes and leg-byes are NOT charged to the bowler."""
-    if extras_type in ("wides", "noballs"):
-        return runs_batter + runs_extras
-    return runs_batter
+def bowler_charged_runs(runs_batter, extras):
+    """Runs charged against the bowler's figures: off the bat + wide/no-ball
+    PENALTY runs only. Byes and leg-byes are NEVER charged to the bowler,
+    even when they occur off a no-ball -- e.g. extras={'legbyes': 4,
+    'noballs': 1} should charge the bowler just 1 run (the no-ball
+    penalty), not the combined total of 5. Confirmed against the real
+    ESPNcricinfo scorecard for the exact match this was traced to
+    (Karachi Kings vs Lahore Qalandars, 12 March 2020): Shaheen Shah
+    Afridi's real figures were 4.0-0-37-0. Using the full combined extras
+    total instead of just the penalty portion overcounts by exactly the
+    legbye/bye amount on any delivery where both occur together."""
+    return runs_batter + extras.get("wides", 0) + extras.get("noballs", 0)
+
+
+# Cricsheet's per-delivery "extras" dict can have MORE THAN ONE key at
+# once -- e.g. a wide where the keeper also fumbles and byes get run:
+# {"wides": 1, "byes": 4}. The illegal-delivery type (wides/noballs) must
+# take priority when present: it's what determines whether the ball
+# counts as one of the bowler's 6 legal balls in the over, AND the whole
+# value (not just the non-bye portion) is charged to the bowler by rule.
+# Picking an arbitrary/first key (as this used to do via
+# next(iter(extras.keys()))) silently misclassifies these combined
+# deliveries as plain byes/legbyes balls -- which both over-counts the
+# bowler's legal-ball tally (extra ball bowled without it counting toward
+# the 4-over cap) AND under-charges runs conceded by the amount of the
+# byes portion (often exactly 1 run, matching the "one less run every
+# time" pattern).
+EXTRAS_PRIORITY = ["wides", "noballs", "byes", "legbyes", "penalty"]
+
+
+def classify_extras(extras):
+    for key in EXTRAS_PRIORITY:
+        if key in extras:
+            return key
+    return next(iter(extras.keys()), "")
 
 
 def process_match(m, teams, venues, players):
@@ -205,7 +234,7 @@ def process_match(m, teams, venues, players):
                     total_runs += runs_total
 
                     extras = ball_data.get("extras", {})
-                    extras_type = next(iter(extras.keys()), "")
+                    extras_type = classify_extras(extras)
                     is_legal_ball = extras_type not in ("wides", "noballs")
 
                     wicket = ball_data.get("wicket")
@@ -235,7 +264,7 @@ def process_match(m, teams, venues, players):
                     ov = overs_map.setdefault(over_number, {
                         "bowler": bowler, "runs_conceded": 0, "wickets": 0, "legal_balls": 0,
                     })
-                    charged = bowler_charged_runs(runs_batter, extras_type, runs_extras)
+                    charged = bowler_charged_runs(runs_batter, extras)
                     ov["runs_conceded"] += charged
                     if is_wicket and dismissal_type not in NOT_BOWLER_CREDIT:
                         ov["wickets"] += 1

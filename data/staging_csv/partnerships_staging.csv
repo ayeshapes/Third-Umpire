@@ -864,7 +864,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1168823,2,3,1c513d54,64c34cd0,3,2,1,7,False,caught
 1168823,2,4,64c34cd0,57bd3ecc,32,16,14,32,False,lbw
 1168823,2,5,64c34cd0,bbd41817,26,10,16,14,False,bowled
-1168823,2,6,64c34cd0,0dc00542,25,4,16,14,True,
+1168823,2,6,64c34cd0,0dc00542,25,4,16,13,True,
 1168824,1,1,1777c020,1ff2f550,64,22,39,48,False,caught
 1168824,1,2,1777c020,ed90abe4,13,4,8,13,False,caught
 1168824,1,3,ed90abe4,c4487b84,5,2,3,7,False,caught
@@ -1313,7 +1313,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1211642,2,4,2254ab79,ee8f1a6d,62,17,41,40,False,lbw
 1211642,2,5,ee8f1a6d,3086f7a4,40,18,22,18,False,bowled
 1211642,2,6,3086f7a4,2e11c706,2,1,1,6,False,caught
-1211642,2,7,2e11c706,5af743d0,33,14,14,16,False,caught
+1211642,2,7,2e11c706,5af743d0,33,14,14,15,False,caught
 1211642,2,8,2e11c706,494a0503,8,7,1,4,True,
 1211643,1,1,8a75e999,193ef196,25,5,19,18,False,caught
 1211643,1,2,8a75e999,afa78c3a,48,24,20,34,False,bowled
@@ -1467,7 +1467,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1211653,2,2,4329fbb5,dc2abe5e,41,27,14,29,False,caught
 1211653,2,3,4329fbb5,ee8f1a6d,24,18,6,14,False,caught
 1211653,2,4,4329fbb5,2e11c706,17,10,7,11,False,caught
-1211653,2,5,2e11c706,eb2d5fe7,17,5,10,12,False,caught
+1211653,2,5,2e11c706,eb2d5fe7,17,5,10,11,False,caught
 1211653,2,6,eb2d5fe7,5af743d0,4,4,0,3,False,caught
 1211653,2,7,5af743d0,3086f7a4,3,1,2,4,False,run_out
 1211653,2,8,3086f7a4,2254ab79,6,3,3,8,True,
@@ -1606,7 +1606,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1211667,1,4,1ff2f550,9ab63e7b,18,11,7,11,False,lbw
 1211667,1,5,9ab63e7b,18fac429,25,19,5,19,False,caught
 1211667,1,6,9ab63e7b,aa8d28ae,17,9,5,16,True,
-1211667,2,1,193ef196,8a75e999,151,74,69,104,True,
+1211667,2,1,193ef196,8a75e999,151,74,69,103,True,
 1211668,1,1,522bea89,4b345629,32,14,16,31,False,caught
 1211668,1,2,4b345629,6843a783,60,36,22,38,False,caught
 1211668,1,3,6843a783,bb351c23,0,0,0,2,False,bowled
@@ -1826,7 +1826,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1247019,1,2,2f26ac1a,a15618fe,70,33,37,42,False,caught
 1247019,1,3,a15618fe,b98b5e1c,10,8,2,14,False,caught
 1247019,1,4,b98b5e1c,cad00a4d,15,8,7,8,False,bowled
-1247019,1,5,b98b5e1c,fce581b5,25,11,6,14,False,bowled
+1247019,1,5,b98b5e1c,fce581b5,25,11,6,13,False,bowled
 1247019,1,6,b98b5e1c,0dc00542,9,4,3,9,False,caught
 1247019,1,7,b98b5e1c,e342e5fb,13,9,3,8,True,
 1247019,2,1,193ef196,8a75e999,56,27,25,29,False,caught
@@ -1996,7 +1996,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1247030,2,8,2254ab79,8596fe80,0,0,0,2,False,caught
 1247030,2,9,2254ab79,ba158afd,0,0,0,2,False,bowled
 1247030,2,10,2254ab79,786b7fe8,13,7,6,9,True,
-1247031,1,1,c13e34f4,ff077124,71,26,35,53,False,caught
+1247031,1,1,c13e34f4,ff077124,71,26,35,52,False,caught
 1247031,1,2,c13e34f4,64c34cd0,0,0,0,1,False,caught
 1247031,1,3,c13e34f4,d67d5f00,13,2,10,8,False,caught
 1247031,1,4,d67d5f00,650d5e49,4,0,4,4,False,caught
@@ -2020,7 +2020,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1247033,1,3,edc7ddb6,2254ab79,4,1,3,9,False,bowled
 1247033,1,4,2254ab79,ee8f1a6d,43,9,33,26,False,caught
 1247033,1,5,2254ab79,3086f7a4,6,0,6,5,False,caught_and_bowled
-1247033,1,6,2254ab79,486065b3,43,22,12,31,True,
+1247033,1,6,2254ab79,486065b3,43,22,12,30,True,
 1247033,2,1,1777c020,1ff2f550,4,3,0,2,False,caught
 1247033,2,2,1777c020,4b345629,19,9,9,17,False,bowled
 1247033,2,3,4b345629,9ab63e7b,4,1,1,8,False,caught
@@ -2176,7 +2176,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1247043,1,8,bd4ea627,2911de16,0,0,0,6,False,caught
 1247043,1,9,2911de16,9e9af5f2,62,45,17,25,False,run_out
 1247043,1,10,9e9af5f2,99d7d5b7,2,0,0,1,True,
-1247043,2,1,5ea51c25,ff077124,15,1,8,7,False,bowled
+1247043,2,1,5ea51c25,ff077124,15,1,8,6,False,bowled
 1247043,2,2,5ea51c25,8bdac857,126,65,51,81,False,bowled
 1247043,2,3,8bdac857,64c34cd0,36,4,32,14,True,
 1247044,1,1,6843a783,2f26ac1a,68,37,26,52,False,bowled
@@ -2208,7 +2208,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1293001,1,2,4e18e961,5f26f677,1,0,0,3,False,caught
 1293001,1,3,4e18e961,29e253dd,24,14,8,19,False,caught
 1293001,1,4,4e18e961,3086f7a4,10,5,5,5,False,caught
-1293001,2,1,f836b33d,4f1bb625,43,10,30,22,False,caught
+1293001,2,1,f836b33d,4f1bb625,43,10,30,21,False,caught
 1293001,2,2,f836b33d,c13e34f4,19,12,7,15,False,caught
 1293001,2,3,c13e34f4,64c34cd0,15,12,2,14,False,caught
 1293001,2,4,64c34cd0,bb4b445b,81,25,52,51,False,caught
@@ -2523,7 +2523,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1293023,2,7,ee8f1a6d,d4eef961,1,0,0,1,False,caught
 1293023,2,8,d4eef961,9b8a3c39,13,7,6,11,True,
 1293024,1,1,6843a783,2f26ac1a,119,57,57,72,False,lbw
-1293024,1,2,2f26ac1a,cad00a4d,103,15,71,38,False,caught
+1293024,1,2,2f26ac1a,cad00a4d,103,15,71,37,False,caught
 1293024,1,3,2f26ac1a,fce581b5,13,2,10,7,False,caught
 1293024,1,4,2f26ac1a,f1f99156,10,9,0,4,True,
 1293024,2,1,d1c36f5c,4e18e961,10,9,1,7,False,lbw
@@ -2700,7 +2700,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1354925,2,2,afa7e784,c13e34f4,33,22,8,17,False,caught
 1354925,2,3,c13e34f4,b6359668,10,3,7,13,False,caught
 1354925,2,4,c13e34f4,64c34cd0,2,1,1,5,False,caught
-1354925,2,5,64c34cd0,9cb8d7a6,131,51,71,74,False,caught
+1354925,2,5,64c34cd0,9cb8d7a6,131,51,71,73,False,caught
 1354925,2,6,9cb8d7a6,2e11c706,20,9,9,10,True,
 1354926,1,1,d1c36f5c,2be41edb,10,3,7,11,False,caught
 1354926,1,2,d1c36f5c,0251a22f,23,21,1,14,False,caught
@@ -3022,7 +3022,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1354947,2,4,9de62878,ee8f1a6d,8,5,3,11,False,caught
 1354947,2,5,9de62878,bd4ea627,39,20,16,21,False,bowled
 1354947,2,6,bd4ea627,0a4736eb,10,1,8,7,False,caught
-1354947,2,7,bd4ea627,7264b765,11,2,5,7,False,caught
+1354947,2,7,bd4ea627,7264b765,11,2,5,6,False,caught
 1354947,2,8,bd4ea627,9e9af5f2,28,12,16,12,False,lbw
 1354947,2,9,bd4ea627,1c790f4f,22,20,0,6,True,
 1354948,1,1,33609a8c,8a75e999,162,74,84,81,False,caught
@@ -3667,7 +3667,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1475241,1,3,1777c020,eade4650,80,42,37,42,False,stumped
 1475241,1,4,1777c020,26d041c4,0,0,0,2,False,caught
 1475241,1,5,26d041c4,c16d4035,17,6,11,13,False,caught
-1475241,1,6,c16d4035,45a7e761,35,27,3,14,False,caught
+1475241,1,6,c16d4035,45a7e761,35,27,3,13,False,caught
 1475241,1,7,c16d4035,5935d694,14,12,1,3,True,
 1475241,2,1,d07c1b2f,bf74b130,2,1,0,5,False,caught
 1475241,2,2,bf74b130,26a8b2fe,1,0,1,3,False,caught
@@ -3725,7 +3725,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1475244,2,5,e38bce7a,29e253dd,24,13,10,14,False,caught
 1475244,2,6,29e253dd,7f048519,4,2,1,6,False,caught
 1475244,2,7,29e253dd,ffe699c0,18,13,5,12,False,caught
-1475244,2,8,29e253dd,6dd8b88c,8,2,1,5,False,bowled
+1475244,2,8,29e253dd,6dd8b88c,8,2,1,4,False,bowled
 1475244,2,9,29e253dd,8596fe80,0,0,0,2,False,bowled
 1475244,2,10,29e253dd,cc535250,5,5,0,10,False,caught
 1475245,1,1,4663bd23,dcce6f09,60,27,31,34,False,caught
@@ -3832,13 +3832,13 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1475251,1,10,9489623e,a81abb8c,1,0,0,1,False,run_out
 1475251,2,1,33609a8c,8a75e999,2,2,0,3,False,caught
 1475251,2,2,8a75e999,f836b33d,5,5,0,6,False,bowled
-1475251,2,3,8a75e999,ff3f6fc1,33,10,20,22,False,caught
+1475251,2,3,8a75e999,ff3f6fc1,33,10,20,21,False,caught
 1475251,2,4,8a75e999,bb4b445b,93,41,51,70,True,
 1475252,1,1,d07c1b2f,bf74b130,7,6,0,7,False,caught
 1475252,1,2,bf74b130,cad00a4d,1,0,1,3,False,caught
 1475252,1,3,cad00a4d,5d1e7582,12,9,2,11,False,bowled
 1475252,1,4,5d1e7582,7fa12533,24,20,4,14,False,bowled
-1475252,1,5,5d1e7582,26a8b2fe,25,14,9,18,False,caught
+1475252,1,5,5d1e7582,26a8b2fe,25,14,9,17,False,caught
 1475252,1,6,26a8b2fe,bd4ea627,59,26,33,47,False,caught
 1475252,1,7,bd4ea627,9e9af5f2,3,2,1,6,False,bowled
 1475252,1,8,bd4ea627,e174dadd,0,0,0,1,False,caught
@@ -3991,7 +3991,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1475263,1,1,d07c1b2f,bf74b130,24,19,5,16,False,run_out
 1475263,1,2,d07c1b2f,cad00a4d,36,4,26,18,False,caught
 1475263,1,3,cad00a4d,26a8b2fe,134,78,47,61,False,caught
-1475263,1,4,26a8b2fe,7fa12533,69,53,13,26,True,
+1475263,1,4,26a8b2fe,7fa12533,69,53,13,25,True,
 1475263,2,1,1aba45cd,73c18486,1,1,0,2,False,lbw
 1475263,2,2,1aba45cd,f59b2121,1,0,1,3,False,caught
 1475263,2,3,f59b2121,89c16049,17,9,6,13,False,caught
@@ -4186,7 +4186,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1527555,2,6,ff1e12a0,3086f7a4,13,6,7,8,True,
 1527556,1,1,d07c1b2f,d3395043,21,4,17,12,False,caught
 1527556,1,2,d3395043,cad00a4d,4,2,0,8,False,caught
-1527556,1,3,d3395043,26a8b2fe,89,35,49,62,False,caught
+1527556,1,3,d3395043,26a8b2fe,89,35,49,61,False,caught
 1527556,1,4,26a8b2fe,3cf54e77,7,1,6,5,False,lbw
 1527556,1,5,26a8b2fe,c41043e6,0,0,0,1,False,lbw
 1527556,1,6,26a8b2fe,e86754b2,7,3,2,8,False,run_out
@@ -4674,7 +4674,7 @@ match_id,innings_number,wicket_number,batter1,batter2,runs,batter1_runs,batter2_
 1527592,1,4,8a75e999,8e554b6b,0,0,0,1,False,caught
 1527592,1,5,8a75e999,d405c0d5,36,24,8,15,False,caught
 1527592,1,6,d405c0d5,29e253dd,14,12,2,7,False,lbw
-1527592,1,7,29e253dd,2d4dc51e,3,1,0,3,False,caught
+1527592,1,7,29e253dd,2d4dc51e,3,1,0,2,False,caught
 1527592,1,8,29e253dd,27c5715d,4,0,4,1,True,
 1527592,2,1,df5a6881,62fd0c5e,58,20,36,30,False,caught
 1527592,2,2,62fd0c5e,c722b382,23,8,15,19,False,caught

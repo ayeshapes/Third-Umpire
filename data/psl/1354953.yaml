@@ -1,0 +1,2359 @@
+---
+meta:
+  data_version: 0.93
+  created: '2023-03-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2023-03-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Karachi Kings
+    by:
+      runs: 86
+  overs: 20
+  player_of_match:
+  - Muhammad Akhlaq
+  players:
+    Karachi Kings:
+    - Haider Ali
+    - Muhammad Akhlaq
+    - Tayyab Tahir
+    - Qasim Akram
+    - Imad Wasim
+    - BCJ Cutting
+    - Irfan Khan
+    - JK Fuller
+    - Mohammad Umar
+    - Imran Tahir
+    - Akif Javed
+    Lahore Qalandars:
+    - Fakhar Zaman
+    - Abdullah Shafique
+    - Kamran Ghulam
+    - SW Billings
+    - Hussain Talat
+    - D Wiese
+    - S Dadswell
+    - Rashid Khan
+    - Haris Rauf
+    - Dilbar Hussain
+    - Zaman Khan
+  registry:
+    people:
+      Abdullah Shafique: fc2fffb5
+      Akif Javed: 99d7d5b7
+      Aleem Dar: f02778d1
+      Asif Yaqoob: 6b35790c
+      BCJ Cutting: 2e11c706
+      D Wiese: aa8d28ae
+      Dilbar Hussain: a968d8eb
+      Fakhar Zaman: 1777c020
+      Haider Ali: c13e34f4
+      Haris Rauf: 24bb1c2f
+      Hussain Talat: bb4b445b
+      Imad Wasim: 9cb8d7a6
+      Imran Tahir: acee4cc4
+      Irfan Khan: ee95065d
+      JK Fuller: dda5aae5
+      Kamran Ghulam: 35f4cf7e
+      Mohammad Umar: feb6180d
+      Muhammad Akhlaq: 9739e85c
+      Qasim Akram: b6359668
+      RS Mahanama: '57910393'
+      Rashid Khan: 5f547c8b
+      Rashid Riaz: fb82725e
+      S Dadswell: 0ecf791e
+      SW Billings: c16d4035
+      Tayyab Tahir: 431f8af4
+      Zaman Khan: 28392e11
+  teams:
+  - Karachi Kings
+  - Lahore Qalandars
+  toss:
+    winner: Karachi Kings
+    decision: bat
+  umpires:
+  - Aleem Dar
+  - Rashid Riaz
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Karachi Kings
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Haider Ali
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Haider Ali
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haider Ali
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Haider Ali
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haider Ali
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haider Ali
+        wicket:
+          player_out: Haider Ali
+          fielders:
+          - Kamran Ghulam
+          kind: caught
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tayyab Tahir
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Tayyab Tahir
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tayyab Tahir
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Tayyab Tahir
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Akhlaq
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Tayyab Tahir
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Muhammad Akhlaq
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tayyab Tahir
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Tayyab Tahir
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tayyab Tahir
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Muhammad Akhlaq
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Tayyab Tahir
+        bowler: Dilbar Hussain
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Muhammad Akhlaq
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Tayyab Tahir
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Akhlaq
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: Tayyab Tahir
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Tayyab Tahir
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Tayyab Tahir
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tayyab Tahir
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Muhammad Akhlaq
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tayyab Tahir
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Tayyab Tahir
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Akhlaq
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Tayyab Tahir
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Tayyab Tahir
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Tayyab Tahir
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Muhammad Akhlaq
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Tayyab Tahir
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Tayyab Tahir
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Tayyab Tahir
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Muhammad Akhlaq
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Tayyab Tahir
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Muhammad Akhlaq
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Tayyab Tahir
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Muhammad Akhlaq
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tayyab Tahir
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Tayyab Tahir
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tayyab Tahir
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tayyab Tahir
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tayyab Tahir
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tayyab Tahir
+        wicket:
+          player_out: Tayyab Tahir
+          fielders:
+          - Dilbar Hussain
+          kind: caught
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Qasim Akram
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Qasim Akram
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Muhammad Akhlaq
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Qasim Akram
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Qasim Akram
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Muhammad Akhlaq
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Qasim Akram
+        wicket:
+          player_out: Qasim Akram
+          fielders:
+          - S Dadswell
+          kind: caught
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Muhammad Akhlaq
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Imad Wasim
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Muhammad Akhlaq
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Imad Wasim
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Akhlaq
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Imad Wasim
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Imad Wasim
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Muhammad Akhlaq
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Imad Wasim
+        bowler: S Dadswell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Imad Wasim
+        bowler: S Dadswell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Muhammad Akhlaq
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Imad Wasim
+        bowler: S Dadswell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Muhammad Akhlaq
+        bowler: S Dadswell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Imad Wasim
+        bowler: S Dadswell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Muhammad Akhlaq
+        bowler: S Dadswell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Muhammad Akhlaq
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Muhammad Akhlaq
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Muhammad Akhlaq
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Muhammad Akhlaq
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Muhammad Akhlaq
+        wicket:
+          player_out: Muhammad Akhlaq
+          fielders:
+          - D Wiese
+          kind: caught
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BCJ Cutting
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BCJ Cutting
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: BCJ Cutting
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: BCJ Cutting
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: BCJ Cutting
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: BCJ Cutting
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: BCJ Cutting
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: BCJ Cutting
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Imad Wasim
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BCJ Cutting
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: BCJ Cutting
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Imad Wasim
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BCJ Cutting
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Imad Wasim
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BCJ Cutting
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: BCJ Cutting
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: BCJ Cutting
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Imad Wasim
+        bowler: Dilbar Hussain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BCJ Cutting
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: BCJ Cutting
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Imad Wasim
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BCJ Cutting
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: BCJ Cutting
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: BCJ Cutting
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Imad Wasim
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BCJ Cutting
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: BCJ Cutting
+        bowler: Hussain Talat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: BCJ Cutting
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: BCJ Cutting
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: BCJ Cutting
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: BCJ Cutting
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BCJ Cutting
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BCJ Cutting
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Imad Wasim
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BCJ Cutting
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: BCJ Cutting
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: BCJ Cutting
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: BCJ Cutting
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Imad Wasim
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BCJ Cutting
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: BCJ Cutting
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+        wicket:
+          player_out: Imad Wasim
+          kind: bowled
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: BCJ Cutting
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Irfan Khan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BCJ Cutting
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Irfan Khan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BCJ Cutting
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Irfan Khan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BCJ Cutting
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Irfan Khan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BCJ Cutting
+        wicket:
+          player_out: BCJ Cutting
+          kind: lbw
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Irfan Khan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JK Fuller
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Irfan Khan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Irfan Khan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: JK Fuller
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+        wicket:
+          player_out: Irfan Khan
+          fielders:
+          - Hussain Talat
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: JK Fuller
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Umar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: JK Fuller
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Umar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mohammad Umar
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JK Fuller
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Mohammad Umar
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JK Fuller
+- 2nd innings:
+    team: Lahore Qalandars
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Abdullah Shafique
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Abdullah Shafique
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fakhar Zaman
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Abdullah Shafique
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Abdullah Shafique
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Abdullah Shafique
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Fakhar Zaman
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Abdullah Shafique
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Fakhar Zaman
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Fakhar Zaman
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Fakhar Zaman
+        bowler: Akif Javed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Abdullah Shafique
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+        wicket:
+          player_out: Fakhar Zaman
+          fielders:
+          - BCJ Cutting
+          kind: caught
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Abdullah Shafique
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kamran Ghulam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Abdullah Shafique
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Kamran Ghulam
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Kamran Ghulam
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+        wicket:
+          player_out: Abdullah Shafique
+          fielders:
+          - Tayyab Tahir
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SW Billings
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Kamran Ghulam
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SW Billings
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kamran Ghulam
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Kamran Ghulam
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Kamran Ghulam
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: SW Billings
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+        wicket:
+          player_out: Kamran Ghulam
+          kind: bowled
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SW Billings
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SW Billings
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SW Billings
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Hussain Talat
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Hussain Talat
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hussain Talat
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SW Billings
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hussain Talat
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: SW Billings
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hussain Talat
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SW Billings
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Hussain Talat
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hussain Talat
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: SW Billings
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Hussain Talat
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          fielders:
+          - Muhammad Akhlaq
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Hussain Talat
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Wiese
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: D Wiese
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: D Wiese
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: D Wiese
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: D Wiese
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: D Wiese
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Hussain Talat
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Wiese
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Hussain Talat
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Wiese
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: D Wiese
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Wiese
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: D Wiese
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: D Wiese
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Wiese
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: D Wiese
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: D Wiese
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hussain Talat
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Hussain Talat
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Wiese
+        wicket:
+          player_out: D Wiese
+          fielders:
+          - Irfan Khan
+          kind: caught
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Hussain Talat
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dadswell
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: S Dadswell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Hussain Talat
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dadswell
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: S Dadswell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Hussain Talat
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dadswell
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dadswell
+        wicket:
+          player_out: S Dadswell
+          fielders:
+          - Irfan Khan
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rashid Khan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rashid Khan
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hussain Talat
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Hussain Talat
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rashid Khan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Rashid Khan
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rashid Khan
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hussain Talat
+        wicket:
+          player_out: Hussain Talat
+          fielders:
+          - BCJ Cutting
+          kind: caught
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rashid Khan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Rashid Khan
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haris Rauf
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Haris Rauf
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Haris Rauf
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Haris Rauf
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Haris Rauf
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Haris Rauf
+        bowler: Imran Tahir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rashid Khan
+        wicket:
+          player_out: Rashid Khan
+          kind: retired hurt
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Dilbar Hussain
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Dilbar Hussain
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haris Rauf
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Haris Rauf
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dilbar Hussain
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Haris Rauf
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          non_boundary: 1
+          total: 4
+          batsman: 4
+        batsman: Dilbar Hussain
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Haris Rauf
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dilbar Hussain
+        wicket:
+          player_out: Dilbar Hussain
+          kind: bowled
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Haris Rauf
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Khan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Zaman Khan
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haris Rauf
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Haris Rauf
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Khan
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Haris Rauf
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Zaman Khan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Haris Rauf
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Khan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Haris Rauf
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Khan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Haris Rauf
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Zaman Khan
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Zaman Khan
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Haris Rauf
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Zaman Khan
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Haris Rauf
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Zaman Khan
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Zaman Khan
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haris Rauf
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Haris Rauf
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Zaman Khan
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Zaman Khan
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Haris Rauf
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Zaman Khan
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Zaman Khan
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Zaman Khan
+        bowler: Mohammad Umar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haris Rauf
+        wicket:
+          player_out: Haris Rauf
+          fielders:
+          - JK Fuller
+          kind: caught
+    target:
+      overs: 20
+      runs: 197

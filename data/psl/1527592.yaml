@@ -1,0 +1,2432 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-04-28'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Karachi
+  competition: Pakistan Super League
+  dates:
+  - '2026-04-28'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Peshawar Zalmi
+    by:
+      runs: 70
+  overs: 20
+  player_of_match:
+  - Babar Azam
+  players:
+    Peshawar Zalmi:
+    - Mohammad Haris
+    - Babar Azam
+    - BKG Mendis
+    - MG Bracewell
+    - Abdul Samad
+    - AM Hardie
+    - Iftikhar Ahmed
+    - Farhan Yousaf
+    - Khurram Shahzad
+    - Sufiyan Muqeem
+    - Mohammad Basit
+    Islamabad United:
+    - DP Conway
+    - Sameer Minhas
+    - Mohsin Riaz
+    - Shadab Khan
+    - MS Chapman
+    - Haider Ali
+    - Faheem Ashraf
+    - CJ Green
+    - Imad Wasim
+    - Salman Mirza
+    - RJ Gleeson
+  registry:
+    people:
+      AG Wharf: 2e0fcc58
+      AM Hardie: d405c0d5
+      Abdul Samad: 8e554b6b
+      BKG Mendis: 5d1e7582
+      Babar Azam: 8a75e999
+      CB Gaffaney: d5ac41d8
+      CJ Green: 19b9f399
+      DP Conway: df5a6881
+      Faheem Ashraf: bd4ea627
+      Faisal Afridi: ed0bc503
+      Farhan Yousaf: 2d4dc51e
+      Haider Ali: c13e34f4
+      Iftikhar Ahmed: 29e253dd
+      Imad Wasim: 9cb8d7a6
+      Khurram Shahzad: 27c5715d
+      MG Bracewell: e38bce7a
+      MS Chapman: 7fa12533
+      Mohammad Basit: 3cbef804
+      Mohammad Haris: ff3f6fc1
+      Mohsin Riaz: c722b382
+      RB Richardson: 410e2f12
+      RJ Gleeson: 402f8494
+      Salman Mirza: 7ab1eab7
+      Sameer Minhas: 62fd0c5e
+      Shadab Khan: 9de62878
+      Sufiyan Muqeem: 4277234d
+      Zulfiqar Jan: 006de9ca
+  teams:
+  - Peshawar Zalmi
+  - Islamabad United
+  toss:
+    winner: Islamabad United
+    decision: field
+  umpires:
+  - AG Wharf
+  - CB Gaffaney
+  venue: National Stadium, Karachi
+  team_type: club
+innings:
+- 1st innings:
+    team: Peshawar Zalmi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Babar Azam
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Mohammad Haris
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Haris
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Mohammad Haris
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Babar Azam
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Babar Azam
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Haris
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Babar Azam
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Babar Azam
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mohammad Haris
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Mohammad Haris
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+        wicket:
+          player_out: Mohammad Haris
+          fielders:
+          - MS Chapman
+          kind: caught
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BKG Mendis
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BKG Mendis
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: BKG Mendis
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: BKG Mendis
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: BKG Mendis
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BKG Mendis
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Babar Azam
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BKG Mendis
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 11.2:
+        actual_delivery: '11.1'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: BKG Mendis
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Babar Azam
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BKG Mendis
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: BKG Mendis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Babar Azam
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BKG Mendis
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Babar Azam
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Babar Azam
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BKG Mendis
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 13.2:
+        actual_delivery: '13.1'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Babar Azam
+    - 13.3:
+        actual_delivery: '13.2'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 13.4:
+        actual_delivery: '13.3'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BKG Mendis
+    - 13.5:
+        actual_delivery: '13.3'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BKG Mendis
+    - 13.6:
+        actual_delivery: '13.3'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 13.7:
+        actual_delivery: '13.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BKG Mendis
+    - 13.8:
+        actual_delivery: '13.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 13.9:
+        actual_delivery: '13.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BKG Mendis
+    - 13.10:
+        actual_delivery: '13.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 13.11:
+        actual_delivery: '13.6'
+        non_striker: BKG Mendis
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Babar Azam
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BKG Mendis
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: BKG Mendis
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BKG Mendis
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+        wicket:
+          player_out: BKG Mendis
+          fielders:
+          - Sameer Minhas
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: MG Bracewell
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: MG Bracewell
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: MG Bracewell
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+        wicket:
+          player_out: MG Bracewell
+          fielders:
+          - CJ Green
+          kind: caught
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdul Samad
+        wicket:
+          player_out: Abdul Samad
+          fielders:
+          - Faheem Ashraf
+          kind: caught
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Hardie
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Hardie
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: AM Hardie
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AM Hardie
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: AM Hardie
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: AM Hardie
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: AM Hardie
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Babar Azam
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Hardie
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Babar Azam
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Hardie
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: AM Hardie
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: AM Hardie
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: AM Hardie
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Babar Azam
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: AM Hardie
+        bowler: RJ Gleeson
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: Babar Azam
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Babar Azam
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Hardie
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: AM Hardie
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+        wicket:
+          player_out: Babar Azam
+          fielders:
+          - Mohsin Riaz
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: AM Hardie
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Iftikhar Ahmed
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Hardie
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Iftikhar Ahmed
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Hardie
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Iftikhar Ahmed
+        bowler: Salman Mirza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Hardie
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Iftikhar Ahmed
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Hardie
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AM Hardie
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Iftikhar Ahmed
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Hardie
+        wicket:
+          player_out: AM Hardie
+          kind: lbw
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Iftikhar Ahmed
+        bowler: RJ Gleeson
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 1
+          noballs: 1
+        batsman: Farhan Yousaf
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Farhan Yousaf
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Iftikhar Ahmed
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Farhan Yousaf
+        wicket:
+          player_out: Farhan Yousaf
+          fielders:
+          - Faheem Ashraf
+          kind: caught
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Iftikhar Ahmed
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khurram Shahzad
+- 2nd innings:
+    team: Islamabad United
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Conway
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Conway
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: DP Conway
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: DP Conway
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: DP Conway
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: DP Conway
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: DP Conway
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: DP Conway
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Sameer Minhas
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DP Conway
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Sameer Minhas
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: DP Conway
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DP Conway
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DP Conway
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Sameer Minhas
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Conway
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: DP Conway
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sameer Minhas
+    - 2.7:
+        actual_delivery: '2.5'
+        non_striker: DP Conway
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 2.8:
+        actual_delivery: '2.6'
+        non_striker: DP Conway
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: DP Conway
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: DP Conway
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Minhas
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: DP Conway
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sameer Minhas
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sameer Minhas
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DP Conway
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Sameer Minhas
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: DP Conway
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Minhas
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DP Conway
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Minhas
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DP Conway
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sameer Minhas
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: DP Conway
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Conway
+        wicket:
+          player_out: DP Conway
+          fielders:
+          - Abdul Samad
+          kind: caught
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Mohsin Riaz
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Minhas
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Mohsin Riaz
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sameer Minhas
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Sameer Minhas
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Mohsin Riaz
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Minhas
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Mohsin Riaz
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Minhas
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohsin Riaz
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohsin Riaz
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohsin Riaz
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Sameer Minhas
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Mohsin Riaz
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sameer Minhas
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Sameer Minhas
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mohsin Riaz
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Minhas
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sameer Minhas
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sameer Minhas
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohsin Riaz
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sameer Minhas
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Sameer Minhas
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Minhas
+        wicket:
+          player_out: Sameer Minhas
+          fielders:
+          - Babar Azam
+          kind: caught
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shadab Khan
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shadab Khan
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Shadab Khan
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohsin Riaz
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Mohsin Riaz
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Shadab Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohsin Riaz
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shadab Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Shadab Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Mohsin Riaz
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Shadab Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Shadab Khan
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Riaz
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+        wicket:
+          player_out: Shadab Khan
+          fielders:
+          - Mohammad Basit
+          kind: caught
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Chapman
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Chapman
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Mohsin Riaz
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Chapman
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Mohsin Riaz
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Chapman
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: MS Chapman
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Riaz
+        wicket:
+          player_out: Mohsin Riaz
+          fielders:
+          - Abdul Samad
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: MS Chapman
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haider Ali
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Haider Ali
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Chapman
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: MS Chapman
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Haider Ali
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: MS Chapman
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haider Ali
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: MS Chapman
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haider Ali
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: MS Chapman
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haider Ali
+        wicket:
+          player_out: Haider Ali
+          fielders:
+          - Sufiyan Muqeem
+          kind: caught
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: MS Chapman
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Faheem Ashraf
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Chapman
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Faheem Ashraf
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Chapman
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Faheem Ashraf
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Chapman
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Faheem Ashraf
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Chapman
+        wicket:
+          player_out: MS Chapman
+          fielders:
+          - Khurram Shahzad
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Faheem Ashraf
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: CJ Green
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: CJ Green
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Faheem Ashraf
+    - 13.5:
+        actual_delivery: '13.4'
+        non_striker: CJ Green
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: CJ Green
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faheem Ashraf
+        wicket:
+          player_out: Faheem Ashraf
+          fielders:
+          - Mohammad Haris
+          kind: run out
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Imad Wasim
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Imad Wasim
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Imad Wasim
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: CJ Green
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: CJ Green
+        bowler: AM Hardie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Imad Wasim
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: CJ Green
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: Imad Wasim
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Imad Wasim
+        bowler: AM Hardie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Imad Wasim
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+        wicket:
+          player_out: CJ Green
+          fielders:
+          - Babar Azam
+          kind: caught
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Imad Wasim
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Mirza
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Imad Wasim
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Salman Mirza
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Salman Mirza
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Salman Mirza
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Imad Wasim
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Mirza
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Imad Wasim
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Mirza
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Imad Wasim
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Mirza
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Imad Wasim
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Salman Mirza
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Imad Wasim
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Salman Mirza
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Imad Wasim
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Mirza
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Salman Mirza
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Salman Mirza
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+        wicket:
+          player_out: Imad Wasim
+          kind: caught and bowled
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Salman Mirza
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Gleeson
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RJ Gleeson
+        bowler: Mohammad Basit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Mirza
+        wicket:
+          player_out: Salman Mirza
+          fielders:
+          - Mohammad Haris
+          kind: caught
+    target:
+      overs: 20
+      runs: 222

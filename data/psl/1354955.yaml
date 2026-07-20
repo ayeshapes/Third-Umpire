@@ -1,0 +1,2377 @@
+---
+meta:
+  data_version: 0.93
+  created: '2023-03-16'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2023-03-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Peshawar Zalmi
+    by:
+      runs: 12
+  overs: 20
+  player_of_match:
+  - Aamer Jamal
+  players:
+    Peshawar Zalmi:
+    - Saim Ayub
+    - Babar Azam
+    - Haseebullah Khan
+    - Mohammad Haris
+    - T Kohler-Cadmore
+    - JDS Neesham
+    - Aamer Jamal
+    - Azmatullah Omarzai
+    - Wahab Riaz
+    - Mujeeb Ur Rahman
+    - Salman Irshad
+    Islamabad United:
+    - Rahmanullah Gurbaz
+    - AD Hales
+    - Sohaib Maqsood
+    - Azam Khan
+    - C Munro
+    - Faheem Ashraf
+    - Shadab Khan
+    - Hasan Ali
+    - Mubasir Khan
+    - Mohammad Wasim
+    - Fazalhaq Farooqi
+  registry:
+    people:
+      AD Hales: 92aeac25
+      AG Wharf: 2e0fcc58
+      Aamer Jamal: a8e54ef4
+      Ahsan Raza: e0e5b209
+      Azam Khan: ee8f1a6d
+      Azmatullah Omarzai: 8f6dd463
+      Babar Azam: 8a75e999
+      C Munro: af2c687b
+      Faheem Ashraf: bd4ea627
+      Faisal Afridi: ed0bc503
+      Fazalhaq Farooqi: e9c7f0d0
+      Hasan Ali: 2911de16
+      Haseebullah Khan: 5691931a
+      JDS Neesham: 9219eff0
+      Mohammad Haris: ff3f6fc1
+      Mohammad Wasim: 9e9af5f2
+      Mubasir Khan: 7264b765
+      Mujeeb Ur Rahman: 7d92277a
+      RS Mahanama: '57910393'
+      Rahmanullah Gurbaz: 0bacade8
+      Rashid Riaz: fb82725e
+      Saim Ayub: 33609a8c
+      Salman Irshad: 30afc92b
+      Shadab Khan: 9de62878
+      Sohaib Maqsood: b98b5e1c
+      T Kohler-Cadmore: f836b33d
+      Wahab Riaz: b3118300
+  teams:
+  - Peshawar Zalmi
+  - Islamabad United
+  toss:
+    winner: Islamabad United
+    decision: field
+  umpires:
+  - Ahsan Raza
+  - Faisal Afridi
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Peshawar Zalmi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Saim Ayub
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Saim Ayub
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Babar Azam
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: Saim Ayub
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: Saim Ayub
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Saim Ayub
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Saim Ayub
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saim Ayub
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Saim Ayub
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Saim Ayub
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Babar Azam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+        wicket:
+          player_out: Saim Ayub
+          fielders:
+          - Faheem Ashraf
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Babar Azam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haseebullah Khan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Babar Azam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Haseebullah Khan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Haseebullah Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Haseebullah Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Haseebullah Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Haseebullah Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haseebullah Khan
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Babar Azam
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Haseebullah Khan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Haseebullah Khan
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haseebullah Khan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Haseebullah Khan
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Haseebullah Khan
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haseebullah Khan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Haseebullah Khan
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Haseebullah Khan
+        bowler: Mubasir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Haseebullah Khan
+        bowler: Mubasir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Babar Azam
+        bowler: Mubasir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haseebullah Khan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Haseebullah Khan
+        bowler: Mubasir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Haseebullah Khan
+        bowler: Mubasir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Babar Azam
+        bowler: Mubasir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haseebullah Khan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Haseebullah Khan
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Haseebullah Khan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Haseebullah Khan
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Haseebullah Khan
+        wicket:
+          player_out: Haseebullah Khan
+          fielders:
+          - Azam Khan
+          kind: stumped
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Mohammad Haris
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Mohammad Haris
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Mohammad Haris
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Babar Azam
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Babar Azam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Babar Azam
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Haris
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Babar Azam
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Mohammad Haris
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+        wicket:
+          player_out: Babar Azam
+          kind: lbw
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T Kohler-Cadmore
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: T Kohler-Cadmore
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Haris
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: T Kohler-Cadmore
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Mohammad Haris
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Mohammad Haris
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: T Kohler-Cadmore
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+        wicket:
+          player_out: Mohammad Haris
+          fielders:
+          - Mohammad Wasim
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: T Kohler-Cadmore
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: JDS Neesham
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: JDS Neesham
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: JDS Neesham
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: JDS Neesham
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: JDS Neesham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: JDS Neesham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: JDS Neesham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: T Kohler-Cadmore
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: JDS Neesham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: JDS Neesham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: JDS Neesham
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JDS Neesham
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JDS Neesham
+    - 17.4:
+        actual_delivery: '17.2'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+        wicket:
+          player_out: JDS Neesham
+          fielders:
+          - Mubasir Khan
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.3'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 17.6:
+        actual_delivery: '17.4'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 17.7:
+        actual_delivery: '17.5'
+        non_striker: T Kohler-Cadmore
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Jamal
+    - 17.8:
+        actual_delivery: '17.6'
+        non_striker: Aamer Jamal
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Aamer Jamal
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: Aamer Jamal
+          fielders:
+          - Azam Khan
+          - C Munro
+          kind: run out
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azmatullah Omarzai
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azmatullah Omarzai
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azmatullah Omarzai
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: Azmatullah Omarzai
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: T Kohler-Cadmore
+        bowler: Mohammad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azmatullah Omarzai
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Azmatullah Omarzai
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Azmatullah Omarzai
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Azmatullah Omarzai
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: T Kohler-Cadmore
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azmatullah Omarzai
+        wicket:
+          player_out: Azmatullah Omarzai
+          kind: bowled
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: T Kohler-Cadmore
+        bowler: Faheem Ashraf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Wahab Riaz
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Wahab Riaz
+        bowler: Faheem Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - Azam Khan
+          - Mohammad Wasim
+          kind: run out
+- 2nd innings:
+    team: Islamabad United
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: Rahmanullah Gurbaz
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahmanullah Gurbaz
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahmanullah Gurbaz
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rahmanullah Gurbaz
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+        wicket:
+          player_out: Rahmanullah Gurbaz
+          fielders:
+          - Mujeeb Ur Rahman
+          kind: caught
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sohaib Maqsood
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Hales
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sohaib Maqsood
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sohaib Maqsood
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sohaib Maqsood
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Sohaib Maqsood
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AD Hales
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AD Hales
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AD Hales
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sohaib Maqsood
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Hales
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sohaib Maqsood
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sohaib Maqsood
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sohaib Maqsood
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AD Hales
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Hales
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AD Hales
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sohaib Maqsood
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: Sohaib Maqsood
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Sohaib Maqsood
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AD Hales
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: AD Hales
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sohaib Maqsood
+        bowler: Wahab Riaz
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sohaib Maqsood
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AD Hales
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Sohaib Maqsood
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sohaib Maqsood
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Sohaib Maqsood
+        bowler: Mujeeb Ur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sohaib Maqsood
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohaib Maqsood
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AD Hales
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohaib Maqsood
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sohaib Maqsood
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohaib Maqsood
+        wicket:
+          player_out: Sohaib Maqsood
+          kind: bowled
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Azam Khan
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AD Hales
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Azam Khan
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Azam Khan
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Azam Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Azam Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Azam Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+        wicket:
+          player_out: Azam Khan
+          kind: bowled
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AD Hales
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Munro
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: C Munro
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+        wicket:
+          player_out: AD Hales
+          kind: bowled
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: C Munro
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faheem Ashraf
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: C Munro
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faheem Ashraf
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Faheem Ashraf
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+        wicket:
+          player_out: Faheem Ashraf
+          fielders:
+          - Aamer Jamal
+          kind: run out
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Shadab Khan
+        bowler: Aamer Jamal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: C Munro
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: C Munro
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Shadab Khan
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Shadab Khan
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: C Munro
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: C Munro
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: C Munro
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: C Munro
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: C Munro
+        bowler: Azmatullah Omarzai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Shadab Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shadab Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Shadab Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+        wicket:
+          player_out: C Munro
+          kind: bowled
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Shadab Khan
+        bowler: Salman Irshad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Hasan Ali
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Hasan Ali
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Hasan Ali
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Hasan Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Hasan Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Hasan Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Hasan Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Hasan Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Shadab Khan
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    target:
+      overs: 20
+      runs: 184

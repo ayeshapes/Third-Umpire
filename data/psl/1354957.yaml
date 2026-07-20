@@ -1,0 +1,2458 @@
+---
+meta:
+  data_version: 0.93
+  created: '2023-03-19'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2023-03-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Lahore Qalandars
+    by:
+      runs: 1
+  overs: 20
+  player_of_match:
+  - Shaheen Shah Afridi
+  players:
+    Lahore Qalandars:
+    - Mirza Baig
+    - Fakhar Zaman
+    - Abdullah Shafique
+    - SW Billings
+    - Ahsan Hafeez
+    - Sikandar Raza
+    - Shaheen Shah Afridi
+    - D Wiese
+    - Rashid Khan
+    - Haris Rauf
+    - Zaman Khan
+    Multan Sultans:
+    - Usman Khan
+    - Mohammad Rizwan
+    - RR Rossouw
+    - KA Pollard
+    - TH David
+    - Khushdil Shah
+    - Anwar Ali
+    - Usama Mir
+    - Abbas Afridi
+    - SS Cottrell
+    - Ihsanullah
+  registry:
+    people:
+      AG Wharf: 2e0fcc58
+      Abbas Afridi: 2cec2a92
+      Abdullah Shafique: fc2fffb5
+      Ahsan Hafeez: '86229495'
+      Anwar Ali: eb2d5fe7
+      Asif Yaqoob: 6b35790c
+      D Wiese: aa8d28ae
+      Faisal Afridi: ed0bc503
+      Fakhar Zaman: 1777c020
+      Haris Rauf: 24bb1c2f
+      Ihsanullah: c290033d
+      KA Pollard: a757b0d8
+      Khushdil Shah: fce581b5
+      Mirza Baig: 96ce6752
+      Mohammad Rizwan: 2f26ac1a
+      RR Rossouw: cad00a4d
+      RS Mahanama: '57910393'
+      Rashid Khan: 5f547c8b
+      Rashid Riaz: fb82725e
+      SS Cottrell: a1d053dd
+      SW Billings: c16d4035
+      Shaheen Shah Afridi: 45a7e761
+      Sikandar Raza: 26d041c4
+      TH David: f1f99156
+      Usama Mir: 6dd8b88c
+      Usman Khan: bafb9238
+      Zaman Khan: 28392e11
+  teams:
+  - Lahore Qalandars
+  - Multan Sultans
+  toss:
+    winner: Lahore Qalandars
+    decision: bat
+  umpires:
+  - AG Wharf
+  - Rashid Riaz
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Lahore Qalandars
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mirza Baig
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mirza Baig
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Fakhar Zaman
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mirza Baig
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Fakhar Zaman
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Fakhar Zaman
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mirza Baig
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Fakhar Zaman
+        bowler: Anwar Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Mirza Baig
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mirza Baig
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mirza Baig
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mirza Baig
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mirza Baig
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Fakhar Zaman
+        bowler: SS Cottrell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Fakhar Zaman
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mirza Baig
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mirza Baig
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mirza Baig
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Mirza Baig
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mirza Baig
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Mirza Baig
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Fakhar Zaman
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Fakhar Zaman
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mirza Baig
+        wicket:
+          player_out: Mirza Baig
+          fielders:
+          - Khushdil Shah
+          kind: caught
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fakhar Zaman
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Abdullah Shafique
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fakhar Zaman
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Abdullah Shafique
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abdullah Shafique
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Abdullah Shafique
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Abdullah Shafique
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Fakhar Zaman
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Shafique
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Fakhar Zaman
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Fakhar Zaman
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Abdullah Shafique
+        bowler: KA Pollard
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Fakhar Zaman
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Fakhar Zaman
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Abdullah Shafique
+        bowler: KA Pollard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Fakhar Zaman
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Fakhar Zaman
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Fakhar Zaman
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Fakhar Zaman
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Fakhar Zaman
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Fakhar Zaman
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Abdullah Shafique
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Abdullah Shafique
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Fakhar Zaman
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Abdullah Shafique
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fakhar Zaman
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Abdullah Shafique
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fakhar Zaman
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Abdullah Shafique
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Fakhar Zaman
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Fakhar Zaman
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+        wicket:
+          player_out: Fakhar Zaman
+          fielders:
+          - Usman Khan
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SW Billings
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SW Billings
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SW Billings
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Abdullah Shafique
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Abdullah Shafique
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Abdullah Shafique
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SW Billings
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          kind: bowled
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahsan Hafeez
+        wicket:
+          player_out: Ahsan Hafeez
+          kind: lbw
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Abdullah Shafique
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+        wicket:
+          player_out: Sikandar Raza
+          kind: bowled
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Abdullah Shafique
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Shaheen Shah Afridi
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Shaheen Shah Afridi
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Shaheen Shah Afridi
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Abdullah Shafique
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Abdullah Shafique
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Shaheen Shah Afridi
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shaheen Shah Afridi
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shaheen Shah Afridi
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shaheen Shah Afridi
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shaheen Shah Afridi
+    - 16.6:
+        actual_delivery: '16.4'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shaheen Shah Afridi
+    - 16.8:
+        actual_delivery: '16.5'
+        non_striker: Abdullah Shafique
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shaheen Shah Afridi
+    - 16.9:
+        actual_delivery: '16.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Ihsanullah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abdullah Shafique
+    - 16.10:
+        actual_delivery: '16.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Ihsanullah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abdullah Shafique
+    - 16.11:
+        actual_delivery: '16.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Ihsanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdullah Shafique
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Shafique
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Shafique
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shaheen Shah Afridi
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Shaheen Shah Afridi
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Shafique
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Shaheen Shah Afridi
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Shafique
+        wicket:
+          player_out: Abdullah Shafique
+          fielders:
+          - RR Rossouw
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Shaheen Shah Afridi
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Wiese
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: D Wiese
+        bowler: Anwar Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shaheen Shah Afridi
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: D Wiese
+        bowler: Anwar Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Shaheen Shah Afridi
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Wiese
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: D Wiese
+        bowler: Abbas Afridi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shaheen Shah Afridi
+    - 19.3:
+        actual_delivery: '19.2'
+        non_striker: D Wiese
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shaheen Shah Afridi
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: D Wiese
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shaheen Shah Afridi
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: D Wiese
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: D Wiese
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shaheen Shah Afridi
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: D Wiese
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shaheen Shah Afridi
+- 2nd innings:
+    team: Multan Sultans
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Usman Khan
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Usman Khan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Mohammad Rizwan
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Usman Khan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Mohammad Rizwan
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Mohammad Rizwan
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Usman Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Usman Khan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+        wicket:
+          player_out: Usman Khan
+          kind: bowled
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: RR Rossouw
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Mohammad Rizwan
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RR Rossouw
+        bowler: D Wiese
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: Mohammad Rizwan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: RR Rossouw
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: RR Rossouw
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: RR Rossouw
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: RR Rossouw
+        bowler: Haris Rauf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Mohammad Rizwan
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: RR Rossouw
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rossouw
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: RR Rossouw
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohammad Rizwan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RR Rossouw
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: RR Rossouw
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: RR Rossouw
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Mohammad Rizwan
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+        wicket:
+          player_out: RR Rossouw
+          kind: bowled
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KA Pollard
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KA Pollard
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KA Pollard
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Mohammad Rizwan
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Pollard
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Mohammad Rizwan
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KA Pollard
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KA Pollard
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+        wicket:
+          player_out: Mohammad Rizwan
+          fielders:
+          - D Wiese
+          kind: caught
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: KA Pollard
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: TH David
+        bowler: Rashid Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: TH David
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KA Pollard
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KA Pollard
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KA Pollard
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: TH David
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KA Pollard
+        bowler: D Wiese
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KA Pollard
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: TH David
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: TH David
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Pollard
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: KA Pollard
+        bowler: Zaman Khan
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: TH David
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KA Pollard
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KA Pollard
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: KA Pollard
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: TH David
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Pollard
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: TH David
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Pollard
+        wicket:
+          player_out: KA Pollard
+          fielders:
+          - Fakhar Zaman
+          kind: caught
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: TH David
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Khushdil Shah
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: TH David
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khushdil Shah
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: TH David
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: TH David
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TH David
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Khushdil Shah
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+        wicket:
+          player_out: TH David
+          fielders:
+          - D Wiese
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Khushdil Shah
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anwar Ali
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Anwar Ali
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Anwar Ali
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Khushdil Shah
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anwar Ali
+        wicket:
+          player_out: Anwar Ali
+          kind: bowled
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Khushdil Shah
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usama Mir
+        wicket:
+          player_out: Usama Mir
+          fielders:
+          - Haris Rauf
+          kind: caught
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Abbas Afridi
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Khushdil Shah
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Abbas Afridi
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abbas Afridi
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abbas Afridi
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abbas Afridi
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Khushdil Shah
+        bowler: Haris Rauf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abbas Afridi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Khushdil Shah
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abbas Afridi
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Khushdil Shah
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Abbas Afridi
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Abbas Afridi
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khushdil Shah
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Abbas Afridi
+        bowler: Zaman Khan
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 2
+        batsman: Khushdil Shah
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Abbas Afridi
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khushdil Shah
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Abbas Afridi
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Khushdil Shah
+        wicket:
+          player_out: Khushdil Shah
+          fielders:
+          - Shaheen Shah Afridi
+          - D Wiese
+          kind: run out
+    target:
+      overs: 20
+      runs: 201

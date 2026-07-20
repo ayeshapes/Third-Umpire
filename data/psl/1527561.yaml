@@ -1,0 +1,2390 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-04-02'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2026-04-02'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Karachi Kings
+    by:
+      wickets: 5
+  overs: 20
+  player_of_match:
+  - Azam Khan
+  players:
+    Rawalpindiz:
+    - Mohammad Rizwan
+    - Yasir Khan
+    - Kamran Ghulam
+    - DJ Mitchell
+    - SW Billings
+    - Abdullah Fazal
+    - CE McConchie
+    - Rishad Hossain
+    - Naseem Shah
+    - Mohammad Amir
+    - Mohammad Amir Khan
+    Karachi Kings:
+    - Waseem Muhammad
+    - DA Warner
+    - Agha Salman
+    - Azam Khan
+    - Khushdil Shah
+    - MM Ali
+    - Abbas Afridi
+    - Saad Baig
+    - Hasan Ali
+    - A Zampa
+    - Mir Hamza
+  registry:
+    people:
+      A Zampa: 14f96089
+      Abbas Afridi: 2cec2a92
+      Abdullah Fazal: 88fece92
+      Agha Salman: 89c16049
+      Ahsan Raza: e0e5b209
+      Asif Yaqoob: 6b35790c
+      Azam Khan: ee8f1a6d
+      Bilal Asad: 4b81321e
+      CE McConchie: d285acaf
+      DA Warner: dcce6f09
+      DJ Mitchell: eade4650
+      Faisal Afridi: ed0bc503
+      Hasan Ali: 2911de16
+      Kamran Ghulam: 35f4cf7e
+      Khushdil Shah: fce581b5
+      MM Ali: bb351c23
+      Mir Hamza: cb1a782a
+      Mohammad Amir: e174dadd
+      Mohammad Amir Khan: 72f03be4
+      Mohammad Rizwan: 2f26ac1a
+      Naseem Shah: 9c9af282
+      Rishad Hossain: 5935d694
+      SW Billings: c16d4035
+      Saad Baig: eb75d76c
+      Tariq Rasheed: 1008518c
+      Waseem Muhammad: 6f02fe2a
+      Yasir Khan: 4f1bb625
+  teams:
+  - Rawalpindiz
+  - Karachi Kings
+  toss:
+    winner: Karachi Kings
+    decision: field
+  umpires:
+  - Ahsan Raza
+  - Asif Yaqoob
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Rawalpindiz
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Yasir Khan
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Yasir Khan
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Yasir Khan
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Yasir Khan
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Yasir Khan
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Yasir Khan
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Yasir Khan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Yasir Khan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mohammad Rizwan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yasir Khan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Mohammad Rizwan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yasir Khan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Yasir Khan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Rizwan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Yasir Khan
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Yasir Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Mohammad Rizwan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mohammad Rizwan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yasir Khan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Yasir Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Rizwan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mohammad Rizwan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yasir Khan
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Yasir Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Rizwan
+        wicket:
+          player_out: Mohammad Rizwan
+          fielders:
+          - Azam Khan
+          kind: caught
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Kamran Ghulam
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yasir Khan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Yasir Khan
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Yasir Khan
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kamran Ghulam
+        bowler: Khushdil Shah
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        extras:
+          wides: 3
+        batsman: Yasir Khan
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Kamran Ghulam
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Kamran Ghulam
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yasir Khan
+        wicket:
+          player_out: Yasir Khan
+          kind: bowled
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Kamran Ghulam
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kamran Ghulam
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kamran Ghulam
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Kamran Ghulam
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Kamran Ghulam
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Mitchell
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Kamran Ghulam
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DJ Mitchell
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DJ Mitchell
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kamran Ghulam
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Kamran Ghulam
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kamran Ghulam
+        wicket:
+          player_out: Kamran Ghulam
+          kind: bowled
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: DJ Mitchell
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Mitchell
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SW Billings
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SW Billings
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: DJ Mitchell
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SW Billings
+        bowler: Khushdil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SW Billings
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SW Billings
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SW Billings
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: DJ Mitchell
+        bowler: A Zampa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: DJ Mitchell
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SW Billings
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: DJ Mitchell
+        bowler: Mir Hamza
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SW Billings
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: SW Billings
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Mitchell
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: SW Billings
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: DJ Mitchell
+        bowler: Mir Hamza
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        extras:
+          noballs: 1
+        batsman: SW Billings
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: DJ Mitchell
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: SW Billings
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: DJ Mitchell
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SW Billings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          kind: bowled
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdullah Fazal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: DJ Mitchell
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Fazal
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Abdullah Fazal
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+        wicket:
+          player_out: DJ Mitchell
+          fielders:
+          - Waseem Muhammad
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Abdullah Fazal
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CE McConchie
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: CE McConchie
+        bowler: Mir Hamza
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Abdullah Fazal
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Abdullah Fazal
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CE McConchie
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: CE McConchie
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdullah Fazal
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: CE McConchie
+        bowler: Mir Hamza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Fazal
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: CE McConchie
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdullah Fazal
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Abdullah Fazal
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CE McConchie
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Abdullah Fazal
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CE McConchie
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Abdullah Fazal
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CE McConchie
+        wicket:
+          player_out: CE McConchie
+          kind: bowled
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Abdullah Fazal
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Rishad Hossain
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Rishad Hossain
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdullah Fazal
+- 2nd innings:
+    team: Karachi Kings
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Waseem Muhammad
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Waseem Muhammad
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Waseem Muhammad
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Waseem Muhammad
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Waseem Muhammad
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Waseem Muhammad
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Waseem Muhammad
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Waseem Muhammad
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Waseem Muhammad
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Waseem Muhammad
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: DA Warner
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Waseem Muhammad
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: DA Warner
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Waseem Muhammad
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Waseem Muhammad
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Waseem Muhammad
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: Waseem Muhammad
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Waseem Muhammad
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Waseem Muhammad
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Waseem Muhammad
+        wicket:
+          player_out: Waseem Muhammad
+          kind: bowled
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Agha Salman
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Agha Salman
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Agha Salman
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Agha Salman
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Agha Salman
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Agha Salman
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Agha Salman
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Agha Salman
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Agha Salman
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Agha Salman
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Agha Salman
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Agha Salman
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Warner
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Agha Salman
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Agha Salman
+        bowler: Rishad Hossain
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Warner
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Agha Salman
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Agha Salman
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Agha Salman
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Agha Salman
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Agha Salman
+        wicket:
+          player_out: Agha Salman
+          fielders:
+          - Mohammad Rizwan
+          kind: caught
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Azam Khan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Azam Khan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Azam Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Azam Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DA Warner
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Azam Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Azam Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: DA Warner
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: DA Warner
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DA Warner
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Warner
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azam Khan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Warner
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: DA Warner
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Warner
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Azam Khan
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: DA Warner
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Azam Khan
+        bowler: Rishad Hossain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Azam Khan
+    - 15.2:
+        actual_delivery: '15.1'
+        non_striker: DA Warner
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: Azam Khan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+        wicket:
+          player_out: DA Warner
+          fielders:
+          - Rishad Hossain
+          kind: caught
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: Azam Khan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Khushdil Shah
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Khushdil Shah
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Azam Khan
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Azam Khan
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Khushdil Shah
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Azam Khan
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: CE McConchie
+            out: Naseem Shah
+            reason: injury
+            role: bowler
+        batsman: Khushdil Shah
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Khushdil Shah
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Khushdil Shah
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Khushdil Shah
+        bowler: CE McConchie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khushdil Shah
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khushdil Shah
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azam Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azam Khan
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Azam Khan
+        bowler: Mohammad Amir Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khushdil Shah
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azam Khan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azam Khan
+        wicket:
+          player_out: Azam Khan
+          fielders:
+          - Rishad Hossain
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MM Ali
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Khushdil Shah
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Khushdil Shah
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+        wicket:
+          player_out: MM Ali
+          kind: lbw
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Khushdil Shah
+        bowler: DJ Mitchell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abbas Afridi
+    target:
+      overs: 20
+      runs: 198

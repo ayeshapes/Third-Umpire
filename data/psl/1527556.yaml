@@ -1,0 +1,2493 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-03-30'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2026-03-29'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Quetta Gladiators
+    by:
+      runs: 40
+  overs: 20
+  player_of_match:
+  - Shamyl Hussain
+  players:
+    Quetta Gladiators:
+    - Saud Shakeel
+    - Shamyl Hussain
+    - RR Rossouw
+    - Hassan Nawaz
+    - Khawaja Nafay
+    - BR McDermott
+    - TK Curran
+    - Ahmed Daniyal
+    - AS Joseph
+    - Abrar Ahmed
+    - Usman Tariq
+    Hyderabad Kingsmen:
+    - Saim Ayub
+    - Maaz Sadaqat
+    - M Labuschagne
+    - Usman Khan
+    - Saad Ali
+    - Irfan Khan
+    - Hassan Khan
+    - Hammad Azam
+    - M Theekshana
+    - RP Meredith
+    - Akif Javed
+  registry:
+    people:
+      AG Wharf: 2e0fcc58
+      AS Joseph: b0946605
+      Abdul Muqeet: e1ac7789
+      Abrar Ahmed: abb7c76c
+      Ahmed Daniyal: 9656afbf
+      Ahsan Raza: e0e5b209
+      Akif Javed: 99d7d5b7
+      BR McDermott: c41043e6
+      Bilal Khilji: a75c16c8
+      CM Brown: 448f4f1c
+      Hammad Azam: 57bd3ecc
+      Hassan Khan: 486065b3
+      Hassan Nawaz: 26a8b2fe
+      Irfan Khan: ee95065d
+      Khawaja Nafay: 3cf54e77
+      M Labuschagne: fa433be6
+      M Theekshana: f24c6701
+      Maaz Sadaqat: 6d9560f3
+      RP Meredith: '64775749'
+      RR Rossouw: cad00a4d
+      Saad Ali: 4cbf2e06
+      Saim Ayub: 33609a8c
+      Saud Shakeel: d07c1b2f
+      Shamyl Hussain: d3395043
+      TK Curran: e86754b2
+      Usman Khan: bafb9238
+      Usman Tariq: e94d1dcd
+  teams:
+  - Quetta Gladiators
+  - Hyderabad Kingsmen
+  toss:
+    winner: Quetta Gladiators
+    decision: bat
+  umpires:
+  - Ahsan Raza
+  - AG Wharf
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Quetta Gladiators
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shamyl Hussain
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saud Shakeel
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Shamyl Hussain
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Saud Shakeel
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shamyl Hussain
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Saud Shakeel
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shamyl Hussain
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Saud Shakeel
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Saud Shakeel
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Saud Shakeel
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shamyl Hussain
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Saud Shakeel
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shamyl Hussain
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Saud Shakeel
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Saud Shakeel
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+        wicket:
+          player_out: Saud Shakeel
+          fielders:
+          - Hammad Azam
+          kind: caught
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: RR Rossouw
+        bowler: Saim Ayub
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: Shamyl Hussain
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: RR Rossouw
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: RR Rossouw
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: RR Rossouw
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shamyl Hussain
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: RR Rossouw
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+        wicket:
+          player_out: RR Rossouw
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Hassan Nawaz
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shamyl Hussain
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Hassan Nawaz
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Shamyl Hussain
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Nawaz
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Shamyl Hussain
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Nawaz
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Shamyl Hussain
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Nawaz
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Shamyl Hussain
+        bowler: Akif Javed
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: Hassan Nawaz
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Hassan Nawaz
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shamyl Hussain
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Hassan Nawaz
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Hassan Nawaz
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Hassan Nawaz
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Nawaz
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Hassan Nawaz
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Hassan Nawaz
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Shamyl Hussain
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Shamyl Hussain
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shamyl Hussain
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Shamyl Hussain
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Nawaz
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Shamyl Hussain
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Hassan Nawaz
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Hassan Nawaz
+        bowler: M Labuschagne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shamyl Hussain
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Hassan Nawaz
+        bowler: M Labuschagne
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 1
+          noballs: 1
+        batsman: Shamyl Hussain
+    - 9.6:
+        actual_delivery: '9.4'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Nawaz
+    - 9.7:
+        actual_delivery: '9.5'
+        non_striker: Shamyl Hussain
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 9.8:
+        actual_delivery: '9.6'
+        non_striker: Hassan Nawaz
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Shamyl Hussain
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Hassan Nawaz
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Shamyl Hussain
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Shamyl Hussain
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Shamyl Hussain
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shamyl Hussain
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Shamyl Hussain
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 1
+          total: 7
+          batsman: 6
+        extras:
+          noballs: 1
+        batsman: Shamyl Hussain
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shamyl Hussain
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Hassan Nawaz
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Hassan Nawaz
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shamyl Hussain
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Nawaz
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Shamyl Hussain
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Nawaz
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Shamyl Hussain
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Hassan Nawaz
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+        wicket:
+          player_out: Shamyl Hussain
+          fielders:
+          - Saim Ayub
+          kind: caught
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Hassan Nawaz
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khawaja Nafay
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Khawaja Nafay
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Hassan Nawaz
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Khawaja Nafay
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Khawaja Nafay
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khawaja Nafay
+        wicket:
+          player_out: Khawaja Nafay
+          kind: lbw
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+        wicket:
+          player_out: BR McDermott
+          kind: lbw
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Hassan Nawaz
+        bowler: M Theekshana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TK Curran
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: TK Curran
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: TK Curran
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: TK Curran
+        bowler: Hassan Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hassan Nawaz
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: TK Curran
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: TK Curran
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Hassan Nawaz
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+        wicket:
+          player_out: Hassan Nawaz
+          fielders:
+          - Usman Khan
+          - Saad Ali
+          kind: run out
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: TK Curran
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahmed Daniyal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: TK Curran
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahmed Daniyal
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: TK Curran
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahmed Daniyal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: TK Curran
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahmed Daniyal
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ahmed Daniyal
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: TK Curran
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahmed Daniyal
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Ahmed Daniyal
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TK Curran
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: TK Curran
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahmed Daniyal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Ahmed Daniyal
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Ahmed Daniyal
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TK Curran
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Ahmed Daniyal
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ahmed Daniyal
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TK Curran
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ahmed Daniyal
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: TK Curran
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TK Curran
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TK Curran
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TK Curran
+    - 18.6:
+        actual_delivery: '18.4'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TK Curran
+    - 18.7:
+        actual_delivery: '18.5'
+        non_striker: Ahmed Daniyal
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 18.8:
+        actual_delivery: '18.6'
+        non_striker: TK Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahmed Daniyal
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: TK Curran
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahmed Daniyal
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Ahmed Daniyal
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+        wicket:
+          player_out: TK Curran
+          fielders:
+          - Saim Ayub
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Ahmed Daniyal
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AS Joseph
+        wicket:
+          player_out: AS Joseph
+          fielders:
+          - Hassan Khan
+          kind: caught
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Ahmed Daniyal
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abrar Ahmed
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Ahmed Daniyal
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abrar Ahmed
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Ahmed Daniyal
+        bowler: Akif Javed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abrar Ahmed
+- 2nd innings:
+    team: Hyderabad Kingsmen
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saim Ayub
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+        wicket:
+          player_out: Saim Ayub
+          fielders:
+          - BR McDermott
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Maaz Sadaqat
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+        wicket:
+          player_out: Maaz Sadaqat
+          fielders:
+          - Shamyl Hussain
+          kind: caught
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Usman Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: M Labuschagne
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: M Labuschagne
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: M Labuschagne
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Usman Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Usman Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Usman Khan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Usman Khan
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: M Labuschagne
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usman Khan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: M Labuschagne
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Usman Khan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: M Labuschagne
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: M Labuschagne
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usman Khan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Usman Khan
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+        wicket:
+          player_out: Usman Khan
+          fielders:
+          - BR McDermott
+          kind: caught
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saad Ali
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saad Ali
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: M Labuschagne
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Saad Ali
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Saad Ali
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Saad Ali
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: M Labuschagne
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Saad Ali
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: M Labuschagne
+        bowler: TK Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Saad Ali
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Saad Ali
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Saad Ali
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Saad Ali
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Saad Ali
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: M Labuschagne
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Saad Ali
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: M Labuschagne
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Saad Ali
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: M Labuschagne
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: M Labuschagne
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saad Ali
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: M Labuschagne
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Saad Ali
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: M Labuschagne
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saad Ali
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Saad Ali
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: M Labuschagne
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saad Ali
+        wicket:
+          player_out: Saad Ali
+          fielders:
+          - AS Joseph
+          kind: caught
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Irfan Khan
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: M Labuschagne
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Irfan Khan
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Irfan Khan
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          fielders:
+          - Shamyl Hussain
+          kind: caught
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Irfan Khan
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Irfan Khan
+        bowler: Saud Shakeel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Khan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Hassan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Hassan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hassan Khan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hassan Khan
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Khan
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Irfan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Irfan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Hassan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Irfan Khan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Hassan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Hassan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Irfan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Irfan Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Khan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Irfan Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Khan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Irfan Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Irfan Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Hassan Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Irfan Khan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Hassan Khan
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Hassan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Khan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Hassan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Hassan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Hassan Khan
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Hassan Khan
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Irfan Khan
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Hassan Khan
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Irfan Khan
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Khan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Irfan Khan
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+        wicket:
+          player_out: Hassan Khan
+          fielders:
+          - BR McDermott
+          kind: caught
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Hammad Azam
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hammad Azam
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Hammad Azam
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Hammad Azam
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hammad Azam
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Irfan Khan
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hammad Azam
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Irfan Khan
+        bowler: TK Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hammad Azam
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: Irfan Khan
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hammad Azam
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Hammad Azam
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Irfan Khan
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hammad Azam
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Hammad Azam
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Irfan Khan
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Hammad Azam
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Hammad Azam
+        bowler: TK Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Irfan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hammad Azam
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Hammad Azam
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Irfan Khan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Hammad Azam
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Hammad Azam
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Irfan Khan
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hammad Azam
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Hammad Azam
+        bowler: Abrar Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Irfan Khan
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Hammad Azam
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+        wicket:
+          player_out: Irfan Khan
+          fielders:
+          - BR McDermott
+          kind: stumped
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: M Theekshana
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hammad Azam
+        wicket:
+          player_out: Hammad Azam
+          fielders:
+          - Hassan Nawaz
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: M Theekshana
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: M Theekshana
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: M Theekshana
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: M Theekshana
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RP Meredith
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: RP Meredith
+        bowler: Ahmed Daniyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Theekshana
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: M Theekshana
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RP Meredith
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: RP Meredith
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Theekshana
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: M Theekshana
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: M Theekshana
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RP Meredith
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: RP Meredith
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Theekshana
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: M Theekshana
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    target:
+      overs: 20
+      runs: 175

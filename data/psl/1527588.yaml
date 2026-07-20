@@ -1,0 +1,2278 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-04-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2026-04-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Karachi Kings
+    by:
+      wickets: 9
+  overs: 20
+  player_of_match:
+  - DA Warner
+  players:
+    Quetta Gladiators:
+    - Shamyl Hussain
+    - Khawaja Nafay
+    - RR Rossouw
+    - Saud Shakeel
+    - Hassan Nawaz
+    - LD Chandimal
+    - Jahandad Khan
+    - AS Joseph
+    - Khalil Ahmed
+    - Abrar Ahmed
+    - Usman Tariq
+    Karachi Kings:
+    - JJ Roy
+    - DA Warner
+    - RR Hendricks
+    - Agha Salman
+    - Azam Khan
+    - Khushdil Shah
+    - MM Ali
+    - Abbas Afridi
+    - Hasan Ali
+    - Zahid Mahmood
+    - Rizwanullah
+  registry:
+    people:
+      AS Joseph: b0946605
+      Abbas Afridi: 2cec2a92
+      Abrar Ahmed: abb7c76c
+      Agha Salman: 89c16049
+      Ahsan Raza: e0e5b209
+      Ali Naqvi: 3c89fc88
+      Azam Khan: ee8f1a6d
+      CM Brown: 448f4f1c
+      DA Warner: dcce6f09
+      Hasan Ali: 2911de16
+      Hassan Nawaz: 26a8b2fe
+      JJ Roy: d1c36f5c
+      Jahandad Khan: 22d73540
+      Khalil Ahmed: 0ad1b607
+      Khawaja Nafay: 3cf54e77
+      Khushdil Shah: fce581b5
+      LD Chandimal: 8dd02a98
+      MM Ali: bb351c23
+      Nasir Hussain: 5b2fe85b
+      RR Hendricks: b8cc58c9
+      RR Rossouw: cad00a4d
+      Rizwanullah: c22b76a3
+      Saud Shakeel: d07c1b2f
+      Shamyl Hussain: d3395043
+      Tariq Rasheed: 1008518c
+      Usman Tariq: e94d1dcd
+      Zahid Mahmood: ba158afd
+  teams:
+  - Quetta Gladiators
+  - Karachi Kings
+  toss:
+    winner: Karachi Kings
+    decision: field
+  umpires:
+  - CM Brown
+  - Nasir Hussain
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Quetta Gladiators
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Khawaja Nafay
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shamyl Hussain
+        wicket:
+          player_out: Shamyl Hussain
+          fielders:
+          - Azam Khan
+          kind: caught
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Khawaja Nafay
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Khawaja Nafay
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Khawaja Nafay
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khawaja Nafay
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Khawaja Nafay
+        wicket:
+          player_out: Khawaja Nafay
+          fielders:
+          - DA Warner
+          kind: caught
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Saud Shakeel
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saud Shakeel
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Saud Shakeel
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Saud Shakeel
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saud Shakeel
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saud Shakeel
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: RR Rossouw
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: RR Rossouw
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: RR Rossouw
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: RR Rossouw
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RR Rossouw
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rossouw
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: RR Rossouw
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: RR Rossouw
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: RR Rossouw
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: RR Rossouw
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Saud Shakeel
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Saud Shakeel
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Saud Shakeel
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: RR Rossouw
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Saud Shakeel
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RR Rossouw
+        bowler: Abbas Afridi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saud Shakeel
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: RR Rossouw
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: RR Rossouw
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saud Shakeel
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: RR Rossouw
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: RR Rossouw
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: RR Rossouw
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Rossouw
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Saud Shakeel
+        bowler: Agha Salman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: RR Rossouw
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Saud Shakeel
+        bowler: Zahid Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RR Rossouw
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saud Shakeel
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Saud Shakeel
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saud Shakeel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saud Shakeel
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saud Shakeel
+        wicket:
+          player_out: Saud Shakeel
+          fielders:
+          - Azam Khan
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: RR Rossouw
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Hassan Nawaz
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Hassan Nawaz
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: RR Rossouw
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Hassan Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Hassan Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+        wicket:
+          player_out: RR Rossouw
+          fielders:
+          - Azam Khan
+          kind: caught
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Hassan Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: LD Chandimal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Hassan Nawaz
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD Chandimal
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: LD Chandimal
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Nawaz
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: LD Chandimal
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: LD Chandimal
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Nawaz
+        wicket:
+          player_out: Hassan Nawaz
+          fielders:
+          - Abbas Afridi
+          kind: caught
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: LD Chandimal
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahandad Khan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Jahandad Khan
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD Chandimal
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Jahandad Khan
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD Chandimal
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: LD Chandimal
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahandad Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Jahandad Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LD Chandimal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Jahandad Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LD Chandimal
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Jahandad Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD Chandimal
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: LD Chandimal
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahandad Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Jahandad Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD Chandimal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Jahandad Khan
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LD Chandimal
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: LD Chandimal
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahandad Khan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Jahandad Khan
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LD Chandimal
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Jahandad Khan
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD Chandimal
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Jahandad Khan
+        bowler: Rizwanullah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LD Chandimal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Jahandad Khan
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: Abbas Afridi
+            out: Rizwanullah
+            reason: injury
+            role: bowler
+        batsman: LD Chandimal
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: LD Chandimal
+        bowler: Abbas Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahandad Khan
+        wicket:
+          player_out: Jahandad Khan
+          fielders:
+          - Hasan Ali
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: AS Joseph
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LD Chandimal
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AS Joseph
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD Chandimal
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: LD Chandimal
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Joseph
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: AS Joseph
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD Chandimal
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: LD Chandimal
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Joseph
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: AS Joseph
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LD Chandimal
+- 2nd innings:
+    team: Karachi Kings
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Roy
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: JJ Roy
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: JJ Roy
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: JJ Roy
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: JJ Roy
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: JJ Roy
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Roy
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Roy
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: JJ Roy
+        bowler: AS Joseph
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DA Warner
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: JJ Roy
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: JJ Roy
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: JJ Roy
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Warner
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: JJ Roy
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JJ Roy
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Roy
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: JJ Roy
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: JJ Roy
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: JJ Roy
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: JJ Roy
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: JJ Roy
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: JJ Roy
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: JJ Roy
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Warner
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+        wicket:
+          player_out: JJ Roy
+          fielders:
+          - AS Joseph
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Warner
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RR Hendricks
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Warner
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: RR Hendricks
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Warner
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: RR Hendricks
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Hendricks
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RR Hendricks
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Warner
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: RR Hendricks
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Warner
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RR Hendricks
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: DA Warner
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: RR Hendricks
+        bowler: Khalil Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: DA Warner
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Warner
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: RR Hendricks
+        bowler: Abrar Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DA Warner
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RR Hendricks
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Hendricks
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: DA Warner
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Hendricks
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RR Hendricks
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: DA Warner
+        bowler: Usman Tariq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Hendricks
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: RR Hendricks
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: DA Warner
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Hendricks
+    target:
+      overs: 20
+      runs: 196

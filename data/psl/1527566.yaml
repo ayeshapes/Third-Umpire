@@ -1,0 +1,2267 @@
+---
+meta:
+  data_version: 0.93
+  created: '2026-04-08'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Karachi
+  competition: Pakistan Super League
+  dates:
+  - '2026-04-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Peshawar Zalmi
+    by:
+      wickets: 4
+  overs: 20
+  player_of_match:
+  - Iftikhar Ahmed
+  players:
+    Hyderabad Kingsmen:
+    - Maaz Sadaqat
+    - Saim Ayub
+    - Sharjeel Khan
+    - Usman Khan
+    - M Labuschagne
+    - MDKJ Perera
+    - Irfan Khan
+    - Hassan Khan
+    - M Theekshana
+    - Hunain Shah
+    - Mohammad Ali
+    Peshawar Zalmi:
+    - Mohammad Haris
+    - Babar Azam
+    - BKG Mendis
+    - MG Bracewell
+    - Farhan Yousaf
+    - Abdul Samad
+    - Iftikhar Ahmed
+    - Aamer Jamal
+    - Sufiyan Muqeem
+    - Shoriful Islam
+    - Nahid Rana
+  registry:
+    people:
+      Aaley Haider: de1ae33e
+      Aamer Jamal: a8e54ef4
+      Abdul Samad: 8e554b6b
+      BKG Mendis: 5d1e7582
+      Babar Azam: 8a75e999
+      Farhan Yousaf: 2d4dc51e
+      Hassan Khan: 486065b3
+      Hunain Shah: 3b8679bf
+      Iftikhar Ahmed: 29e253dd
+      Imran Javed: 9a1405c8
+      Irfan Khan: ee95065d
+      M Labuschagne: fa433be6
+      M Theekshana: f24c6701
+      MDKJ Perera: f21043a5
+      MG Bracewell: e38bce7a
+      Maaz Sadaqat: 6d9560f3
+      Mohammad Ali: a86a37ab
+      Mohammad Haris: ff3f6fc1
+      Nahid Rana: 5318ee68
+      RS Mahanama: '57910393'
+      Rashid Riaz: fb82725e
+      Saim Ayub: 33609a8c
+      Sharfuddoula: 63896abb
+      Sharjeel Khan: 193ef196
+      Shoriful Islam: bb34fd31
+      Sufiyan Muqeem: 4277234d
+      Usman Khan: bafb9238
+  teams:
+  - Hyderabad Kingsmen
+  - Peshawar Zalmi
+  toss:
+    winner: Peshawar Zalmi
+    decision: field
+  umpires:
+  - Aaley Haider
+  - Sharfuddoula
+  venue: National Stadium, Karachi
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad Kingsmen
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Saim Ayub
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Maaz Sadaqat
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Saim Ayub
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Maaz Sadaqat
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Maaz Sadaqat
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Maaz Sadaqat
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Maaz Sadaqat
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Maaz Sadaqat
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Maaz Sadaqat
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Saim Ayub
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Maaz Sadaqat
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Maaz Sadaqat
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Maaz Sadaqat
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Saim Ayub
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Saim Ayub
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Maaz Sadaqat
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Maaz Sadaqat
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Saim Ayub
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Maaz Sadaqat
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Maaz Sadaqat
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Saim Ayub
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Maaz Sadaqat
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Saim Ayub
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Maaz Sadaqat
+        wicket:
+          player_out: Maaz Sadaqat
+          fielders:
+          - Aamer Jamal
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Saim Ayub
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharjeel Khan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Sharjeel Khan
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Saim Ayub
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharjeel Khan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sharjeel Khan
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sharjeel Khan
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sharjeel Khan
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Sharjeel Khan
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saim Ayub
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharjeel Khan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sharjeel Khan
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+        wicket:
+          player_out: Saim Ayub
+          fielders:
+          - Mohammad Haris
+          kind: caught
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sharjeel Khan
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usman Khan
+        wicket:
+          player_out: Usman Khan
+          fielders:
+          - Sufiyan Muqeem
+          kind: caught
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Sharjeel Khan
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharjeel Khan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharjeel Khan
+        wicket:
+          player_out: Sharjeel Khan
+          kind: bowled
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: MDKJ Perera
+        bowler: Nahid Rana
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: M Labuschagne
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: MDKJ Perera
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDKJ Perera
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MDKJ Perera
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDKJ Perera
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: MDKJ Perera
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: MDKJ Perera
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: MDKJ Perera
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDKJ Perera
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDKJ Perera
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: M Labuschagne
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDKJ Perera
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: MDKJ Perera
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: MDKJ Perera
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: M Labuschagne
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: MDKJ Perera
+        bowler: Iftikhar Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: MDKJ Perera
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDKJ Perera
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDKJ Perera
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: M Labuschagne
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: M Labuschagne
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: M Labuschagne
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: M Labuschagne
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: M Labuschagne
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: M Labuschagne
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: M Labuschagne
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MDKJ Perera
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: M Labuschagne
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: M Labuschagne
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: M Labuschagne
+        bowler: MG Bracewell
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: MDKJ Perera
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: M Labuschagne
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: M Labuschagne
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: MDKJ Perera
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MDKJ Perera
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: M Labuschagne
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDKJ Perera
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: M Labuschagne
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: MDKJ Perera
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: MDKJ Perera
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: M Labuschagne
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          fielders:
+          - Shoriful Islam
+          kind: caught
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Irfan Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: MDKJ Perera
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: MDKJ Perera
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: MDKJ Perera
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Irfan Khan
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Irfan Khan
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDKJ Perera
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Irfan Khan
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: MDKJ Perera
+        bowler: Shoriful Islam
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Irfan Khan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Irfan Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDKJ Perera
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Irfan Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDKJ Perera
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Irfan Khan
+        wicket:
+          player_out: Irfan Khan
+          fielders:
+          - Babar Azam
+          kind: caught
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: MDKJ Perera
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Hassan Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDKJ Perera
+        wicket:
+          player_out: MDKJ Perera
+          fielders:
+          - Iftikhar Ahmed
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Hassan Khan
+        bowler: Sufiyan Muqeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Theekshana
+        wicket:
+          player_out: M Theekshana
+          kind: caught and bowled
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Hunain Shah
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hassan Khan
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Hunain Shah
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hassan Khan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Hunain Shah
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+        wicket:
+          player_out: Hunain Shah
+          fielders:
+          - Farhan Yousaf
+          kind: run out
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Mohammad Ali
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Mohammad Ali
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Mohammad Ali
+        bowler: Nahid Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hassan Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Mohammad Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Mohammad Ali
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hassan Khan
+        wicket:
+          player_out: Hassan Khan
+          fielders:
+          - Iftikhar Ahmed
+          kind: caught
+- 2nd innings:
+    team: Peshawar Zalmi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Babar Azam
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Haris
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Babar Azam
+        bowler: Mohammad Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Mohammad Haris
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mohammad Haris
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mohammad Haris
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+        wicket:
+          player_out: Mohammad Haris
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: BKG Mendis
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: BKG Mendis
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: BKG Mendis
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Babar Azam
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: BKG Mendis
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: BKG Mendis
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: BKG Mendis
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: BKG Mendis
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Babar Azam
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: BKG Mendis
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: BKG Mendis
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BKG Mendis
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: BKG Mendis
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BKG Mendis
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BKG Mendis
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: BKG Mendis
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: BKG Mendis
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: BKG Mendis
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: BKG Mendis
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Babar Azam
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: BKG Mendis
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Babar Azam
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: BKG Mendis
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Babar Azam
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Babar Azam
+        bowler: Maaz Sadaqat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BKG Mendis
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BKG Mendis
+        wicket:
+          player_out: BKG Mendis
+          fielders:
+          - Mohammad Ali
+          kind: caught
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MG Bracewell
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MG Bracewell
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: MG Bracewell
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Babar Azam
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MG Bracewell
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: MG Bracewell
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: MG Bracewell
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MG Bracewell
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MG Bracewell
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: MG Bracewell
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: MG Bracewell
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Babar Azam
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MG Bracewell
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: MG Bracewell
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+        wicket:
+          player_out: MG Bracewell
+          fielders:
+          - Irfan Khan
+          kind: caught
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Babar Azam
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Yousaf
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Farhan Yousaf
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Farhan Yousaf
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Farhan Yousaf
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Farhan Yousaf
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Babar Azam
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Yousaf
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Farhan Yousaf
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Farhan Yousaf
+        bowler: Hassan Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+        wicket:
+          player_out: Babar Azam
+          kind: lbw
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Abdul Samad
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Farhan Yousaf
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Abdul Samad
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Farhan Yousaf
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Abdul Samad
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Yousaf
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Farhan Yousaf
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdul Samad
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Abdul Samad
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Farhan Yousaf
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Abdul Samad
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Yousaf
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Abdul Samad
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Yousaf
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Farhan Yousaf
+        bowler: Mohammad Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Abdul Samad
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Abdul Samad
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Farhan Yousaf
+        wicket:
+          player_out: Farhan Yousaf
+          kind: lbw
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Abdul Samad
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iftikhar Ahmed
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Abdul Samad
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iftikhar Ahmed
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Abdul Samad
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iftikhar Ahmed
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdul Samad
+        wicket:
+          player_out: Abdul Samad
+          fielders:
+          - Usman Khan
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aamer Jamal
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Aamer Jamal
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Iftikhar Ahmed
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Jamal
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Aamer Jamal
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Iftikhar Ahmed
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Iftikhar Ahmed
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Jamal
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Aamer Jamal
+        bowler: Mohammad Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Aamer Jamal
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Iftikhar Ahmed
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Aamer Jamal
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Jamal
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Aamer Jamal
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Iftikhar Ahmed
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Aamer Jamal
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iftikhar Ahmed
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Iftikhar Ahmed
+        bowler: Hunain Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aamer Jamal
+    target:
+      overs: 20
+      runs: 146

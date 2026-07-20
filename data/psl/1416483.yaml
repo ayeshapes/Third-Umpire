@@ -1,0 +1,2475 @@
+---
+meta:
+  data_version: 0.93
+  created: '2024-02-25'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lahore
+  competition: Pakistan Super League
+  dates:
+  - '2024-02-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Peshawar Zalmi
+    by:
+      runs: 8
+  overs: 20
+  player_of_match:
+  - Saim Ayub
+  players:
+    Peshawar Zalmi:
+    - Saim Ayub
+    - Babar Azam
+    - R Powell
+    - Asif Ali
+    - Mohammad Haris
+    - PI Walter
+    - Haseebullah Khan
+    - L Wood
+    - Naveen-ul-Haq
+    - Salman Irshad
+    - Arif Yaqoob
+    Lahore Qalandars:
+    - Sahibzada Farhan
+    - Fakhar Zaman
+    - HE van der Dussen
+    - SD Hope
+    - Ahsan Hafeez
+    - Jahandad Khan
+    - Sikandar Raza
+    - CR Brathwaite
+    - Shaheen Shah Afridi
+    - Mohammad Imran
+    - Zaman Khan
+  registry:
+    people:
+      Ahsan Hafeez: '86229495'
+      Ahsan Raza: e0e5b209
+      Arif Yaqoob: 6bb9e53b
+      Asif Ali: 0a4736eb
+      Babar Azam: 8a75e999
+      CR Brathwaite: e342e5fb
+      Fakhar Zaman: 1777c020
+      HE van der Dussen: 9948e262
+      Haseebullah Khan: 5691931a
+      Jahandad Khan: 22d73540
+      L Wood: 65b6943c
+      Mohammad Haris: ff3f6fc1
+      Mohammad Imran: 687e20b3
+      Nasir Hussain: 5b2fe85b
+      Naveen-ul-Haq: c0c411cb
+      PI Walter: 57590dbb
+      R Powell: 650d5e49
+      RK Illingworth: '20672246'
+      RS Mahanama: '57910393'
+      SD Hope: 1fc6ef83
+      Sahibzada Farhan: 1aba45cd
+      Saim Ayub: 33609a8c
+      Salman Irshad: 30afc92b
+      Shaheen Shah Afridi: 45a7e761
+      Shozab Raza: 153c67dc
+      Sikandar Raza: 26d041c4
+      Zaman Khan: 28392e11
+  teams:
+  - Peshawar Zalmi
+  - Lahore Qalandars
+  toss:
+    winner: Lahore Qalandars
+    decision: field
+  umpires:
+  - Ahsan Raza
+  - RK Illingworth
+  venue: Gaddafi Stadium, Lahore
+  team_type: club
+innings:
+- 1st innings:
+    team: Peshawar Zalmi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Babar Azam
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Saim Ayub
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Babar Azam
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Saim Ayub
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Saim Ayub
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Saim Ayub
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Saim Ayub
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Babar Azam
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Babar Azam
+        bowler: Ahsan Hafeez
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Babar Azam
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babar Azam
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Babar Azam
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Babar Azam
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saim Ayub
+    - 5.6:
+        actual_delivery: '5.4'
+        non_striker: Babar Azam
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 5.7:
+        actual_delivery: '5.5'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 5.8:
+        actual_delivery: '5.6'
+        non_striker: Babar Azam
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Saim Ayub
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Babar Azam
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Saim Ayub
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Babar Azam
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saim Ayub
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Babar Azam
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Saim Ayub
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saim Ayub
+    - 7.2:
+        actual_delivery: '7.1'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Saim Ayub
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Babar Azam
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Babar Azam
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Saim Ayub
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Babar Azam
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Saim Ayub
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babar Azam
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saim Ayub
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Saim Ayub
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saim Ayub
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Babar Azam
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saim Ayub
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Babar Azam
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Babar Azam
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Saim Ayub
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Saim Ayub
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Babar Azam
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saim Ayub
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Babar Azam
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saim Ayub
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Saim Ayub
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babar Azam
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saim Ayub
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Babar Azam
+        bowler: CR Brathwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Babar Azam
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babar Azam
+        wicket:
+          player_out: Babar Azam
+          fielders:
+          - Sikandar Raza
+          kind: caught
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Powell
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Powell
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Powell
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Saim Ayub
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Powell
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Powell
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Powell
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Powell
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Powell
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Powell
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Saim Ayub
+        bowler: Mohammad Imran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Powell
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: R Powell
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: R Powell
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saim Ayub
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: R Powell
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: R Powell
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Powell
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: R Powell
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saim Ayub
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Saim Ayub
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Powell
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: R Powell
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saim Ayub
+        wicket:
+          player_out: Saim Ayub
+          kind: bowled
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: R Powell
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asif Ali
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: R Powell
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Asif Ali
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: R Powell
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asif Ali
+        wicket:
+          player_out: Asif Ali
+          fielders:
+          - Fakhar Zaman
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: R Powell
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Haris
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: R Powell
+        bowler: Shaheen Shah Afridi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Haris
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Mohammad Haris
+        bowler: Zaman Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: R Powell
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: R Powell
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Mohammad Haris
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Powell
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Mohammad Haris
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Powell
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Mohammad Haris
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Powell
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: R Powell
+        bowler: Zaman Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammad Haris
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Mohammad Haris
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Powell
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Mohammad Haris
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Powell
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: R Powell
+        bowler: Jahandad Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Mohammad Haris
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: R Powell
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Haris
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Mohammad Haris
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Powell
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Mohammad Haris
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Powell
+        wicket:
+          player_out: R Powell
+          fielders:
+          - Fakhar Zaman
+          kind: caught
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Mohammad Haris
+        bowler: Jahandad Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PI Walter
+- 2nd innings:
+    team: Lahore Qalandars
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Fakhar Zaman
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Fakhar Zaman
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Fakhar Zaman
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Fakhar Zaman
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Sahibzada Farhan
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Fakhar Zaman
+        bowler: Saim Ayub
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sahibzada Farhan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sahibzada Farhan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Fakhar Zaman
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sahibzada Farhan
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: Fakhar Zaman
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sahibzada Farhan
+        wicket:
+          player_out: Sahibzada Farhan
+          fielders:
+          - Haseebullah Khan
+          kind: caught
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: Fakhar Zaman
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Fakhar Zaman
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Fakhar Zaman
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Fakhar Zaman
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Fakhar Zaman
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Fakhar Zaman
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: HE van der Dussen
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fakhar Zaman
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Fakhar Zaman
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: HE van der Dussen
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fakhar Zaman
+        wicket:
+          player_out: Fakhar Zaman
+          kind: bowled
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: HE van der Dussen
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SD Hope
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SD Hope
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: SD Hope
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SD Hope
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SD Hope
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SD Hope
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SD Hope
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SD Hope
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SD Hope
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SD Hope
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SD Hope
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SD Hope
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SD Hope
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SD Hope
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SD Hope
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: HE van der Dussen
+        bowler: Arif Yaqoob
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SD Hope
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SD Hope
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Hope
+        wicket:
+          player_out: SD Hope
+          kind: bowled
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Ahsan Hafeez
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Ahsan Hafeez
+    - 13.2:
+        actual_delivery: '13.1'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ahsan Hafeez
+    - 13.3:
+        actual_delivery: '13.2'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Ahsan Hafeez
+    - 13.4:
+        actual_delivery: '13.2'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Ahsan Hafeez
+    - 13.5:
+        actual_delivery: '13.3'
+        non_striker: Ahsan Hafeez
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 13.6:
+        actual_delivery: '13.4'
+        non_striker: Ahsan Hafeez
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 13.7:
+        actual_delivery: '13.5'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ahsan Hafeez
+    - 13.8:
+        actual_delivery: '13.6'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: HE van der Dussen
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ahsan Hafeez
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ahsan Hafeez
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Ahsan Hafeez
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Ahsan Hafeez
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: Ahsan Hafeez
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: HE van der Dussen
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahsan Hafeez
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: HE van der Dussen
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ahsan Hafeez
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ahsan Hafeez
+        bowler: Salman Irshad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HE van der Dussen
+    - 15.2:
+        actual_delivery: '15.1'
+        non_striker: Ahsan Hafeez
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: Ahsan Hafeez
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: Ahsan Hafeez
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Ahsan Hafeez
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ahsan Hafeez
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahsan Hafeez
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Ahsan Hafeez
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Ahsan Hafeez
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Ahsan Hafeez
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HE van der Dussen
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Ahsan Hafeez
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ahsan Hafeez
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahsan Hafeez
+        wicket:
+          player_out: Ahsan Hafeez
+          fielders:
+          - Saim Ayub
+          kind: caught
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: HE van der Dussen
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Jahandad Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Jahandad Khan
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jahandad Khan
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahandad Khan
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jahandad Khan
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jahandad Khan
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahandad Khan
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: HE van der Dussen
+        bowler: Salman Irshad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahandad Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Jahandad Khan
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HE van der Dussen
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Jahandad Khan
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HE van der Dussen
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Jahandad Khan
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Jahandad Khan
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Jahandad Khan
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HE van der Dussen
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Jahandad Khan
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HE van der Dussen
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahandad Khan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Jahandad Khan
+        bowler: PI Walter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: HE van der Dussen
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahandad Khan
+        wicket:
+          player_out: Jahandad Khan
+          fielders:
+          - Babar Azam
+          kind: caught
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+        wicket:
+          player_out: Sikandar Raza
+          fielders:
+          - Saim Ayub
+          - Haseebullah Khan
+          kind: run out
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CR Brathwaite
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: HE van der Dussen
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CR Brathwaite
+    target:
+      overs: 20
+      runs: 212
