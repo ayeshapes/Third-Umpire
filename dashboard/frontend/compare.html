@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Compare Players</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120;
+    --surface: #131B2E;
+    --surface-hover: #1B2540;
+    --hairline: #26314D;
+    --text: #E7EAF3;
+    --text-dim: #8A93AC;
+    --floodlight: #F5D46A;
+    --turf: #4F8F63;
+    --ball-red: #C1443C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  .glow-bar {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--floodlight), transparent);
+    opacity: 0.7;
+  }
+
+  header { padding: 32px 24px 8px; max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.02em;
+  }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+
+  header nav a {
+    color: var(--text-dim);
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 16px;
+    border-bottom: 1px solid transparent;
+  }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+
+  main { max-width: 900px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .search-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 16px;
+    align-items: start;
+    margin-bottom: 24px;
+  }
+  .vs-label {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--text-dim);
+    font-size: 13px;
+    padding-top: 12px;
+  }
+
+  .search-box { position: relative; }
+  input[type="text"] {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 12px 14px;
+    border-radius: 8px;
+  }
+  input[type="text"]:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+
+  .suggestions {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 10;
+    max-height: 260px;
+    overflow-y: auto;
+  }
+  .suggestion-item {
+    padding: 10px 14px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .suggestion-item:last-child { border-bottom: none; }
+  .suggestion-item:hover { background: var(--surface-hover); }
+  .suggestion-name { font-size: 13px; display: block; }
+  .suggestion-meta { font-size: 11px; color: var(--text-dim); text-transform: capitalize; }
+
+  .placeholder, .error {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+  .error { color: var(--ball-red); }
+
+  .compare-card {
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--surface);
+    overflow: hidden;
+  }
+
+  .names-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .player-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .names-row .player-name:first-child { text-align: left; }
+  .names-row .player-name:last-child { text-align: right; }
+  .vs-divider {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    padding: 0 16px;
+  }
+
+  .stat-section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--floodlight);
+    padding: 16px 24px 8px;
+  }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: 1fr 130px 1fr;
+    align-items: center;
+    padding: 10px 24px;
+  }
+  .stat-row:nth-child(odd) { background: rgba(255,255,255,0.015); }
+
+  .stat-val {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+  }
+  .stat-val.left { text-align: left; }
+  .stat-val.right { text-align: right; }
+  .stat-val.winner { color: var(--floodlight); font-weight: 600; }
+  .stat-name {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .no-data-row {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px 24px;
+  }
+
+  @media (max-width: 640px) {
+    .search-row { grid-template-columns: 1fr; }
+    .vs-label { text-align: center; padding-top: 0; }
+    .names-row { grid-template-columns: 1fr; text-align: center; gap: 4px; }
+    .names-row .player-name:first-child,
+    .names-row .player-name:last-child { text-align: center; }
+    .stat-row { grid-template-columns: 1fr; text-align: center; gap: 2px; }
+    .stat-val.left, .stat-val.right { text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Compare Players</h1>
+  <p class="subtitle">Head-to-head career numbers, side by side</p>
+  <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html" class="active">Compare</a>
+  </nav>
+</header>
+
+<main>
+  <div class="search-row">
+    <div class="search-box">
+      <input type="text" id="searchA" placeholder="Player A…" autocomplete="off" />
+      <div class="suggestions" id="suggestionsA" style="display:none;"></div>
+    </div>
+    <div class="vs-label">vs</div>
+    <div class="search-box">
+      <input type="text" id="searchB" placeholder="Player B…" autocomplete="off" />
+      <div class="suggestions" id="suggestionsB" style="display:none;"></div>
+    </div>
+  </div>
+
+  <div id="result">
+    <div class="placeholder">Pick two players above to compare their career numbers.</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+
+  let selected = { A: null, B: null };
+  let playerData = { A: null, B: null };
+
+  function setupSearch(side) {
+    const input = document.getElementById(`search${side}`);
+    const suggestions = document.getElementById(`suggestions${side}`);
+    let debounceTimer = null;
+
+    input.addEventListener("input", () => {
+      clearTimeout(debounceTimer);
+      const q = input.value.trim();
+      if (q.length < 2) { suggestions.style.display = "none"; return; }
+      debounceTimer = setTimeout(() => runSearch(q, suggestions, side), 250);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(`#search${side}`) && !e.target.closest(`#suggestions${side}`)) {
+        suggestions.style.display = "none";
+      }
+    });
+  }
+
+  async function runSearch(q, suggestionsEl, side) {
+    try {
+      const res = await fetch(`${API_BASE}/players/search?q=${encodeURIComponent(q)}`);
+      const players = await res.json();
+      if (!players.length) {
+        suggestionsEl.innerHTML = `<div class="suggestion-item"><span class="suggestion-meta">No matches</span></div>`;
+        suggestionsEl.style.display = "block";
+        return;
+      }
+      suggestionsEl.innerHTML = players.map(p => `
+        <div class="suggestion-item" data-id="${p.player_id}" data-name="${p.display_name || p.full_name}">
+          <span class="suggestion-name">${p.display_name || p.full_name}</span>
+          <span class="suggestion-meta">${p.primary_role || ""}${p.nationality ? " · " + p.nationality : ""}</span>
+        </div>
+      `).join("");
+      suggestionsEl.style.display = "block";
+
+      suggestionsEl.querySelectorAll(".suggestion-item[data-id]").forEach(el => {
+        el.addEventListener("click", () => {
+          document.getElementById(`search${side}`).value = el.dataset.name;
+          suggestionsEl.style.display = "none";
+          selectPlayer(side, el.dataset.id);
+        });
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function selectPlayer(side, playerId) {
+    try {
+      const res = await fetch(`${API_BASE}/players/${playerId}`);
+      const data = await res.json();
+      playerData[side] = data.error ? null : data;
+      renderComparison();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  // For each stat: which side "wins". higherIsBetter=true means bigger
+  // number wins (runs, average, strike rate...); false means smaller
+  // number wins (economy, bowling average -- fewer runs per wicket/over
+  // is better bowling).
+  function winnerSide(valA, valB, higherIsBetter) {
+    if (valA === null || valA === undefined || valB === null || valB === undefined) return null;
+    if (valA === valB) return null;
+    if (higherIsBetter) return valA > valB ? "A" : "B";
+    return valA < valB ? "A" : "B";
+  }
+
+  function statRow(label, valA, valB, higherIsBetter) {
+    const winner = higherIsBetter === null ? null : winnerSide(valA, valB, higherIsBetter);
+    return `
+      <div class="stat-row">
+        <div class="stat-val left ${winner === 'A' ? 'winner' : ''}">${valA ?? "—"}</div>
+        <div class="stat-name">${label}</div>
+        <div class="stat-val right ${winner === 'B' ? 'winner' : ''}">${valB ?? "—"}</div>
+      </div>
+    `;
+  }
+
+  function renderComparison() {
+    const a = playerData.A;
+    const b = playerData.B;
+
+    if (!a && !b) {
+      document.getElementById("result").innerHTML =
+        `<div class="placeholder">Pick two players above to compare their career numbers.</div>`;
+      return;
+    }
+    if (!a || !b) {
+      document.getElementById("result").innerHTML =
+        `<div class="placeholder">Pick the ${!a ? "first" : "second"} player to complete the comparison.</div>`;
+      return;
+    }
+
+    const aHasBatted = a.batting.innings > 0;
+    const bHasBatted = b.batting.innings > 0;
+    const aHasBowled = a.bowling.innings > 0;
+    const bHasBowled = b.bowling.innings > 0;
+
+    document.getElementById("result").innerHTML = `
+      <div class="compare-card">
+        <div class="names-row">
+          <div class="player-name">${a.player.display_name || a.player.full_name}</div>
+          <div class="vs-divider">VS</div>
+          <div class="player-name">${b.player.display_name || b.player.full_name}</div>
+        </div>
+
+        <div class="stat-section-title">Batting</div>
+        ${(aHasBatted || bHasBatted) ? `
+          ${statRow("Innings", a.batting.innings, b.batting.innings, null)}
+          ${statRow("Runs", a.batting.runs, b.batting.runs, true)}
+          ${statRow("Highest", a.batting.highest_score, b.batting.highest_score, null)}
+          ${statRow("Average", a.batting.average, b.batting.average, true)}
+          ${statRow("Strike rate", a.batting.strike_rate, b.batting.strike_rate, true)}
+          ${statRow("50s", a.batting.fifties, b.batting.fifties, true)}
+          ${statRow("100s", a.batting.hundreds, b.batting.hundreds, true)}
+          ${statRow("4s", a.batting.fours, b.batting.fours, true)}
+          ${statRow("6s", a.batting.sixes, b.batting.sixes, true)}
+        ` : `<div class="no-data-row">Neither player has a batting record.</div>`}
+
+        <div class="stat-section-title">Bowling</div>
+        ${(aHasBowled || bHasBowled) ? `
+          ${statRow("Innings", a.bowling.innings, b.bowling.innings, null)}
+          ${statRow("Overs", a.bowling.overs, b.bowling.overs, null)}
+          ${statRow("Wickets", a.bowling.wickets, b.bowling.wickets, true)}
+          ${statRow("Best figures", a.bowling.best_figures, b.bowling.best_figures, null)}
+          ${statRow("Average", a.bowling.average, b.bowling.average, false)}
+          ${statRow("Economy", a.bowling.economy, b.bowling.economy, false)}
+          ${statRow("Maidens", a.bowling.maidens, b.bowling.maidens, true)}
+          ${statRow("4W hauls", a.bowling.four_wicket_hauls, b.bowling.four_wicket_hauls, true)}
+          ${statRow("5W hauls", a.bowling.five_wicket_hauls, b.bowling.five_wicket_hauls, true)}
+        ` : `<div class="no-data-row">Neither player has a bowling record.</div>`}
+      </div>
+    `;
+  }
+
+  setupSearch("A");
+  setupSearch("B");
+</script>
+
+</body>
+</html>
