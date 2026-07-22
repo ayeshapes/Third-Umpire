@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Phase Breakdown</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120; --surface: #131B2E; --surface-hover: #1B2540;
+    --hairline: #26314D; --text: #E7EAF3; --text-dim: #8A93AC;
+    --floodlight: #F5D46A; --turf: #4F8F63; --ball-red: #C1443C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .glow-bar { height: 3px; width: 100%; background: linear-gradient(90deg, transparent, var(--floodlight), transparent); opacity: 0.7; }
+  header { padding: 32px 24px 8px; max-width: 900px; margin: 0 auto; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 12px; }
+  nav a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin-right: 16px; border-bottom: 1px solid transparent; }
+  nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  nav a:hover { color: var(--text); }
+  main { max-width: 900px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .search-box { position: relative; margin-bottom: 24px; }
+  #searchInput {
+    width: 100%; background: var(--surface); border: 1px solid var(--hairline); color: var(--text);
+    font-family: 'Inter', sans-serif; font-size: 15px; padding: 12px 16px; border-radius: 8px;
+  }
+  #searchInput:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+  .suggestions {
+    position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: var(--surface);
+    border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; z-index: 10;
+    max-height: 280px; overflow-y: auto;
+  }
+  .suggestion-item { padding: 10px 16px; cursor: pointer; border-bottom: 1px solid var(--hairline); }
+  .suggestion-item:last-child { border-bottom: none; }
+  .suggestion-item:hover { background: var(--surface-hover); }
+  .suggestion-name { font-size: 14px; }
+  .suggestion-meta { font-size: 11px; color: var(--text-dim); text-transform: capitalize; }
+
+  .placeholder, .error { text-align: center; padding: 60px 20px; color: var(--text-dim); font-size: 14px; }
+  .error { color: var(--ball-red); }
+
+  .profile-name { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 16px; }
+
+  .phase-section-title {
+    font-family: 'Space Grotesk', sans-serif; font-size: 13px; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--floodlight); margin: 20px 0 12px;
+  }
+
+  .phase-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 700px) { .phase-grid { grid-template-columns: 1fr; } }
+
+  .phase-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); padding: 16px 18px; }
+  .phase-name { font-family: 'Space Grotesk', sans-serif; font-size: 13px; text-transform: capitalize; color: var(--turf); margin-bottom: 2px; }
+  .phase-overs-range { font-size: 10px; color: var(--text-dim); margin-bottom: 10px; }
+  .phase-stat-row { display: flex; justify-content: space-between; padding: 4px 0; font-size: 12px; }
+  .phase-stat-row .val { font-family: 'IBM Plex Mono', monospace; font-weight: 600; }
+  .no-data { color: var(--text-dim); font-size: 12px; font-style: italic; }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Phase Breakdown</h1>
+  <p class="subtitle">Powerplay vs middle-overs vs death — how a player performs in each phase</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html" class="active">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search a player name…" autocomplete="off" />
+    <div class="suggestions" id="suggestions" style="display:none;"></div>
+  </div>
+
+  <div id="result">
+    <div class="placeholder">Search for a player above to see their phase-wise breakdown.</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+  const searchInput = document.getElementById("searchInput");
+  const suggestions = document.getElementById("suggestions");
+  const result = document.getElementById("result");
+  let debounceTimer = null;
+
+  const PHASE_RANGES = { powerplay: "overs 1–6", middle: "overs 7–15", death: "overs 16–20" };
+
+  searchInput.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    const q = searchInput.value.trim();
+    if (q.length < 2) { suggestions.style.display = "none"; return; }
+    debounceTimer = setTimeout(() => runSearch(q), 250);
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".search-box")) suggestions.style.display = "none";
+  });
+
+  async function runSearch(q) {
+    try {
+      const res = await fetch(`${API_BASE}/players/search?q=${encodeURIComponent(q)}`);
+      const players = await res.json();
+      if (!players.length) {
+        suggestions.innerHTML = `<div class="suggestion-item"><span class="suggestion-meta">No matches</span></div>`;
+        suggestions.style.display = "block";
+        return;
+      }
+      suggestions.innerHTML = players.map(p => `
+        <div class="suggestion-item" data-id="${p.player_id}">
+          <span class="suggestion-name">${p.display_name || p.full_name}</span>
+          <span class="suggestion-meta">${p.primary_role || ""}${p.nationality ? " · " + p.nationality : ""}</span>
+        </div>
+      `).join("");
+      suggestions.style.display = "block";
+
+      suggestions.querySelectorAll(".suggestion-item[data-id]").forEach(el => {
+        el.addEventListener("click", () => {
+          searchInput.value = el.querySelector(".suggestion-name").textContent;
+          suggestions.style.display = "none";
+          loadPhases(el.dataset.id);
+        });
+      });
+    } catch (e) { console.error(e); }
+  }
+
+  function battingCard(phase, d) {
+    const hasData = d.balls_faced > 0;
+    return `
+      <div class="phase-card">
+        <div class="phase-name">${phase}</div>
+        <div class="phase-overs-range">${PHASE_RANGES[phase]}</div>
+        ${hasData ? `
+          <div class="phase-stat-row"><span>Runs</span><span class="val">${d.runs}</span></div>
+          <div class="phase-stat-row"><span>Balls faced</span><span class="val">${d.balls_faced}</span></div>
+          <div class="phase-stat-row"><span>Strike rate</span><span class="val">${d.strike_rate ?? "—"}</span></div>
+          <div class="phase-stat-row"><span>Dismissals</span><span class="val">${d.dismissals}</span></div>
+        ` : `<div class="no-data">No balls faced in this phase.</div>`}
+      </div>
+    `;
+  }
+
+  function bowlingCard(phase, d) {
+    const hasData = d.overs_bowled > 0;
+    return `
+      <div class="phase-card">
+        <div class="phase-name">${phase}</div>
+        <div class="phase-overs-range">${PHASE_RANGES[phase]}</div>
+        ${hasData ? `
+          <div class="phase-stat-row"><span>Overs bowled</span><span class="val">${d.overs_bowled}</span></div>
+          <div class="phase-stat-row"><span>Runs conceded</span><span class="val">${d.runs_conceded}</span></div>
+          <div class="phase-stat-row"><span>Wickets</span><span class="val">${d.wickets}</span></div>
+          <div class="phase-stat-row"><span>Economy</span><span class="val">${d.economy ?? "—"}</span></div>
+        ` : `<div class="no-data">No overs bowled in this phase.</div>`}
+      </div>
+    `;
+  }
+
+  async function loadPhases(playerId) {
+    result.innerHTML = `<div class="placeholder">Loading…</div>`;
+    try {
+      const res = await fetch(`${API_BASE}/players/${playerId}/phases`);
+      const data = await res.json();
+      if (data.error) { result.innerHTML = `<div class="error">${data.error}</div>`; return; }
+
+      const p = data.player;
+      const hasBatting = ["powerplay", "middle", "death"].some(ph => data.batting[ph].balls_faced > 0);
+      const hasBowling = ["powerplay", "middle", "death"].some(ph => data.bowling[ph].overs_bowled > 0);
+
+      result.innerHTML = `
+        <div class="profile-name">${p.display_name || p.full_name}</div>
+
+        <div class="phase-section-title">Batting by phase</div>
+        ${hasBatting ? `
+          <div class="phase-grid">
+            ${battingCard("powerplay", data.batting.powerplay)}
+            ${battingCard("middle", data.batting.middle)}
+            ${battingCard("death", data.batting.death)}
+          </div>
+        ` : `<div class="no-data">No batting record.</div>`}
+
+        <div class="phase-section-title">Bowling by phase</div>
+        ${hasBowling ? `
+          <div class="phase-grid">
+            ${bowlingCard("powerplay", data.bowling.powerplay)}
+            ${bowlingCard("middle", data.bowling.middle)}
+            ${bowlingCard("death", data.bowling.death)}
+          </div>
+        ` : `<div class="no-data">No bowling record.</div>`}
+      `;
+    } catch (e) {
+      result.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+</script>
+
+</body>
+</html>

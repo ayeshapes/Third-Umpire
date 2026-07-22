@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Day vs Night</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120;
+    --surface: #131B2E;
+    --surface-hover: #1B2540;
+    --hairline: #26314D;
+    --text: #E7EAF3;
+    --text-dim: #8A93AC;
+    --floodlight: #F5D46A;
+    --turf: #4F8F63;
+    --ball-red: #C1443C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  .glow-bar {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--floodlight), transparent);
+    opacity: 0.7;
+  }
+
+  header { padding: 32px 24px 8px; max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.02em;
+  }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+
+  header nav a {
+    color: var(--text-dim);
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 16px;
+    border-bottom: 1px solid transparent;
+  }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+
+  main { max-width: 900px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .placeholder, .error, .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+  .error { color: var(--ball-red); }
+
+  .names-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .side-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .side-name .icon { margin-right: 8px; }
+  .names-row .side-name:first-child { text-align: left; }
+  .names-row .side-name:last-child { text-align: right; }
+  .vs-divider {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    padding: 0 16px;
+  }
+
+  .compare-card {
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--surface);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .stat-section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--floodlight);
+    padding: 16px 24px 8px;
+  }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: 1fr 170px 1fr;
+    align-items: center;
+    padding: 10px 24px;
+  }
+  .stat-row:nth-child(odd) { background: rgba(255,255,255,0.015); }
+
+  .stat-val {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+  }
+  .stat-val.left { text-align: left; }
+  .stat-val.right { text-align: right; }
+  .stat-val.winner { color: var(--floodlight); font-weight: 600; }
+  .stat-name {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .match-count-note {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-dim);
+    padding: 4px 24px 18px;
+  }
+
+  @media (max-width: 640px) {
+    .names-row { grid-template-columns: 1fr; text-align: center; gap: 4px; }
+    .names-row .side-name:first-child,
+    .names-row .side-name:last-child { text-align: center; }
+    .stat-row { grid-template-columns: 1fr; text-align: center; gap: 2px; }
+    .stat-val.left, .stat-val.right { text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Day vs Night</h1>
+  <p class="subtitle">Does anything actually change under the lights?</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html" class="active">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div id="result">
+    <div class="loading">Loading day/night split…</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+
+  function fmt(val, suffix = "") {
+    return (val === null || val === undefined) ? "—" : `${val}${suffix}`;
+  }
+
+  function winnerSide(valA, valB, higherIsBetter) {
+    if (valA === null || valA === undefined || valB === null || valB === undefined) return null;
+    if (valA === valB) return null;
+    if (higherIsBetter) return valA > valB ? "A" : "B";
+    return valA < valB ? "A" : "B";
+  }
+
+  function statRow(label, valA, valB, higherIsBetter, suffix = "") {
+    const winner = higherIsBetter === null ? null : winnerSide(valA, valB, higherIsBetter);
+    return `
+      <div class="stat-row">
+        <div class="stat-val left ${winner === 'A' ? 'winner' : ''}">${fmt(valA, suffix)}</div>
+        <div class="stat-name">${label}</div>
+        <div class="stat-val right ${winner === 'B' ? 'winner' : ''}">${fmt(valB, suffix)}</div>
+      </div>
+    `;
+  }
+
+  function render(data) {
+    const day = data.day;
+    const night = data.night;
+
+    document.getElementById("result").innerHTML = `
+      <div class="compare-card">
+        <div class="names-row">
+          <div class="side-name"><span class="icon">☀️</span>Day</div>
+          <div class="vs-divider">VS</div>
+          <div class="side-name"><span class="icon">💡</span>Night</div>
+        </div>
+        <div class="match-count-note">${fmt(day.matches)} day matches · ${fmt(night.matches)} day/night matches</div>
+
+        <div class="stat-section-title">Match shape</div>
+        ${statRow("Avg 1st-innings score", day.avg_first_innings_score, night.avg_first_innings_score, true)}
+        ${statRow("Chase success", day.chase_success_pct, night.chase_success_pct, true, "%")}
+
+        <div class="stat-section-title">Batting</div>
+        ${statRow("Innings", day.batting.innings, night.batting.innings, null)}
+        ${statRow("Runs", day.batting.runs, night.batting.runs, null)}
+        ${statRow("Average", day.batting.average, night.batting.average, true)}
+        ${statRow("Strike rate", day.batting.strike_rate, night.batting.strike_rate, true)}
+        ${statRow("4s", day.batting.fours, night.batting.fours, true)}
+        ${statRow("6s", day.batting.sixes, night.batting.sixes, true)}
+
+        <div class="stat-section-title">Bowling</div>
+        ${statRow("Innings", day.bowling.innings, night.bowling.innings, null)}
+        ${statRow("Wickets", day.bowling.wickets, night.bowling.wickets, true)}
+        ${statRow("Economy", day.bowling.economy, night.bowling.economy, false)}
+        ${statRow("Average", day.bowling.average, night.bowling.average, false)}
+      </div>
+    `;
+  }
+
+  async function load() {
+    try {
+      const res = await fetch(`${API_BASE}/day-night-split`);
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
+      const data = await res.json();
+      render(data);
+    } catch (e) {
+      document.getElementById("result").innerHTML =
+        `<div class="error">Couldn't reach the API — make sure the backend is running (uvicorn main:app --reload) on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  load();
+</script>
+
+</body>
+</html>

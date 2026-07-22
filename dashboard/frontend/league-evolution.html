@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — League Evolution</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120; --surface: #131B2E; --surface-hover: #1B2540;
+    --hairline: #26314D; --text: #E7EAF3; --text-dim: #8A93AC;
+    --floodlight: #F5D46A; --turf: #4F8F63; --ball-red: #C1443C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .glow-bar { height: 3px; width: 100%; background: linear-gradient(90deg, transparent, var(--floodlight), transparent); opacity: 0.7; }
+  header { padding: 32px 24px 8px; max-width: 900px; margin: 0 auto; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+  header nav a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin-right: 16px; border-bottom: 1px solid transparent; }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+  main { max-width: 900px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .chart-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); padding: 20px 24px; margin-bottom: 20px; }
+  .chart-title { font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: var(--floodlight); margin-bottom: 4px; }
+  .chart-desc { font-size: 12px; color: var(--text-dim); margin-bottom: 16px; }
+  svg { width: 100%; height: 220px; overflow: visible; }
+  .line { fill: none; stroke: var(--turf); stroke-width: 2; }
+  .line.secondary { stroke: var(--floodlight); stroke-dasharray: 4 3; }
+  .dot { fill: var(--turf); }
+  .dot.secondary { fill: var(--floodlight); }
+  .axis-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; fill: var(--text-dim); }
+  .legend { display: flex; gap: 16px; font-size: 11px; color: var(--text-dim); margin-top: 8px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+
+  .loading, .error { text-align: center; padding: 60px 20px; color: var(--text-dim); font-size: 14px; }
+  .error { color: var(--ball-red); }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>League Evolution</h1>
+  <p class="subtitle">Has scoring in the PSL gone up across 11 seasons?</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html" class="active">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div id="charts"><div class="loading">Loading…</div></div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+
+  function lineChart(data, series, colors, title, desc, unit) {
+    const width = 820, height = 200, padL = 40, padR = 10, padT = 10, padB = 24;
+    const values = data.flatMap(d => series.map(s => d[s])).filter(v => v !== null && v !== undefined);
+    const min = Math.min(...values) * 0.95, max = Math.max(...values) * 1.05;
+    const x = i => padL + (i / (data.length - 1)) * (width - padL - padR);
+    const y = v => height - padB - ((v - min) / (max - min)) * (height - padT - padB);
+
+    const paths = series.map((s, si) => {
+      const pts = data.map((d, i) => `${x(i)},${y(d[s])}`).join(" ");
+      return `<polyline class="line ${si > 0 ? 'secondary' : ''}" points="${pts}" />` +
+        data.map((d, i) => `<circle class="dot ${si > 0 ? 'secondary' : ''}" cx="${x(i)}" cy="${y(d[s])}" r="3" />`).join("");
+    }).join("");
+
+    const xLabels = data.map((d, i) => `<text class="axis-label" x="${x(i)}" y="${height - 4}" text-anchor="middle">${d.season_year}</text>`).join("");
+
+    return `
+      <div class="chart-card">
+        <div class="chart-title">${title}</div>
+        <div class="chart-desc">${desc}</div>
+        <svg viewBox="0 0 ${width} ${height}">
+          ${paths}
+          ${xLabels}
+        </svg>
+      </div>
+    `;
+  }
+
+  async function load() {
+    const charts = document.getElementById("charts");
+    try {
+      const data = await fetch(`${API_BASE}/league-evolution`).then(r => r.json());
+
+      charts.innerHTML =
+        lineChart(data, ["avg_first_innings_score", "avg_second_innings_score"], null,
+          "Average Innings Score", "1st innings (solid) vs 2nd innings (dashed), by season") +
+        lineChart(data, ["overall_run_rate"], null,
+          "Overall Run Rate", "Runs per over, league-wide, by season") +
+        lineChart(data, ["boundary_pct"], null,
+          "Boundary Percentage", "% of legal balls hit for four or six, by season") +
+        lineChart(data, ["avg_wickets_per_innings"], null,
+          "Average Wickets Per Innings", "Are bowlers taking more wickets over time?");
+    } catch (e) {
+      charts.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  load();
+</script>
+
+</body>
+</html>

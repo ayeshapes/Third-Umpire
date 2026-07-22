@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Batter vs Bowling-Type</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120; --surface: #131B2E; --surface-hover: #1B2540;
+    --hairline: #26314D; --text: #E7EAF3; --text-dim: #8A93AC;
+    --floodlight: #F5D46A; --turf: #4F8F63; --ball-red: #C1443C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .glow-bar { height: 3px; width: 100%; background: linear-gradient(90deg, transparent, var(--floodlight), transparent); opacity: 0.7; }
+  header { padding: 32px 24px 8px; max-width: 780px; margin: 0 auto; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+  header nav a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin-right: 16px; border-bottom: 1px solid transparent; }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+  main { max-width: 780px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .search-box { position: relative; margin-bottom: 24px; }
+  input[type="text"] {
+    width: 100%; background: var(--surface); border: 1px solid var(--hairline); color: var(--text);
+    font-family: 'Inter', sans-serif; font-size: 15px; padding: 12px 16px; border-radius: 8px;
+  }
+  .suggestions {
+    position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: var(--surface);
+    border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; z-index: 10;
+    max-height: 260px; overflow-y: auto;
+  }
+  .suggestion-item { padding: 10px 14px; cursor: pointer; border-bottom: 1px solid var(--hairline); }
+  .suggestion-item:last-child { border-bottom: none; }
+  .suggestion-item:hover { background: var(--surface-hover); }
+  .suggestion-name { font-size: 13px; display: block; }
+  .suggestion-meta { font-size: 11px; color: var(--text-dim); text-transform: capitalize; }
+
+  .placeholder, .error { text-align: center; padding: 60px 20px; color: var(--text-dim); font-size: 14px; }
+  .error { color: var(--ball-red); }
+
+  .type-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 600px) { .type-grid { grid-template-columns: 1fr; } }
+  .type-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); padding: 20px; }
+  .type-title { font-family: 'Space Grotesk', sans-serif; font-size: 15px; text-transform: capitalize; margin-bottom: 12px; }
+  .type-title.pace { color: var(--ball-red); }
+  .type-title.spin { color: var(--turf); }
+  .type-title.unclassified { color: var(--text-dim); }
+  .stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .stat-tile { background: var(--bg); border: 1px solid var(--hairline); border-radius: 8px; padding: 10px 12px; }
+  .stat-value { font-family: 'IBM Plex Mono', monospace; font-size: 17px; font-weight: 600; }
+  .stat-label { font-size: 10px; color: var(--text-dim); margin-top: 2px; }
+
+  .note { font-size: 11px; color: var(--text-dim); margin-top: 20px; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Batter vs Bowling-Type</h1>
+  <p class="subtitle">How does a batter perform against pace vs spin?</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html" class="active">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search a batter (e.g. Babar Azam)…" autocomplete="off" />
+    <div class="suggestions" id="suggestions" style="display:none;"></div>
+  </div>
+
+  <div id="result">
+    <div class="placeholder">Search a batter above to see their record against pace vs spin.</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+  const searchInput = document.getElementById("searchInput");
+  const suggestions = document.getElementById("suggestions");
+  const result = document.getElementById("result");
+  let debounceTimer = null;
+
+  searchInput.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    const q = searchInput.value.trim();
+    if (q.length < 2) { suggestions.style.display = "none"; return; }
+    debounceTimer = setTimeout(() => runSearch(q), 250);
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".search-box")) suggestions.style.display = "none";
+  });
+
+  async function runSearch(q) {
+    try {
+      const res = await fetch(`${API_BASE}/players/search?q=${encodeURIComponent(q)}`);
+      const players = await res.json();
+      if (!players.length) {
+        suggestions.innerHTML = `<div class="suggestion-item"><span class="suggestion-meta">No matches</span></div>`;
+        suggestions.style.display = "block";
+        return;
+      }
+      suggestions.innerHTML = players.map(p => `
+        <div class="suggestion-item" data-id="${p.player_id}" data-name="${p.display_name || p.full_name}">
+          <span class="suggestion-name">${p.display_name || p.full_name}</span>
+          <span class="suggestion-meta">${p.primary_role || ""}${p.nationality ? " · " + p.nationality : ""}</span>
+        </div>
+      `).join("");
+      suggestions.style.display = "block";
+      suggestions.querySelectorAll(".suggestion-item[data-id]").forEach(el => {
+        el.addEventListener("click", () => {
+          searchInput.value = el.dataset.name;
+          suggestions.style.display = "none";
+          loadData(el.dataset.id);
+        });
+      });
+    } catch (e) { console.error(e); }
+  }
+
+  function typeCard(typeKey, stats) {
+    if (!stats) return "";
+    return `
+      <div class="type-card">
+        <div class="type-title ${typeKey}">${typeKey === "na" ? "unclassified" : typeKey}</div>
+        <div class="stat-grid">
+          <div class="stat-tile"><div class="stat-value">${stats.runs_scored}</div><div class="stat-label">Runs</div></div>
+          <div class="stat-tile"><div class="stat-value">${stats.balls_faced}</div><div class="stat-label">Balls faced</div></div>
+          <div class="stat-tile"><div class="stat-value">${stats.strike_rate ?? "—"}</div><div class="stat-label">Strike rate</div></div>
+          <div class="stat-tile"><div class="stat-value">${stats.average ?? "—"}</div><div class="stat-label">Average</div></div>
+          <div class="stat-tile"><div class="stat-value">${stats.dismissals}</div><div class="stat-label">Dismissals</div></div>
+          <div class="stat-tile"><div class="stat-value">${stats.fours}/${stats.sixes}</div><div class="stat-label">4s/6s</div></div>
+        </div>
+      </div>
+    `;
+  }
+
+  async function loadData(playerId) {
+    result.innerHTML = `<div class="placeholder">Loading…</div>`;
+    try {
+      const data = await fetch(`${API_BASE}/batter-vs-bowling-type?player_id=${playerId}`).then(r => r.json());
+      const by = data.by_bowler_type;
+
+      result.innerHTML = `
+        <div class="type-grid">
+          ${typeCard("pace", by.pace)}
+          ${typeCard("spin", by.spin)}
+          ${by.unclassified ? typeCard("unclassified", by.unclassified) : ""}
+        </div>
+        <p class="note">
+          Bowling-type classification is derived from scraped bowler bio data, not an official stat —
+          some bowlers couldn't be classified (shown separately as "unclassified") rather than being
+          silently merged into pace or spin.
+        </p>
+      `;
+    } catch (e) {
+      result.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+</script>
+
+</body>
+</html>

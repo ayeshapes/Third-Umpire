@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Player Matchup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120; --surface: #131B2E; --surface-hover: #1B2540;
+    --hairline: #26314D; --text: #E7EAF3; --text-dim: #8A93AC;
+    --floodlight: #F5D46A; --turf: #4F8F63; --ball-red: #C1443C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .glow-bar { height: 3px; width: 100%; background: linear-gradient(90deg, transparent, var(--floodlight), transparent); opacity: 0.7; }
+  header { padding: 32px 24px 8px; max-width: 780px; margin: 0 auto; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+  header nav a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin-right: 16px; border-bottom: 1px solid transparent; }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+  main { max-width: 780px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .search-row { display: grid; grid-template-columns: 1fr auto 1fr; gap: 16px; align-items: start; margin-bottom: 24px; }
+  .vs-label { font-family: 'Space Grotesk', sans-serif; color: var(--text-dim); font-size: 13px; padding-top: 12px; }
+  .role-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+
+  .search-box { position: relative; }
+  input[type="text"] {
+    width: 100%; background: var(--surface); border: 1px solid var(--hairline); color: var(--text);
+    font-family: 'Inter', sans-serif; font-size: 14px; padding: 12px 14px; border-radius: 8px;
+  }
+  input[type="text"]:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+
+  .suggestions {
+    position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: var(--surface);
+    border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; z-index: 10;
+    max-height: 260px; overflow-y: auto;
+  }
+  .suggestion-item { padding: 10px 14px; cursor: pointer; border-bottom: 1px solid var(--hairline); }
+  .suggestion-item:last-child { border-bottom: none; }
+  .suggestion-item:hover { background: var(--surface-hover); }
+  .suggestion-name { font-size: 13px; display: block; }
+  .suggestion-meta { font-size: 11px; color: var(--text-dim); text-transform: capitalize; }
+
+  .placeholder, .error { text-align: center; padding: 60px 20px; color: var(--text-dim); font-size: 14px; }
+  .error { color: var(--ball-red); }
+
+  .matchup-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); overflow: hidden; }
+  .names-row {
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+    padding: 20px 24px; border-bottom: 1px solid var(--hairline);
+  }
+  .player-name { font-family: 'Space Grotesk', sans-serif; font-size: 17px; font-weight: 700; }
+  .names-row .player-name:first-child { text-align: left; }
+  .names-row .player-name:last-child { text-align: right; }
+  .role-tag { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-top: 2px; }
+  .vs-divider { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-dim); padding: 0 16px; }
+
+  .stat-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 12px; padding: 20px 24px;
+  }
+  .stat-tile { background: var(--bg); border: 1px solid var(--hairline); border-radius: 8px; padding: 12px 14px; }
+  .stat-value { font-family: 'IBM Plex Mono', monospace; font-size: 19px; font-weight: 600; }
+  .stat-label { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+  .dismissals-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--floodlight); padding: 0 24px 8px; }
+  .dismissal-row {
+    display: flex; justify-content: space-between; padding: 8px 24px; font-size: 12px;
+    color: var(--text-dim); border-top: 1px solid var(--hairline);
+  }
+
+  @media (max-width: 640px) {
+    .search-row { grid-template-columns: 1fr; }
+    .vs-label { text-align: center; padding-top: 0; }
+    .names-row { grid-template-columns: 1fr; text-align: center; gap: 4px; }
+    .names-row .player-name:first-child, .names-row .player-name:last-child { text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Player Matchup</h1>
+  <p class="subtitle">One batter, one bowler — their actual ball-by-ball record against each other</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html" class="active">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div class="search-row">
+    <div class="search-box">
+      <div class="role-label">Batter</div>
+      <input type="text" id="searchBatter" placeholder="Search a batter…" autocomplete="off" />
+      <div class="suggestions" id="suggestionsBatter" style="display:none;"></div>
+    </div>
+    <div class="vs-label">vs</div>
+    <div class="search-box">
+      <div class="role-label">Bowler</div>
+      <input type="text" id="searchBowler" placeholder="Search a bowler…" autocomplete="off" />
+      <div class="suggestions" id="suggestionsBowler" style="display:none;"></div>
+    </div>
+  </div>
+
+  <div id="result">
+    <div class="placeholder">Pick a batter and a bowler to see their head-to-head record.</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+  let selected = { batter: null, bowler: null };
+
+  function setupSearch(role) {
+    const input = document.getElementById(`search${role}`);
+    const suggestions = document.getElementById(`suggestions${role}`);
+    let debounceTimer = null;
+
+    input.addEventListener("input", () => {
+      clearTimeout(debounceTimer);
+      const q = input.value.trim();
+      if (q.length < 2) { suggestions.style.display = "none"; return; }
+      debounceTimer = setTimeout(() => runSearch(q, suggestions, role, input), 250);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(`#search${role}`) && !e.target.closest(`#suggestions${role}`)) {
+        suggestions.style.display = "none";
+      }
+    });
+  }
+
+  async function runSearch(q, suggestionsEl, role, input) {
+    try {
+      const res = await fetch(`${API_BASE}/players/search?q=${encodeURIComponent(q)}`);
+      const players = await res.json();
+      if (!players.length) {
+        suggestionsEl.innerHTML = `<div class="suggestion-item"><span class="suggestion-meta">No matches</span></div>`;
+        suggestionsEl.style.display = "block";
+        return;
+      }
+      suggestionsEl.innerHTML = players.map(p => `
+        <div class="suggestion-item" data-id="${p.player_id}" data-name="${p.display_name || p.full_name}">
+          <span class="suggestion-name">${p.display_name || p.full_name}</span>
+          <span class="suggestion-meta">${p.primary_role || ""}${p.nationality ? " · " + p.nationality : ""}</span>
+        </div>
+      `).join("");
+      suggestionsEl.style.display = "block";
+
+      suggestionsEl.querySelectorAll(".suggestion-item[data-id]").forEach(el => {
+        el.addEventListener("click", () => {
+          input.value = el.dataset.name;
+          suggestionsEl.style.display = "none";
+          selected[role.toLowerCase()] = { id: el.dataset.id, name: el.dataset.name };
+          maybeLoadMatchup();
+        });
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  function tile(value, label) {
+    return `<div class="stat-tile"><div class="stat-value">${value ?? "—"}</div><div class="stat-label">${label}</div></div>`;
+  }
+
+  async function maybeLoadMatchup() {
+    if (!selected.batter || !selected.bowler) return;
+    const result = document.getElementById("result");
+    result.innerHTML = `<div class="placeholder">Loading…</div>`;
+
+    try {
+      const res = await fetch(`${API_BASE}/matchup?batter_id=${selected.batter.id}&bowler_id=${selected.bowler.id}`);
+      const data = await res.json();
+
+      if (!data.has_faced) {
+        result.innerHTML = `
+          <div class="matchup-card">
+            <div class="names-row">
+              <div class="player-name">${selected.batter.name}<span class="role-tag">Batter</span></div>
+              <div class="vs-divider">VS</div>
+              <div class="player-name">${selected.bowler.name}<span class="role-tag">Bowler</span></div>
+            </div>
+            <div class="placeholder">These two have never faced each other in the database (at least not with any recorded deliveries).</div>
+          </div>
+        `;
+        return;
+      }
+
+      result.innerHTML = `
+        <div class="matchup-card">
+          <div class="names-row">
+            <div class="player-name">${selected.batter.name}<span class="role-tag">Batter</span></div>
+            <div class="vs-divider">VS</div>
+            <div class="player-name">${selected.bowler.name}<span class="role-tag">Bowler</span></div>
+          </div>
+          <div class="stat-grid">
+            ${tile(data.balls_faced, "Balls faced")}
+            ${tile(data.runs_scored, "Runs scored")}
+            ${tile(data.strike_rate, "Strike rate")}
+            ${tile(data.dismissals, "Dismissals")}
+            ${tile(data.average, "Average")}
+            ${tile(data.dot_balls, "Dot balls")}
+            ${tile(data.fours, "4s")}
+            ${tile(data.sixes, "6s")}
+          </div>
+          ${data.dismissals_detail.length ? `
+            <div class="dismissals-title">Dismissals</div>
+            ${data.dismissals_detail.map(d => `
+              <div class="dismissal-row">
+                <span>${d.match_date} (${d.season_year})</span>
+                <span>${(d.dismissal_type || "").replace(/_/g, " ")} · over ${d.over_number}.${d.ball_number}</span>
+              </div>
+            `).join("")}
+          ` : ""}
+        </div>
+      `;
+    } catch (e) {
+      result.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  setupSearch("Batter");
+  setupSearch("Bowler");
+</script>
+
+</body>
+</html>

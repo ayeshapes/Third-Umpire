@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Data Quality</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120;
+    --surface: #131B2E;
+    --surface-hover: #1B2540;
+    --hairline: #26314D;
+    --text: #E7EAF3;
+    --text-dim: #8A93AC;
+    --floodlight: #F5D46A;
+    --turf: #4F8F63;
+    --ball-red: #C1443C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  .glow-bar {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--floodlight), transparent);
+    opacity: 0.7;
+  }
+
+  header { padding: 32px 24px 8px; max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.02em;
+  }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+
+  header nav a {
+    color: var(--text-dim);
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 16px;
+    border-bottom: 1px solid transparent;
+  }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+
+  main { max-width: 900px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .placeholder, .error, .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+  .error { color: var(--ball-red); }
+
+  .section-card {
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--surface);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--floodlight);
+    padding: 16px 24px 8px;
+  }
+
+  .count-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 4px 24px 20px;
+  }
+  .count-tile {
+    background: var(--bg);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .count-value { font-family: 'IBM Plex Mono', monospace; font-size: 17px; font-weight: 600; }
+  .count-label { font-size: 10px; color: var(--text-dim); margin-top: 2px; text-transform: capitalize; }
+
+  .check-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .check-row:last-child { border-bottom: none; }
+  .check-name { font-size: 13px; }
+  .check-note { font-size: 11px; color: var(--text-dim); margin-top: 3px; }
+  .check-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .check-badge.pass { color: var(--turf); background: rgba(79,143,99,0.12); }
+  .check-badge.fail { color: var(--ball-red); background: rgba(193,68,60,0.12); }
+
+  .weather-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .weather-stat {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .weather-note { font-size: 11px; color: var(--text-dim); max-width: 420px; }
+
+  @media (max-width: 600px) {
+    .check-row { grid-template-columns: 1fr; }
+    .check-badge { justify-self: start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Data Quality</h1>
+  <p class="subtitle">The same checks you've been running by hand in pgAdmin, as an actual page</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html" class="active">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div id="result">
+    <div class="loading">Running checks…</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+
+  function render(data) {
+    const counts = data.row_counts;
+    const checks = data.integrity_checks;
+    const weather = data.weather_coverage;
+
+    document.getElementById("result").innerHTML = `
+      <div class="section-card">
+        <div class="section-title">Row counts</div>
+        <div class="count-grid">
+          ${Object.entries(counts).map(([table, n]) => `
+            <div class="count-tile">
+              <div class="count-value">${n.toLocaleString()}</div>
+              <div class="count-label">${table.replace(/_/g, " ")}</div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-title">Integrity checks</div>
+        ${checks.map(c => `
+          <div class="check-row">
+            <div>
+              <div class="check-name">${c.check}</div>
+              <div class="check-note">${c.note}</div>
+            </div>
+            <div class="check-badge ${c.failing_rows === 0 ? 'pass' : 'fail'}">
+              ${c.failing_rows === 0 ? "PASS" : `${c.failing_rows} flagged`}
+            </div>
+          </div>
+        `).join("")}
+      </div>
+
+      <div class="section-card">
+        <div class="section-title">Weather coverage</div>
+        <div class="weather-row">
+          <div class="weather-stat">${weather.coverage_pct === null ? "—" : weather.coverage_pct + "%"}
+            <span style="font-family:'Inter',sans-serif; font-size:12px; font-weight:400; color:var(--text-dim);">
+              (${weather.matches_with_weather} of ${weather.total_matches} matches)
+            </span>
+          </div>
+          <div class="weather-note">${weather.note}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  async function load() {
+    try {
+      const res = await fetch(`${API_BASE}/data-quality`);
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
+      const data = await res.json();
+      render(data);
+    } catch (e) {
+      document.getElementById("result").innerHTML =
+        `<div class="error">Couldn't reach the API — make sure the backend is running (uvicorn main:app --reload) on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  load();
+</script>
+
+</body>
+</html>

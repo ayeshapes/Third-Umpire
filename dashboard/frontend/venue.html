@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Venue &amp; Pitch Conditions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120;
+    --surface: #131B2E;
+    --surface-hover: #1B2540;
+    --hairline: #26314D;
+    --text: #E7EAF3;
+    --text-dim: #8A93AC;
+    --floodlight: #F5D46A;
+    --turf: #4F8F63;
+    --ball-red: #C1443C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  .glow-bar {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--floodlight), transparent);
+    opacity: 0.7;
+  }
+
+  header { padding: 32px 24px 8px; max-width: 1100px; margin: 0 auto; }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.02em;
+  }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+
+  header nav a {
+    color: var(--text-dim);
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 16px;
+    border-bottom: 1px solid transparent;
+  }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  select {
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  select:focus-visible, .venue-card:focus-visible {
+    outline: 2px solid var(--floodlight);
+    outline-offset: 2px;
+  }
+  .count {
+    margin-left: auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .venue-card {
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .venue-card:hover { background: var(--surface-hover); }
+  .venue-card.selected { border-color: var(--floodlight); }
+
+  .venue-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .venue-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .venue-matches {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+  .venue-city { font-size: 12px; color: var(--text-dim); margin-bottom: 14px; }
+
+  .venue-stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .venue-stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; }
+  .venue-stat-value { font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600; }
+
+  .split-bar {
+    display: flex;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 10px 0 4px;
+    background: var(--hairline);
+  }
+  .split-bar .spin { background: var(--turf); }
+  .split-bar .pace { background: var(--floodlight); }
+  .split-legend {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+  }
+  .split-legend .spin-label::before,
+  .split-legend .pace-label::before {
+    content: "";
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 2px;
+    margin-right: 4px;
+  }
+  .split-legend .spin-label::before { background: var(--turf); }
+  .split-legend .pace-label::before { background: var(--floodlight); }
+
+  .no-data { font-size: 11px; color: var(--text-dim); font-style: italic; }
+
+  .placeholder, .error, .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+  .error { color: var(--ball-red); }
+
+  /* --- detail panel --- */
+  .detail-card {
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--surface);
+    overflow: hidden;
+  }
+  .detail-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--hairline);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .detail-title { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; }
+  .detail-sub { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+  .close-btn {
+    background: none;
+    border: 1px solid var(--hairline);
+    color: var(--text-dim);
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .close-btn:hover { color: var(--text); border-color: var(--text-dim); }
+
+  .stat-section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--floodlight);
+    padding: 16px 24px 8px;
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+    padding: 0 24px 8px;
+  }
+  .stat-tile {
+    background: var(--bg);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .stat-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .stat-label { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+  .match-list { padding: 4px 24px 20px; }
+  .match-row {
+    display: grid;
+    grid-template-columns: 90px 1fr auto;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 13px;
+  }
+  .match-row:last-child { border-bottom: none; }
+  .match-date { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-dim); }
+  .match-teams { display: flex; flex-direction: column; gap: 2px; }
+  .match-team { display: flex; justify-content: space-between; gap: 10px; }
+  .match-team.winner { color: var(--floodlight); font-weight: 600; }
+  .match-score { font-family: 'IBM Plex Mono', monospace; font-size: 12px; }
+  .match-outcome { font-size: 11px; color: var(--text-dim); text-align: right; white-space: nowrap; }
+
+  @media (max-width: 640px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Venue &amp; Pitch Conditions</h1>
+  <p class="subtitle">Batting-friendly vs bowling-friendly grounds, spin vs pace, chase success — computed from real ball-by-ball data</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html" class="active">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div class="toolbar">
+    <select id="sortBy">
+      <option value="name">Sort: Name</option>
+      <option value="avg_score">Sort: Avg 1st-innings score</option>
+      <option value="chase">Sort: Chase success %</option>
+      <option value="matches">Sort: Matches played</option>
+    </select>
+    <span class="count" id="countLabel"></span>
+  </div>
+
+  <div class="grid" id="grid">
+    <div class="loading">Loading venues…</div>
+  </div>
+
+  <div id="detail"></div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+
+  let venues = [];
+  let selectedVenueId = null;
+
+  const grid = document.getElementById("grid");
+  const detail = document.getElementById("detail");
+  const sortBy = document.getElementById("sortBy");
+  const countLabel = document.getElementById("countLabel");
+
+  function fmt(val, suffix = "") {
+    return (val === null || val === undefined) ? "—" : `${val}${suffix}`;
+  }
+
+  function sortVenues(list) {
+    const sorted = [...list];
+    switch (sortBy.value) {
+      case "avg_score":
+        sorted.sort((a, b) => (b.avg_first_innings_score ?? -1) - (a.avg_first_innings_score ?? -1));
+        break;
+      case "chase":
+        sorted.sort((a, b) => (b.chase_success_pct ?? -1) - (a.chase_success_pct ?? -1));
+        break;
+      case "matches":
+        sorted.sort((a, b) => (b.match_count ?? 0) - (a.match_count ?? 0));
+        break;
+      default:
+        sorted.sort((a, b) => a.venue_name.localeCompare(b.venue_name));
+    }
+    return sorted;
+  }
+
+  function renderGrid() {
+    const sorted = sortVenues(venues);
+    countLabel.textContent = `${sorted.length} venue${sorted.length === 1 ? "" : "s"}`;
+
+    if (!sorted.length) {
+      grid.innerHTML = `<div class="empty">No venues found.</div>`;
+      return;
+    }
+
+    grid.innerHTML = "";
+    sorted.forEach(v => grid.appendChild(renderCard(v)));
+  }
+
+  function renderCard(v) {
+    const card = document.createElement("div");
+    card.className = "venue-card" + (v.venue_id === selectedVenueId ? " selected" : "");
+    card.tabIndex = 0;
+
+    const hasProfile = v.avg_first_innings_score !== null && v.avg_first_innings_score !== undefined;
+    const spinPct = v.spin_wicket_pct ?? null;
+    const pacePct = spinPct === null ? null : Math.max(0, 100 - spinPct);
+
+    card.innerHTML = `
+      <div class="venue-card-top">
+        <div class="venue-name">${v.venue_name}</div>
+        <div class="venue-matches">${v.match_count} match${v.match_count === 1 ? "" : "es"}</div>
+      </div>
+      <div class="venue-city">${[v.city, v.country].filter(Boolean).join(", ")}</div>
+
+      ${hasProfile ? `
+        <div class="venue-stat-row">
+          <span class="venue-stat-label">Avg 1st-inns score</span>
+          <span class="venue-stat-value">${fmt(v.avg_first_innings_score)}</span>
+        </div>
+        <div class="venue-stat-row">
+          <span class="venue-stat-label">Chase success</span>
+          <span class="venue-stat-value">${fmt(v.chase_success_pct, "%")}</span>
+        </div>
+        <div class="venue-stat-row">
+          <span class="venue-stat-label">Boundary % of balls</span>
+          <span class="venue-stat-value">${fmt(v.boundary_pct_of_balls, "%")}</span>
+        </div>
+        ${spinPct !== null ? `
+          <div class="split-bar">
+            <div class="spin" style="width:${spinPct}%"></div>
+            <div class="pace" style="width:${pacePct}%"></div>
+          </div>
+          <div class="split-legend">
+            <span class="spin-label">Spin ${spinPct}%</span>
+            <span class="pace-label">Pace ${pacePct}%</span>
+          </div>
+        ` : ""}
+      ` : `<div class="no-data">No completed matches at this venue yet.</div>`}
+    `;
+
+    card.addEventListener("click", () => selectVenue(v.venue_id));
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectVenue(v.venue_id); }
+    });
+    return card;
+  }
+
+  async function selectVenue(venueId) {
+    selectedVenueId = venueId;
+    renderGrid();
+    detail.innerHTML = `<div class="loading">Loading venue detail…</div>`;
+    detail.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    try {
+      const res = await fetch(`${API_BASE}/venues/${venueId}`);
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
+      const data = await res.json();
+      if (data.error) {
+        detail.innerHTML = `<div class="error">${data.error}</div>`;
+        return;
+      }
+      renderDetail(data);
+    } catch (e) {
+      detail.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running (uvicorn main:app --reload) on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  function scoreLine(runs, wickets) {
+    if (runs === null || runs === undefined) return "—";
+    if (wickets === null || wickets === undefined) return `${runs}`;
+    return `${runs}/${wickets}`;
+  }
+
+  function matchRow(m) {
+    const team1Won = m.winner_name === m.team1_name;
+    const team2Won = m.winner_name === m.team2_name;
+    let outcome = "No result";
+    if (m.is_tie) {
+      outcome = "Match tied";
+    } else if (m.winner_name) {
+      const margin = m.win_margin_wickets
+        ? `by ${m.win_margin_wickets} wkt${m.win_margin_wickets > 1 ? "s" : ""}`
+        : m.win_margin_runs
+        ? `by ${m.win_margin_runs} run${m.win_margin_runs > 1 ? "s" : ""}`
+        : "";
+      outcome = `${m.winner_name} won ${margin}`;
+    }
+    return `
+      <div class="match-row">
+        <div class="match-date">${m.match_date}</div>
+        <div class="match-teams">
+          <div class="match-team ${team1Won ? "winner" : ""}">
+            <span>${m.team1_name}</span>
+            <span class="match-score">${scoreLine(m.team1_runs, m.team1_wickets)}</span>
+          </div>
+          <div class="match-team ${team2Won ? "winner" : ""}">
+            <span>${m.team2_name}</span>
+            <span class="match-score">${scoreLine(m.team2_runs, m.team2_wickets)}</span>
+          </div>
+        </div>
+        <div class="match-outcome">${outcome}</div>
+      </div>
+    `;
+  }
+
+  function renderDetail(data) {
+    const v = data.venue;
+    const r = data.records || {};
+    const matches = data.recent_matches || [];
+
+    detail.innerHTML = `
+      <div class="detail-card">
+        <div class="detail-header">
+          <div>
+            <div class="detail-title">${v.venue_name}</div>
+            <div class="detail-sub">${[v.city, v.country].filter(Boolean).join(", ")}${v.boundary_length_m ? ` · ${v.boundary_length_m}m boundary` : ""}</div>
+          </div>
+          <button class="close-btn" id="closeDetail">Close</button>
+        </div>
+
+        <div class="stat-section-title">Pitch profile</div>
+        <div class="stat-grid">
+          <div class="stat-tile"><div class="stat-value">${fmt(v.avg_first_innings_score)}</div><div class="stat-label">Avg 1st-innings score</div></div>
+          <div class="stat-tile"><div class="stat-value">${fmt(v.boundary_pct_of_balls, "%")}</div><div class="stat-label">Boundary % of balls</div></div>
+          <div class="stat-tile"><div class="stat-value">${fmt(v.spin_wicket_pct, "%")}</div><div class="stat-label">Wickets to spin</div></div>
+          <div class="stat-tile"><div class="stat-value">${fmt(v.chase_success_pct, "%")}</div><div class="stat-label">Chase success rate</div></div>
+        </div>
+
+        <div class="stat-section-title">All-time records</div>
+        <div class="stat-grid">
+          <div class="stat-tile"><div class="stat-value">${fmt(r.highest_successful_chase)}</div><div class="stat-label">Highest successful chase</div></div>
+          <div class="stat-tile"><div class="stat-value">${fmt(r.lowest_successful_chase)}</div><div class="stat-label">Lowest successful chase</div></div>
+          <div class="stat-tile"><div class="stat-value">${fmt(r.highest_successful_defense)}</div><div class="stat-label">Highest score defended</div></div>
+          <div class="stat-tile"><div class="stat-value">${fmt(r.lowest_successful_defense)}</div><div class="stat-label">Lowest score defended</div></div>
+        </div>
+
+        <div class="stat-section-title">Recent matches here</div>
+        <div class="match-list">
+          ${matches.length ? matches.map(matchRow).join("") : `<div class="no-data">No matches recorded at this venue yet.</div>`}
+        </div>
+      </div>
+    `;
+
+    document.getElementById("closeDetail").addEventListener("click", () => {
+      selectedVenueId = null;
+      detail.innerHTML = "";
+      renderGrid();
+    });
+  }
+
+  async function loadVenues() {
+    grid.innerHTML = `<div class="loading">Loading venues…</div>`;
+    try {
+      const res = await fetch(`${API_BASE}/venues`);
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
+      venues = await res.json();
+      renderGrid();
+    } catch (e) {
+      grid.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running (uvicorn main:app --reload) on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  sortBy.addEventListener("change", renderGrid);
+
+  loadVenues();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Awards &amp; Fielding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120; --surface: #131B2E; --surface-hover: #1B2540;
+    --hairline: #26314D; --text: #E7EAF3; --text-dim: #8A93AC;
+    --floodlight: #F5D46A; --turf: #4F8F63; --ball-red: #C1443C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .glow-bar { height: 3px; width: 100%; background: linear-gradient(90deg, transparent, var(--floodlight), transparent); opacity: 0.7; }
+  header { padding: 32px 24px 8px; max-width: 1000px; margin: 0 auto; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+  header nav a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin-right: 16px; border-bottom: 1px solid transparent; }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+  main { max-width: 1000px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .toolbar { display: flex; gap: 12px; align-items: center; margin-bottom: 20px; }
+  select {
+    background: var(--surface); border: 1px solid var(--hairline); color: var(--text);
+    font-family: 'Inter', sans-serif; font-size: 13px; padding: 8px 12px; border-radius: 6px; cursor: pointer;
+  }
+
+  .note { font-size: 11px; color: var(--text-dim); margin-bottom: 20px; line-height: 1.5; }
+
+  .boards { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .boards { grid-template-columns: 1fr; } }
+
+  .board-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); overflow: hidden; }
+  .board-title {
+    font-family: 'Space Grotesk', sans-serif; font-size: 13px; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--floodlight); padding: 14px 18px; border-bottom: 1px solid var(--hairline);
+  }
+  .board-row {
+    display: grid; grid-template-columns: 20px 1fr auto; gap: 8px; align-items: center;
+    padding: 9px 18px; border-bottom: 1px solid var(--hairline); font-size: 12px;
+  }
+  .board-row:last-child { border-bottom: none; }
+  .rank { font-family: 'IBM Plex Mono', monospace; color: var(--text-dim); font-size: 11px; }
+  .name-cell { display: flex; flex-direction: column; }
+  .player-name { font-weight: 500; font-size: 13px; }
+  .player-sub { font-size: 10px; color: var(--text-dim); }
+  .headline-stat { font-family: 'IBM Plex Mono', monospace; font-size: 15px; font-weight: 600; color: var(--turf); text-align: right; }
+
+  .loading, .error, .empty { text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 13px; }
+  .error { color: var(--ball-red); }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Awards &amp; Fielding</h1>
+  <p class="subtitle">Player of the Match leaders, plus fielding and wicketkeeper leaderboards</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html" class="active">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div class="toolbar">
+    <select id="seasonFilter"><option value="">All-time</option></select>
+  </div>
+
+  <p class="note">
+    "Best Fielder" and "Best Wicketkeeper" season trophies are official PSL awards, not in the underlying match data —
+    these boards are the real statistical record (catches, stumpings, run-outs) behind those awards, not the trophies themselves.
+  </p>
+
+  <div class="boards" id="boards">
+    <div class="loading">Loading…</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+  const seasonFilter = document.getElementById("seasonFilter");
+  const boards = document.getElementById("boards");
+
+  async function loadSeasons() {
+    try {
+      const seasons = await fetch(`${API_BASE}/seasons`).then(r => r.json());
+      seasons.forEach(s => {
+        const opt = document.createElement("option");
+        opt.value = s.season_id;
+        opt.textContent = s.season_year;
+        seasonFilter.appendChild(opt);
+      });
+    } catch (e) { console.error(e); }
+  }
+
+  function pomRow(p, i) {
+    return `
+      <div class="board-row">
+        <span class="rank">${i + 1}</span>
+        <span class="name-cell"><span class="player-name">${p.display_name || p.full_name}</span></span>
+        <span class="headline-stat">${p.awards}</span>
+      </div>
+    `;
+  }
+
+  function fieldingRow(p, i) {
+    return `
+      <div class="board-row">
+        <span class="rank">${i + 1}</span>
+        <span class="name-cell">
+          <span class="player-name">${p.display_name || p.full_name}</span>
+          <span class="player-sub">${p.catches}c · ${p.stumpings}st · ${p.run_outs}ro</span>
+        </span>
+        <span class="headline-stat">${p.total_dismissals}</span>
+      </div>
+    `;
+  }
+
+  function keeperRow(p, i) {
+    return `
+      <div class="board-row">
+        <span class="rank">${i + 1}</span>
+        <span class="name-cell">
+          <span class="player-name">${p.display_name || p.full_name}</span>
+          <span class="player-sub">as designated keeper</span>
+        </span>
+        <span class="headline-stat">${p.keeper_dismissals}</span>
+      </div>
+    `;
+  }
+
+  async function loadAll() {
+    boards.innerHTML = `<div class="loading">Loading…</div>`;
+    const params = new URLSearchParams();
+    if (seasonFilter.value) params.set("season_id", seasonFilter.value);
+
+    try {
+      const [pom, fielding] = await Promise.all([
+        fetch(`${API_BASE}/player-of-match-leaders?${params}`).then(r => r.json()),
+        fetch(`${API_BASE}/fielding-leaderboard?${params}`).then(r => r.json()),
+      ]);
+
+      boards.innerHTML = `
+        <div class="board-card">
+          <div class="board-title">Player of the Match</div>
+          ${pom.length ? pom.map(pomRow).join("") : `<div class="empty">No data for this filter.</div>`}
+        </div>
+        <div class="board-card">
+          <div class="board-title">Fielding — catches, stumpings, run-outs</div>
+          ${fielding.fielding.length ? fielding.fielding.map(fieldingRow).join("") : `<div class="empty">No data for this filter.</div>`}
+        </div>
+        <div class="board-card">
+          <div class="board-title">Wicketkeeper dismissals</div>
+          ${fielding.wicketkeeping.length ? fielding.wicketkeeping.map(keeperRow).join("") : `<div class="empty">No data for this filter.</div>`}
+        </div>
+      `;
+    } catch (e) {
+      boards.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  seasonFilter.addEventListener("change", loadAll);
+  loadSeasons().then(loadAll);
+</script>
+
+</body>
+</html>

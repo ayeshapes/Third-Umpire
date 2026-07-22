@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThirdUmpire — Match Detail</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1120; --surface: #131B2E; --surface-hover: #1B2540;
+    --hairline: #26314D; --text: #E7EAF3; --text-dim: #8A93AC;
+    --floodlight: #F5D46A; --turf: #4F8F63; --ball-red: #C1443C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .glow-bar { height: 3px; width: 100%; background: linear-gradient(90deg, transparent, var(--floodlight), transparent); opacity: 0.7; }
+  header { padding: 32px 24px 8px; max-width: 1000px; margin: 0 auto; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-dim); font-size: 14px; margin: 0 0 8px; }
+  header nav a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin-right: 16px; border-bottom: 1px solid transparent; }
+  header nav a.active { color: var(--floodlight); border-bottom-color: var(--floodlight); }
+  header nav a:hover { color: var(--text); }
+  main { max-width: 1000px; margin: 0 auto; padding: 20px 24px 60px; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 16px; }
+  select {
+    background: var(--surface); border: 1px solid var(--hairline); color: var(--text);
+    font-family: 'Inter', sans-serif; font-size: 13px; padding: 8px 12px; border-radius: 6px; cursor: pointer;
+  }
+
+  .picker-list { border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; margin-bottom: 24px; max-height: 320px; overflow-y: auto; }
+  .picker-row {
+    display: grid; grid-template-columns: 90px 1fr auto; gap: 12px; align-items: center;
+    padding: 12px 16px; background: var(--surface); border-bottom: 1px solid var(--hairline); cursor: pointer; font-size: 13px;
+  }
+  .picker-row:last-child { border-bottom: none; }
+  .picker-row:hover { background: var(--surface-hover); }
+  .picker-row.selected { border-left: 3px solid var(--floodlight); }
+  .picker-date { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-dim); }
+  .picker-outcome { font-size: 11px; color: var(--turf); text-align: right; }
+
+  .placeholder, .error, .loading { text-align: center; padding: 60px 20px; color: var(--text-dim); font-size: 14px; }
+  .error { color: var(--ball-red); }
+
+  .match-header {
+    border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface);
+    padding: 20px 24px; margin-bottom: 20px; text-align: center;
+  }
+  .match-title { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; }
+  .match-sub { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+  .match-result { font-size: 13px; color: var(--floodlight); margin-top: 10px; font-weight: 600; }
+  .match-pom { font-size: 11px; color: var(--text-dim); margin-top: 4px; }
+
+  .worm-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); padding: 20px 24px; margin-bottom: 20px; }
+  .worm-title { font-family: 'Space Grotesk', sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--floodlight); margin-bottom: 12px; }
+  .worm-legend { display: flex; gap: 20px; font-size: 11px; color: var(--text-dim); margin-top: 8px; }
+  .worm-legend span::before { content: ""; display: inline-block; width: 10px; height: 3px; margin-right: 6px; vertical-align: middle; }
+  .worm-legend .l1::before { background: var(--floodlight); }
+  .worm-legend .l2::before { background: var(--turf); }
+
+  .innings-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); overflow: hidden; margin-bottom: 20px; }
+  .innings-header { padding: 16px 24px; border-bottom: 1px solid var(--hairline); }
+  .innings-title { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 700; }
+  .innings-score { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--text-dim); margin-top: 2px; }
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim);
+    text-align: left; padding: 8px 24px; border-bottom: 1px solid var(--hairline);
+  }
+  tbody td { padding: 8px 24px; font-size: 13px; border-bottom: 1px solid var(--hairline); }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: 'IBM Plex Mono', monospace; }
+  td.dismissal { color: var(--text-dim); font-size: 11px; }
+  .section-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--floodlight); padding: 12px 24px 4px; }
+
+  .fow-row, .partnership-row {
+    display: flex; justify-content: space-between; padding: 8px 24px; font-size: 12px;
+    border-bottom: 1px solid var(--hairline); color: var(--text-dim);
+  }
+  .fow-row:last-child, .partnership-row:last-child { border-bottom: none; }
+  .fow-score { font-family: 'IBM Plex Mono', monospace; color: var(--text); }
+
+  @media (max-width: 640px) {
+    thead { display: none; }
+    tbody tr, tbody td { display: block; }
+    tbody td { display: flex; justify-content: space-between; }
+    tbody td::before { content: attr(data-label); color: var(--text-dim); font-size: 10px; text-transform: uppercase; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-bar"></div>
+
+<header>
+  <h1>Match Detail</h1>
+  <p class="subtitle">Ball-by-ball breakdown: run progression, scorecards, partnerships</p>
+    <nav>
+    <a href="index.html">Match Ledger</a>
+    <a href="player.html">Player Stats</a>
+    <a href="compare.html">Compare</a>
+    <a href="matchup.html">Player Matchup</a>
+    <a href="batter-vs-type.html">Batter vs Bowling-Type</a>
+    <a href="phases.html">Phase Breakdown</a>
+    <a href="venue.html">Venues</a>
+    <a href="venue-compare.html">Venue Compare</a>
+    <a href="teams-h2h.html">Team H2H</a>
+    <a href="match.html" class="active">Match Detail</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <a href="awards.html">Awards & Fielding</a>
+    <a href="season-awards.html">Season Awards</a>
+    <a href="season-compare.html">Season Compare</a>
+    <a href="toss.html">Toss Impact</a>
+    <a href="day-night.html">Day vs Night</a>
+    <a href="league-evolution.html">League Evolution</a>
+    <a href="quality.html">Data Quality</a>
+  </nav>
+</header>
+
+<main>
+  <div class="toolbar">
+    <select id="seasonFilter"><option value="">All seasons</option></select>
+    <select id="teamFilter"><option value="">All teams</option></select>
+  </div>
+
+  <div class="picker-list" id="pickerList">
+    <div class="loading">Loading matches…</div>
+  </div>
+
+  <div id="detail">
+    <div class="placeholder">Pick a match above to see the full breakdown.</div>
+  </div>
+</main>
+
+<script>
+  const API_BASE = "http://127.0.0.1:8000/api";
+  let selectedMatchId = null;
+
+  const seasonFilter = document.getElementById("seasonFilter");
+  const teamFilter = document.getElementById("teamFilter");
+  const pickerList = document.getElementById("pickerList");
+  const detail = document.getElementById("detail");
+
+  async function loadFilters() {
+    const [seasons, teams] = await Promise.all([
+      fetch(`${API_BASE}/seasons`).then(r => r.json()),
+      fetch(`${API_BASE}/teams`).then(r => r.json()),
+    ]);
+    seasons.forEach(s => {
+      const opt = document.createElement("option");
+      opt.value = s.season_id; opt.textContent = s.season_year;
+      seasonFilter.appendChild(opt);
+    });
+    teams.forEach(t => {
+      const opt = document.createElement("option");
+      opt.value = t.team_id; opt.textContent = t.team_name;
+      teamFilter.appendChild(opt);
+    });
+  }
+
+  async function loadPicker() {
+    pickerList.innerHTML = `<div class="loading">Loading matches…</div>`;
+    const params = new URLSearchParams();
+    if (seasonFilter.value) params.set("season_id", seasonFilter.value);
+    if (teamFilter.value) params.set("team_id", teamFilter.value);
+    params.set("limit", "100");
+
+    try {
+      const res = await fetch(`${API_BASE}/matches?${params}`);
+      const data = await res.json();
+      if (!data.matches.length) {
+        pickerList.innerHTML = `<div class="placeholder">No matches match these filters.</div>`;
+        return;
+      }
+      pickerList.innerHTML = "";
+      data.matches.forEach(m => {
+        const row = document.createElement("div");
+        row.className = "picker-row" + (m.match_id === selectedMatchId ? " selected" : "");
+        const outcome = m.is_tie ? "Tied" : m.winner_name ? `${m.winner_name} won` : "No result";
+        row.innerHTML = `
+          <span class="picker-date">${m.match_date}</span>
+          <span>${m.team1_name} vs ${m.team2_name}</span>
+          <span class="picker-outcome">${outcome}</span>
+        `;
+        row.addEventListener("click", () => loadMatchDetail(m.match_id));
+        pickerList.appendChild(row);
+      });
+    } catch (e) {
+      pickerList.innerHTML = `<div class="error">Couldn't reach the API.</div>`;
+    }
+  }
+
+  function drawWorm(inningsList) {
+    const width = 900, height = 240, padding = 40;
+    const maxOver = 20;
+    const maxRuns = Math.max(...inningsList.flatMap(i => i.worm.map(w => w.cumulative_runs)), 50);
+
+    const xScale = (over) => padding + (over / maxOver) * (width - padding * 2);
+    const yScale = (runs) => height - padding - (runs / maxRuns) * (height - padding * 2);
+
+    const colors = ["var(--floodlight)", "var(--turf)"];
+
+    let svg = `<svg viewBox="0 0 ${width} ${height}" style="width:100%;height:auto;">`;
+
+    // gridlines every 5 overs
+    for (let o = 0; o <= maxOver; o += 5) {
+      svg += `<line x1="${xScale(o)}" y1="${padding}" x2="${xScale(o)}" y2="${height - padding}" stroke="var(--hairline)" stroke-width="1" />`;
+      svg += `<text x="${xScale(o)}" y="${height - padding + 16}" fill="var(--text-dim)" font-size="10" text-anchor="middle" font-family="IBM Plex Mono, monospace">${o}</text>`;
+    }
+
+    inningsList.forEach((inn, idx) => {
+      if (!inn.worm.length) return;
+      const points = [`${xScale(0)},${yScale(0)}`, ...inn.worm.map(w => `${xScale(w.over_number + 1)},${yScale(w.cumulative_runs)}`)];
+      svg += `<polyline points="${points.join(" ")}" fill="none" stroke="${colors[idx % 2]}" stroke-width="2.5" />`;
+      // wicket markers
+      let prevWickets = 0;
+      inn.worm.forEach(w => {
+        if (w.cumulative_wickets > prevWickets) {
+          svg += `<circle cx="${xScale(w.over_number + 1)}" cy="${yScale(w.cumulative_runs)}" r="3.5" fill="${colors[idx % 2]}" stroke="var(--bg)" stroke-width="1" />`;
+        }
+        prevWickets = w.cumulative_wickets;
+      });
+    });
+
+    svg += `</svg>`;
+    return svg;
+  }
+
+  function dismissalText(row) {
+    if (!row.dismissal_type) return "not out";
+    const type = row.dismissal_type.replace(/_/g, " ");
+    if (row.dismissal_type === "caught" && row.caught_by_fielder_name) {
+      return `c ${row.caught_by_fielder_name} b ${row.dismissed_by_bowler_name || "?"}`;
+    }
+    if (row.dismissed_by_bowler_name) {
+      return `${type} b ${row.dismissed_by_bowler_name}`;
+    }
+    return type;
+  }
+
+  function renderInnings(inn, teamName) {
+    return `
+      <div class="innings-card">
+        <div class="innings-header">
+          <div class="innings-title">${teamName}</div>
+          <div class="innings-score">${inn.total_runs}/${inn.total_wickets} (${inn.total_overs} ov)</div>
+        </div>
+
+        <div class="section-label">Batting</div>
+        <table>
+          <thead><tr><th>Batter</th><th>Dismissal</th><th class="num">R</th><th class="num">B</th><th class="num">4s</th><th class="num">6s</th><th class="num">SR</th></tr></thead>
+          <tbody>
+            ${inn.batting.map(b => `
+              <tr>
+                <td data-label="Batter">${b.display_name || b.full_name}</td>
+                <td class="dismissal" data-label="Dismissal">${dismissalText(b)}</td>
+                <td class="num" data-label="R">${b.runs ?? "—"}</td>
+                <td class="num" data-label="B">${b.balls_faced ?? "—"}</td>
+                <td class="num" data-label="4s">${b.fours ?? 0}</td>
+                <td class="num" data-label="6s">${b.sixes ?? 0}</td>
+                <td class="num" data-label="SR">${b.strike_rate ?? "—"}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+
+        <div class="section-label">Bowling</div>
+        <table>
+          <thead><tr><th>Bowler</th><th class="num">O</th><th class="num">M</th><th class="num">R</th><th class="num">W</th><th class="num">Econ</th></tr></thead>
+          <tbody>
+            ${inn.bowling.map(b => `
+              <tr>
+                <td data-label="Bowler">${b.display_name || b.full_name}</td>
+                <td class="num" data-label="O">${b.overs_bowled}</td>
+                <td class="num" data-label="M">${b.maidens}</td>
+                <td class="num" data-label="R">${b.runs_conceded}</td>
+                <td class="num" data-label="W">${b.wickets}</td>
+                <td class="num" data-label="Econ">${b.economy}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+
+        <div class="section-label">Fall of wickets</div>
+        ${inn.fall_of_wickets.map((f, i) => `
+          <div class="fow-row">
+            <span>${i + 1}. ${f.dismissed_player_name || "?"}</span>
+            <span class="fow-score">${f.running_score}-${i + 1} (${f.over_number}.${f.ball_number})</span>
+          </div>
+        `).join("") || `<div class="fow-row"><span>No wickets fell.</span></div>`}
+
+        <div class="section-label">Partnerships</div>
+        ${inn.partnerships.map(p => `
+          <div class="partnership-row">
+            <span>${p.batter1_name} (${p.batter1_runs}) &amp; ${p.batter2_name} (${p.batter2_runs})</span>
+            <span class="fow-score">${p.runs} runs (${p.balls_faced} balls)${p.is_unbeaten ? "*" : ""}</span>
+          </div>
+        `).join("") || `<div class="partnership-row"><span>No partnership data.</span></div>`}
+      </div>
+    `;
+  }
+
+  async function loadMatchDetail(matchId) {
+    selectedMatchId = matchId;
+    loadPicker();
+    detail.innerHTML = `<div class="loading">Loading match detail…</div>`;
+    detail.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    try {
+      const res = await fetch(`${API_BASE}/matches/${matchId}/detail`);
+      const data = await res.json();
+      if (data.error) { detail.innerHTML = `<div class="error">${data.error}</div>`; return; }
+
+      const m = data.match;
+      const teamName = (id) => id === m.team1_id ? m.team1_name : m.team2_name;
+
+      let outcomeText = "No result";
+      if (m.is_tie) {
+        outcomeText = m.decided_by_super_over ? "Tied — won in super over" : "Match tied";
+      } else if (m.winner_name) {
+        const margin = m.win_margin_wickets ? `by ${m.win_margin_wickets} wkts` : m.win_margin_runs ? `by ${m.win_margin_runs} runs` : "";
+        outcomeText = `${m.winner_name} won ${margin}`;
+      }
+
+      detail.innerHTML = `
+        <div class="match-header">
+          <div class="match-title">${m.team1_name} vs ${m.team2_name}</div>
+          <div class="match-sub">${m.match_date} · ${m.season_year} · ${m.stage.replace(/_/g, " ")} · ${m.venue_name || "Venue unknown"}</div>
+          <div class="match-result">${outcomeText}</div>
+          ${m.player_of_match_name ? `<div class="match-pom">Player of the match: ${m.player_of_match_name}</div>` : ""}
+        </div>
+
+        <div class="worm-card">
+          <div class="worm-title">Run progression</div>
+          ${drawWorm(data.innings)}
+          <div class="worm-legend">
+            <span class="l1">${teamName(data.innings[0]?.batting_team_id)}</span>
+            ${data.innings[1] ? `<span class="l2">${teamName(data.innings[1].batting_team_id)}</span>` : ""}
+          </div>
+        </div>
+
+        ${data.innings.map(inn => renderInnings(inn, teamName(inn.batting_team_id))).join("")}
+      `;
+    } catch (e) {
+      detail.innerHTML = `<div class="error">Couldn't reach the API — make sure the backend is running on port 8000.</div>`;
+      console.error(e);
+    }
+  }
+
+  seasonFilter.addEventListener("change", loadPicker);
+  teamFilter.addEventListener("change", loadPicker);
+
+  loadFilters().then(loadPicker);
+</script>
+
+</body>
+</html>
