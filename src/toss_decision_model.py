@@ -52,38 +52,46 @@ LEFT JOIN LATERAL (
     SELECT CASE WHEN m.toss_winner_team_id = m.team1_id THEN m.team2_id ELSE m.team1_id END AS opp_team_id
 ) opp ON TRUE
 
--- spinner count for toss winner's starting XI
+-- Spinner count for the toss winner's XI.
+-- NOTE: no `is_starting_xi` filter -- match_squads only ever contains the
+-- 11 players who took the field (or 12 with an Impact Player sub, per the
+-- squad-size data-quality check in main.py), so there's no wider matchday
+-- squad to filter down from. The original query's is_starting_xi column
+-- doesn't exist in the schema and this makes the filter unnecessary anyway.
 LEFT JOIN LATERAL (
     SELECT COUNT(*) AS spinner_count
     FROM raw_cricsheet.match_squads ms
     JOIN raw_cricsheet.players p ON p.player_id = ms.player_id
     WHERE ms.match_id = m.match_id
       AND ms.team_id = m.toss_winner_team_id
-      AND ms.is_starting_xi
       AND p.bowler_type = 'spin'
 ) spin_tw ON TRUE
 
--- spinner count for opponent's starting XI
+-- Spinner count for the opponent's XI. Same note as above.
 LEFT JOIN LATERAL (
     SELECT COUNT(*) AS spinner_count
     FROM raw_cricsheet.match_squads ms
     JOIN raw_cricsheet.players p ON p.player_id = ms.player_id
     WHERE ms.match_id = m.match_id
       AND ms.team_id = opp.opp_team_id
-      AND ms.is_starting_xi
       AND p.bowler_type = 'spin'
 ) spin_opp ON TRUE
 
--- overseas count for toss winner's starting XI (via player_season for that season)
+-- Overseas count for the toss winner's XI.
+-- NOTE: the original query joined raw_cricsheet.player_season for a
+-- season-specific is_overseas flag -- that table doesn't exist anywhere in
+-- the schema (it's not in main.py's own row-count/table list). Using
+-- players.nationality instead, which does exist and is already surfaced on
+-- player.html. This assumes "overseas" == "not Pakistani", which holds for
+-- a PSL-only dataset; if the roster ever includes a non-Pakistan-based
+-- league this heuristic would need to change to a real home-country lookup.
 LEFT JOIN LATERAL (
     SELECT COUNT(*) AS overseas_count
     FROM raw_cricsheet.match_squads ms
-    JOIN raw_cricsheet.player_season ps
-        ON ps.player_id = ms.player_id AND ps.season_id = m.season_id
+    JOIN raw_cricsheet.players p ON p.player_id = ms.player_id
     WHERE ms.match_id = m.match_id
       AND ms.team_id = m.toss_winner_team_id
-      AND ms.is_starting_xi
-      AND ps.is_overseas = TRUE
+      AND p.nationality IS DISTINCT FROM 'Pakistan'
 ) seas_tw ON TRUE
 
 WHERE m.toss_decision IS NOT NULL
