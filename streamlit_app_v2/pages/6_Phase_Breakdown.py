@@ -1,8 +1,10 @@
 import streamlit as st
 import plotly.graph_objects as go
 from db import run_query
+from styles import inject_css, COLORS, PLOTLY_TEMPLATE_LAYOUT, CHART_COLOR_SEQUENCE, DUO_COLOR_SEQUENCE, HEATMAP_SCALE_WARM, HEATMAP_SCALE_ALERT
 
 st.set_page_config(page_title="Phase Breakdown", page_icon="🔥", layout="wide")
+inject_css()
 st.title("🔥 Phase Breakdown")
 st.caption("Powerplay vs middle-overs vs death — how a player performs in each phase.")
 
@@ -57,10 +59,10 @@ with col1:
         z = [batting["strike_rate"].tolist(), batting["average"].tolist()]
         fig = go.Figure(data=go.Heatmap(
             z=z, x=PHASE_ORDER, y=["Strike Rate", "Average"],
-            colorscale=[[0, "#131B2E"], [1, "#F5D46A"]],
+            colorscale=HEATMAP_SCALE_WARM,
             text=z, texttemplate="%{text}", textfont=dict(size=14),
         ))
-        fig.update_layout(template="plotly_dark", height=280, margin=dict(l=10, r=10, t=10, b=10))
+        fig.update_layout(**PLOTLY_TEMPLATE_LAYOUT, height=280)
         st.plotly_chart(fig, use_container_width=True)
         st.dataframe(batting[["balls_faced", "runs", "dismissals", "strike_rate", "average"]], use_container_width=True)
 
@@ -76,9 +78,9 @@ with col2:
         z = [bowling["economy"].tolist(), bowling["average"].tolist()]
         fig2 = go.Figure(data=go.Heatmap(
             z=z, x=PHASE_ORDER, y=["Economy", "Average"],
-            colorscale=[[0, "#131B2E"], [1, "#C1443C"]],
+            colorscale=HEATMAP_SCALE_ALERT,
             text=z, texttemplate="%{text}", textfont=dict(size=14),
         ))
-        fig2.update_layout(template="plotly_dark", height=280, margin=dict(l=10, r=10, t=10, b=10))
+        fig2.update_layout(**PLOTLY_TEMPLATE_LAYOUT, height=280)
         st.plotly_chart(fig2, use_container_width=True)
         st.dataframe(bowling[["legal_balls", "runs_conceded", "wickets", "economy", "average"]], use_container_width=True)

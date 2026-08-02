@@ -1,8 +1,10 @@
 import streamlit as st
 import plotly.express as px
 from db import run_query
+from styles import inject_css, COLORS, PLOTLY_TEMPLATE_LAYOUT, CHART_COLOR_SEQUENCE, DUO_COLOR_SEQUENCE, HEATMAP_SCALE_WARM, HEATMAP_SCALE_ALERT
 
 st.set_page_config(page_title="Venue Explorer", page_icon="🏟️", layout="wide")
+inject_css()
 st.title("🏟️ Venue Explorer")
 st.caption("Batting/bowling tendencies per ground, computed live from real match data — not manual ratings.")
 
@@ -15,23 +17,23 @@ if df.empty:
 col1, col2 = st.columns(2)
 with col1:
     fig1 = px.bar(df, x="venue_name", y="avg_first_innings_score", color="avg_first_innings_score",
-                  color_continuous_scale=["#26314D", "#F5D46A"],
+                  color_continuous_scale=HEATMAP_SCALE_WARM,
                   title="Average First-Innings Score by Venue")
-    fig1.update_layout(template="plotly_dark", height=380, showlegend=False)
+    fig1.update_layout(**PLOTLY_TEMPLATE_LAYOUT, height=380, showlegend=False)
     st.plotly_chart(fig1, use_container_width=True)
 
 with col2:
     fig2 = px.bar(df, x="venue_name", y="chase_success_pct", color="chase_success_pct",
-                  color_continuous_scale=["#C1443C", "#4F8F63"],
+                  color_continuous_scale=HEATMAP_SCALE_ALERT,
                   title="Chase Success % by Venue")
-    fig2.update_layout(template="plotly_dark", height=380, showlegend=False)
+    fig2.update_layout(**PLOTLY_TEMPLATE_LAYOUT, height=380, showlegend=False)
     st.plotly_chart(fig2, use_container_width=True)
 
 st.subheader("Pace vs Spin Wicket Split")
 fig3 = px.bar(df, x="venue_name", y="spin_wicket_pct",
               title="% of Wickets Taken by Spin Bowlers, per Venue",
-              color_discrete_sequence=["#4F8F63"])
-fig3.update_layout(template="plotly_dark", height=350)
+              color_discrete_sequence=[COLORS["turf"]])
+fig3.update_layout(**PLOTLY_TEMPLATE_LAYOUT, height=350)
 st.plotly_chart(fig3, use_container_width=True)
 
 st.divider()

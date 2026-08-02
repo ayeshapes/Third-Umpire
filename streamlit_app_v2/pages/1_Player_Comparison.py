@@ -1,8 +1,10 @@
 import streamlit as st
 import plotly.graph_objects as go
 from db import run_query
+from styles import inject_css, COLORS, PLOTLY_TEMPLATE_LAYOUT, CHART_COLOR_SEQUENCE, DUO_COLOR_SEQUENCE, HEATMAP_SCALE_WARM, HEATMAP_SCALE_ALERT
 
 st.set_page_config(page_title="Player Comparison", page_icon="⚔️", layout="wide")
+inject_css()
 st.title("⚔️ Player Comparison")
 st.caption("Two players, head-to-head career numbers.")
 
@@ -66,14 +68,13 @@ if player_a_name and player_b_name:
     fig = go.Figure()
     fig.add_trace(go.Bar(
         y=bat_labels, x=[bat_a[m] or 0 for m in bat_metrics],
-        name=player_a_name, orientation="h", marker_color="#F5D46A",
+        name=player_a_name, orientation="h", marker_color=COLORS["ball_red"],
     ))
     fig.add_trace(go.Bar(
         y=bat_labels, x=[bat_b[m] or 0 for m in bat_metrics],
-        name=player_b_name, orientation="h", marker_color="#4F8F63",
+        name=player_b_name, orientation="h", marker_color=COLORS["turf"],
     ))
-    fig.update_layout(barmode="group", height=380, template="plotly_dark",
-                       margin=dict(l=10, r=10, t=10, b=10))
+    fig.update_layout(barmode="group", height=380, **PLOTLY_TEMPLATE_LAYOUT)
     st.plotly_chart(fig, use_container_width=True)
 
     if bat_a["innings"] == 0 and bat_b["innings"] == 0:

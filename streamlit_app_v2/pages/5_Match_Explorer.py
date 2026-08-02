@@ -1,8 +1,10 @@
 import streamlit as st
 import plotly.graph_objects as go
 from db import run_query
+from styles import inject_css, COLORS, PLOTLY_TEMPLATE_LAYOUT, CHART_COLOR_SEQUENCE, DUO_COLOR_SEQUENCE, HEATMAP_SCALE_WARM, HEATMAP_SCALE_ALERT
 
 st.set_page_config(page_title="Match Explorer", page_icon="🎯", layout="wide")
+inject_css()
 st.title("🎯 Match Explorer")
 st.caption("Ball-by-ball run progression for any match — the standout feature this project's data depth actually supports.")
 
@@ -38,7 +40,7 @@ if worm.empty:
     st.warning("No ball-by-ball data for this match.")
 else:
     fig = go.Figure()
-    colors = ["#F5D46A", "#4F8F63"]
+    colors = DUO_COLOR_SEQUENCE
     for idx, (inn_num, group) in enumerate(worm.groupby("innings_number")):
         team_name = group["batting_team"].iloc[0]
         fig.add_trace(go.Scatter(
@@ -52,14 +54,13 @@ else:
             fig.add_trace(go.Scatter(
                 x=wicket_overs["over_number"] + 1, y=wicket_overs["cumulative_runs"],
                 mode="markers", name=f"Wickets ({team_name})",
-                marker=dict(symbol="x", size=10, color="#C1443C"),
+                marker=dict(symbol="x", size=10, color=COLORS["clay"]),
                 showlegend=False,
             ))
 
     fig.update_layout(
-        title="Run Progression (Worm Chart)", template="plotly_dark", height=450,
+        title="Run Progression (Worm Chart)", **PLOTLY_TEMPLATE_LAYOUT, height=450,
         xaxis_title="Over", yaxis_title="Cumulative Runs",
-        margin=dict(l=10, r=10, t=40, b=10),
     )
     st.plotly_chart(fig, use_container_width=True)
 

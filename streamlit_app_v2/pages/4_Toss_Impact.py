@@ -1,8 +1,10 @@
 import streamlit as st
 import plotly.graph_objects as go
 from db import run_query
+from styles import inject_css, COLORS, PLOTLY_TEMPLATE_LAYOUT, CHART_COLOR_SEQUENCE, DUO_COLOR_SEQUENCE, HEATMAP_SCALE_WARM, HEATMAP_SCALE_ALERT
 
 st.set_page_config(page_title="Toss Impact", page_icon="🪙", layout="wide")
+inject_css()
 st.title("🪙 Toss Impact")
 st.caption("Does winning the toss actually correlate with winning the match?")
 
@@ -49,10 +51,10 @@ if not by_decision.empty:
         pct = round(row["toss_winner_won"] / row["total"] * 100, 1) if row["total"] else 0
         fig.add_trace(go.Bar(
             x=[row["toss_decision"]], y=[pct],
-            name=row["toss_decision"], marker_color="#4F8F63" if row["toss_decision"] == "bat" else "#F5D46A",
+            name=row["toss_decision"], marker_color=COLORS["turf"] if row["toss_decision"] == "bat" else COLORS["ball_red"],
             text=[f"{pct}%<br>({row['toss_winner_won']}/{row['total']})"], textposition="outside",
         ))
-    fig.update_layout(title="Win % by Toss Decision", template="plotly_dark", height=400,
+    fig.update_layout(title="Win % by Toss Decision", **PLOTLY_TEMPLATE_LAYOUT, height=400,
                        showlegend=False, yaxis_range=[0, 100])
     st.plotly_chart(fig, use_container_width=True)
 else:
