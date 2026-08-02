@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@import "@fontsource/oswald/400.css";
+@import "@fontsource/oswald/500.css";
+@import "@fontsource/oswald/600.css";
+@import "@fontsource/oswald/700.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/700.css";
+
+:root {
+  /* --- Third Umpire design tokens: "night match under lights" --- */
+  --color-void: #0a0a0b;         /* base background */
+  --color-surface: #131316;      /* card surface */
+  --color-surface-2: #1c1c20;    /* elevated surface / hover */
+  --color-line: rgba(250, 248, 245, 0.09);
+  --color-line-strong: rgba(250, 248, 245, 0.16);
+
+  --color-crimson: #a8112c;      /* primary -- wicket red */
+  --color-crimson-bright: #e01b3e;
+  --color-crimson-dim: #5e0e1c;
+
+  --color-ivory: #f7f5f1;        /* accent white */
+  --color-fg-muted: #a6a4a1;     /* secondary text on dark */
+  --color-fg-faint: #706e6c;
+
+  --color-amber: #e8a33d;        /* scoreboard LED signature accent */
+
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@theme inline {
+  --color-void: var(--color-void);
+  --color-surface: var(--color-surface);
+  --color-surface-2: var(--color-surface-2);
+  --color-line: var(--color-line);
+  --color-line-strong: var(--color-line-strong);
+  --color-crimson: var(--color-crimson);
+  --color-crimson-bright: var(--color-crimson-bright);
+  --color-crimson-dim: var(--color-crimson-dim);
+  --color-ivory: var(--color-ivory);
+  --color-fg-muted: var(--color-fg-muted);
+  --color-fg-faint: var(--color-fg-faint);
+  --color-amber: var(--color-amber);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-ivory);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scoreboard digit style -- the signature element used for KPI numbers,
+   stat leaders, and any "big number" moment across the app. */
+.scoreboard-digits {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* Subtle floodlight glow used behind hero / section headers */
+.floodlight {
+  background:
+    radial-gradient(600px circle at 15% -10%, rgba(168, 17, 44, 0.25), transparent 60%),
+    radial-gradient(500px circle at 85% -20%, rgba(232, 163, 61, 0.12), transparent 55%);
+}
+
+::selection {
+  background: var(--color-crimson);
+  color: var(--color-ivory);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-void);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-2);
+  border-radius: 999px;
+  border: 2px solid var(--color-void);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-fg-faint);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-crimson-bright);
+  outline-offset: 2px;
+}
+
+/* cmdk command palette theming */
+[cmdk-group-heading] {
+  padding: 0.4rem 0.5rem 0.25rem;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-fg-faint);
+}
