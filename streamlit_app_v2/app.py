@@ -35,8 +35,11 @@ if not selected_season_ids:
     st.warning("Select at least one season in the sidebar to see data.")
     st.stop()
 
-season_filter_sql = "m.season_id = ANY(%(season_ids)s)"
-team_filter_sql = " AND (m.team1_id = %(team_id)s OR m.team2_id = %(team_id)s)" if selected_team_id else ""
+season_filter_sql = "m.season_id = ANY(:season_ids)"
+# SQLAlchemy's text() (what db.py uses) needs :name placeholders, not
+# psycopg2-style %()s -- confirmed against real Postgres, %()s throws
+# exactly the DatabaseError seen on Streamlit Cloud.
+team_filter_sql = " AND (m.team1_id = :team_id OR m.team2_id = :team_id)" if selected_team_id else ""
 params = {"season_ids": selected_season_ids, "team_id": selected_team_id}
 
 # ---------------------------------------------------------------
