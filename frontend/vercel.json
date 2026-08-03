@@ -4,6 +4,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "env": {
-    "NEXT_PUBLIC_API_URL": "@third_umpire_api_url"
+    "NEXT_PUBLIC_API_URL": "https://third-umpire-production.up.railway.app/"
   }
 }
