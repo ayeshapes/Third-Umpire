@@ -85,6 +85,53 @@ export interface PlayerSearchResult {
   display_name: string | null;
   nationality: string | null;
   primary_role: string | null;
+  match_score?: number;
+}
+
+export interface PlayerFilterOptions {
+  nationalities: string[];
+  roles: string[];
+}
+
+export interface PlayerCompareEntry {
+  player: {
+    player_id: number;
+    full_name: string;
+    display_name: string | null;
+    nationality: string | null;
+    primary_role: string | null;
+    batting_hand: string | null;
+    bowling_arm: string | null;
+    bowler_type: string | null;
+  };
+  batting: {
+    innings: number;
+    runs: number;
+    average: number | null;
+    strike_rate: number | null;
+    boundary_pct: number | null;
+    six_pct: number | null;
+    balls_per_boundary: number | null;
+    dot_ball_pct: number | null;
+    fours: number;
+    sixes: number;
+  };
+  bowling: {
+    innings: number;
+    wickets: number;
+    economy: number | null;
+    average: number | null;
+    strike_rate: number | null;
+    maidens: number;
+  };
+  catches: number;
+  timeline: { season_year: number; runs: number; wickets: number }[];
+}
+
+export interface PlayerCompare {
+  error?: string;
+  player1: PlayerCompareEntry;
+  player2: PlayerCompareEntry;
 }
 
 export interface PlayerDetail {
@@ -175,7 +222,61 @@ export interface VenueDetail {
 }
 
 export interface HeadToHead {
-  [key: string]: unknown;
+  record: {
+    total_matches: number;
+    team1_wins: number;
+    team2_wins: number;
+    ties: number;
+    no_results: number;
+  };
+  venue_wins: {
+    venue_id: number | null;
+    venue_name: string | null;
+    team1_wins: number;
+    team2_wins: number;
+    matches: number;
+  }[];
+  batting: {
+    team1: TeamMatchupBatting | null;
+    team2: TeamMatchupBatting | null;
+  };
+  bowling: {
+    team1: TeamMatchupBowling | null;
+    team2: TeamMatchupBowling | null;
+  };
+  recent_meetings: {
+    match_id: number;
+    season_year: number;
+    match_date: string;
+    stage: string;
+    team1_name: string;
+    team2_name: string;
+    winner_name: string | null;
+    win_margin_runs: number | null;
+    win_margin_wickets: number | null;
+    is_tie: boolean;
+    venue_name: string | null;
+    team1_runs: number | null;
+    team1_wickets: number | null;
+    team2_runs: number | null;
+    team2_wickets: number | null;
+  }[];
+}
+
+export interface TeamMatchupBatting {
+  innings: number;
+  average_score: number | null;
+  highest_score: number | null;
+  lowest_defended_score: number | null;
+  chase_success_pct: number | null;
+  fours: number;
+  sixes: number;
+  boundary_pct: number | null;
+}
+
+export interface TeamMatchupBowling {
+  wickets: number;
+  economy: number | null;
 }
 
 export interface OrangeCapEntry {

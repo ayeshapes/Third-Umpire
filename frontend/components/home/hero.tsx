@@ -14,13 +14,13 @@ export function Hero({ ticker }: { ticker: TickerItem[] }) {
   return (
     <section className="floodlight relative overflow-hidden border-b border-line">
       {/* stadium-inspired ambient graphic: concentric floodlight rings */}
-      <div className="pointer-events-none absolute inset-0 opacity-40">
+      <div className="pointer-events-none absolute inset-0 opacity-70">
         <svg className="absolute -right-40 -top-40 h-[560px] w-[560px]" viewBox="0 0 400 400" fill="none">
           {[60, 110, 160, 210].map((r) => (
-            <circle key={r} cx="200" cy="200" r={r} stroke="rgba(232,163,61,0.12)" strokeWidth="1" fill="none" />
+            <circle key={r} cx="200" cy="200" r={r} stroke="rgba(169,117,44,0.14)" strokeWidth="1" fill="none" />
           ))}
         </svg>
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(250,248,245,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(250,248,245,0.035)_1px,transparent_1px)] bg-[size:44px_44px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(41,30,20,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(41,30,20,0.035)_1px,transparent_1px)] bg-[size:44px_44px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 pb-20 pt-20 md:pb-28 md:pt-28">
@@ -35,11 +35,11 @@ export function Hero({ ticker }: { ticker: TickerItem[] }) {
             Pakistan Super League Analytics Platform
           </span>
 
-          <h1 className="font-display text-[15vw] font-semibold uppercase leading-[0.9] tracking-tight text-ivory sm:text-7xl md:text-8xl">
-            Third <span className="text-crimson-bright">Umpire</span>
+          <h1 className="font-display text-6xl font-semibold uppercase leading-[0.92] tracking-tight text-ivory sm:text-7xl md:text-8xl">
+            Third <span className="text-crimson">Umpire</span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-xl text-balance text-base text-fg-muted md:text-lg">
+          <p className="mx-auto mt-6 max-w-xl text-balance text-base leading-relaxed text-fg-muted md:text-lg">
             Every run, wicket, and decision from every PSL season — turned into player
             profiles, venue conditions, and head-to-head records you can actually query.
           </p>

@@ -16,8 +16,10 @@ import type {
   MatchesResponse,
   Matchup,
   Overview,
+  PlayerCompare,
   PlayerConsistency,
   PlayerDetail,
+  PlayerFilterOptions,
   PlayerPhases,
   PlayerOfMatchLeader,
   PlayerSearchResult,
@@ -80,10 +82,16 @@ export const api = {
   matchup: (team1Id: number, team2Id: number, venueId?: number) =>
     request<Matchup>("/api/matchup", { team1_id: team1Id, team2_id: team2Id, venue_id: venueId }),
 
-  playersSearch: (q: string) => request<PlayerSearchResult[]>("/api/players/search", { q }),
+  playersSearch: (
+    q?: string,
+    filters?: { nationality?: string; team_id?: number; role?: string; limit?: number }
+  ) => request<PlayerSearchResult[]>("/api/players/search", { q, ...filters }),
+  playerFilters: () => request<PlayerFilterOptions>("/api/players/filters"),
   player: (playerId: number) => request<PlayerDetail>(`/api/players/${playerId}`),
   playerPhases: (playerId: number) => request<PlayerPhases>(`/api/players/${playerId}/phases`),
   playerConsistency: (playerId: number) => request<PlayerConsistency>(`/api/players/${playerId}/consistency`),
+  playersCompare: (player1Id: number, player2Id: number) =>
+    request<PlayerCompare>("/api/players/compare", { player1_id: player1Id, player2_id: player2Id }),
 
   venues: () => request<Venue[]>("/api/venues"),
   venue: (venueId: number) => request<VenueDetail>(`/api/venues/${venueId}`),

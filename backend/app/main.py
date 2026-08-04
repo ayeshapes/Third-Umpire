@@ -19,6 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.routers import (
     analytics,
+    filters,
     health,
     leaderboards,
     matches,
@@ -45,6 +46,7 @@ app.add_middleware(
 )
 
 app.include_router(health.router)
+app.include_router(filters.router)
 app.include_router(overview.router)
 app.include_router(seasons.router)
 app.include_router(teams.router)

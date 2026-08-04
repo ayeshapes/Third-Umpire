@@ -10,8 +10,8 @@ export function Badge({
 }: HTMLAttributes<HTMLSpanElement> & { variant?: BadgeVariant }) {
   const variants: Record<BadgeVariant, string> = {
     default: "bg-surface-2 text-fg-muted border border-line",
-    crimson: "bg-crimson/15 text-crimson-bright border border-crimson/30",
-    amber: "bg-amber/15 text-amber border border-amber/30",
+    crimson: "bg-crimson/10 text-crimson border border-crimson/25",
+    amber: "bg-amber/12 text-amber border border-amber/30",
     outline: "border border-line-strong text-ivory bg-transparent",
   };
   return (

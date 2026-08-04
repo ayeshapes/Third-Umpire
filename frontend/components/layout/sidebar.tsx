@@ -15,6 +15,7 @@ import {
   Handshake,
   LineChart,
   Lightbulb,
+  ArrowLeftRight,
   ChevronsLeft,
   ChevronsRight,
 } from "lucide-react";
@@ -22,6 +23,7 @@ import {
 const NAV = [
   { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
   { href: "/players", label: "Players", icon: Users },
+  { href: "/players/compare", label: "Compare Players", icon: ArrowLeftRight },
   { href: "/teams", label: "Teams", icon: Shield },
   { href: "/matches", label: "Matches", icon: Swords },
   { href: "/seasons", label: "Seasons", icon: CalendarRange },
@@ -44,7 +46,7 @@ export function Sidebar() {
       )}
     >
       <Link href="/" className="flex items-center gap-2.5 px-5 py-6">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-crimson font-display text-sm font-bold text-ivory">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-crimson font-display text-sm font-bold text-on-crimson">
           TU
         </span>
         {!collapsed && (
@@ -56,7 +58,14 @@ export function Sidebar() {
 
       <nav className="flex-1 space-y-1 px-3">
         {NAV.map((item) => {
-          const active = pathname === item.href || pathname?.startsWith(item.href + "/");
+          // "/players" would otherwise also match "/players/compare" via the
+          // startsWith check below (both are under the same section) --
+          // exclude that one nested route so only the more specific
+          // "Compare Players" item highlights while on it.
+          const active =
+            pathname === item.href ||
+            (pathname?.startsWith(item.href + "/") &&
+              !(item.href === "/players" && pathname?.startsWith("/players/compare")));
           const Icon = item.icon;
           return (
             <Link

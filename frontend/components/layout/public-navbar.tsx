@@ -6,7 +6,7 @@ export function PublicNavbar() {
     <header className="sticky top-0 z-50 border-b border-line bg-void/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2.5">
-          <span className="flex h-8 w-8 items-center justify-center rounded-md bg-crimson font-display text-sm font-bold text-ivory">
+          <span className="flex h-8 w-8 items-center justify-center rounded-md bg-crimson font-display text-sm font-bold text-on-crimson">
             TU
           </span>
           <span className="font-display text-base font-semibold uppercase tracking-wide">Third Umpire</span>

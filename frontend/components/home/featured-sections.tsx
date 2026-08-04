@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SectionEyebrow } from "@/components/home/stats-preview";
+import { EmptyState } from "@/components/shared/empty-state";
 import { formatDate, formatNumber } from "@/lib/utils";
 import { ArrowUpRight } from "lucide-react";
 import type { Match, PlayerSearchResult, Team } from "@/types/api";
@@ -71,7 +72,7 @@ export function FeaturedTeams({ teams }: { teams: Team[] }) {
 
 export function MatchList({ matches }: { matches: Match[] }) {
   if (matches.length === 0) {
-    return <p className="py-10 text-center text-sm text-fg-faint">No matches to show.</p>;
+    return <EmptyState title="No matches to show" />;
   }
   return (
     <div className="grid gap-3 md:grid-cols-2">

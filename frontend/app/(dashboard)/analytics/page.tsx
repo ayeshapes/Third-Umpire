@@ -60,7 +60,7 @@ export default async function AnalyticsPage() {
                 </p>
                 <ComparisonBarChart
                   data={tossData}
-                  series={[{ key: "Win % after toss", color: "#a8112c", label: "Win % after toss" }]}
+                  series={[{ key: "Win % after toss", color: "#3d6a7d", label: "Win % after toss" }]}
                 />
               </>
             ) : (
@@ -78,8 +78,8 @@ export default async function AnalyticsPage() {
               <ComparisonBarChart
                 data={dayNightData}
                 series={[
-                  { key: "Strike Rate", color: "#e01b3e", label: "Batting Strike Rate" },
-                  { key: "Economy", color: "#e8a33d", label: "Bowling Economy" },
+                  { key: "Strike Rate", color: "#3d6a7d", label: "Batting Strike Rate" },
+                  { key: "Economy", color: "#a9752c", label: "Bowling Economy" },
                 ]}
               />
             ) : (

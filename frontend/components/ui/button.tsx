@@ -4,12 +4,14 @@ import { forwardRef } from "react";
 import type { ButtonHTMLAttributes } from "react";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-all duration-200 disabled:pointer-events-none disabled:opacity-40 font-body",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium transition-all duration-200 disabled:pointer-events-none disabled:opacity-40 font-body",
   {
     variants: {
       variant: {
-        primary: "bg-crimson text-ivory hover:bg-crimson-bright shadow-[0_0_0_1px_rgba(168,17,44,0.4)] hover:shadow-[0_0_24px_rgba(224,27,62,0.35)]",
-        outline: "border border-line-strong text-ivory hover:border-crimson-bright hover:text-crimson-bright bg-transparent",
+        primary:
+          "bg-crimson text-on-crimson shadow-sm hover:bg-crimson-bright hover:shadow-md active:shadow-sm",
+        outline:
+          "border border-line-strong text-ivory bg-surface hover:border-crimson hover:text-crimson",
         ghost: "text-fg-muted hover:text-ivory hover:bg-surface-2",
         subtle: "bg-surface-2 text-ivory hover:bg-surface-2/70 border border-line",
       },

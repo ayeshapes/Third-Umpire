@@ -17,15 +17,15 @@ export function ComparisonBarChart({
   return (
     <ResponsiveContainer width="100%" height={260}>
       <BarChart data={data} margin={{ top: 8, right: 12, left: -16, bottom: 0 }}>
-        <CartesianGrid strokeDasharray="3 3" stroke="rgba(250,248,245,0.07)" vertical={false} />
-        <XAxis dataKey="name" tick={{ fill: "#a6a4a1", fontSize: 12 }} axisLine={{ stroke: "rgba(250,248,245,0.15)" }} tickLine={false} />
-        <YAxis tick={{ fill: "#a6a4a1", fontSize: 12 }} axisLine={false} tickLine={false} />
+        <CartesianGrid strokeDasharray="3 3" stroke="rgba(41,30,20,0.06)" vertical={false} />
+        <XAxis dataKey="name" tick={{ fill: "#6b6156", fontSize: 12 }} axisLine={{ stroke: "rgba(41,30,20,0.16)" }} tickLine={false} />
+        <YAxis tick={{ fill: "#6b6156", fontSize: 12 }} axisLine={false} tickLine={false} />
         <Tooltip
-          cursor={{ fill: "rgba(250,248,245,0.04)" }}
-          contentStyle={{ background: "#131316", border: "1px solid rgba(250,248,245,0.12)", borderRadius: 12, fontSize: 12, color: "#f7f5f1" }}
-          labelStyle={{ color: "#a6a4a1" }}
+          cursor={{ fill: "rgba(41,30,20,0.04)" }}
+          contentStyle={{ background: "#fffdf9", border: "1px solid rgba(41,30,20,0.10)", borderRadius: 12, fontSize: 12, color: "#241d17" }}
+          labelStyle={{ color: "#6b6156" }}
         />
-        <Legend wrapperStyle={{ fontSize: 12, color: "#a6a4a1" }} />
+        <Legend wrapperStyle={{ fontSize: 12, color: "#6b6156" }} />
         {series.map((s) => (
           <Bar key={s.key} dataKey={s.key} name={s.label} fill={s.color} radius={[6, 6, 0, 0]} maxBarSize={44} />
         ))}

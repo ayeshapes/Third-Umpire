@@ -75,7 +75,7 @@ export function Footer() {
     <footer className="py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 text-sm text-fg-faint md:flex-row">
         <div className="flex items-center gap-2.5">
-          <span className="flex h-6 w-6 items-center justify-center rounded bg-crimson font-display text-[10px] font-bold text-ivory">
+          <span className="flex h-6 w-6 items-center justify-center rounded bg-crimson font-display text-[10px] font-bold text-on-crimson">
             TU
           </span>
           <span>Third Umpire — PSL Analytics Platform</span>

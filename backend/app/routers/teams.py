@@ -5,11 +5,10 @@ Preserved query logic, migrated from the original monolithic
 dashboard/backend/main.py into a modular FastAPI router.
 """
 
-from typing import Optional
-
 from fastapi import APIRouter, Query
 
 from app.database.connection import get_conn
+from app.utils.cricket import overs_to_balls_expr as _overs_to_balls_expr
 
 router = APIRouter(tags=["teams"])
 
@@ -30,9 +29,16 @@ def get_teams():
 
 @router.get("/api/teams/head-to-head")
 def teams_head_to_head(
-    team_a_id: int = Query(...),
-    team_b_id: int = Query(...),
+    team1_id: int = Query(...),
+    team2_id: int = Query(...),
 ):
+    """
+    Team Comparison: everything the Team Comparison page needs for a
+    Team A vs Team B matchup -- overall + venue-by-venue record, batting
+    (highest/lowest-defended/average/boundaries) and bowling (wickets/
+    economy) numbers, scoped to matches between just these two teams.
+    """
+    a, b = team1_id, team2_id
     with get_conn() as conn, conn.cursor() as cur:
 
         # Overall record
@@ -40,19 +46,41 @@ def teams_head_to_head(
             """
             SELECT
                 COUNT(*) AS total_matches,
-                COUNT(*) FILTER (WHERE winner_team_id = %(a)s) AS team_a_wins,
-                COUNT(*) FILTER (WHERE winner_team_id = %(b)s) AS team_b_wins,
+                COUNT(*) FILTER (WHERE winner_team_id = %(a)s) AS team1_wins,
+                COUNT(*) FILTER (WHERE winner_team_id = %(b)s) AS team2_wins,
                 COUNT(*) FILTER (WHERE is_tie) AS ties,
                 COUNT(*) FILTER (WHERE winner_team_id IS NULL AND NOT is_tie) AS no_results
             FROM raw_cricsheet.matches
             WHERE (team1_id = %(a)s AND team2_id = %(b)s)
                OR (team1_id = %(b)s AND team2_id = %(a)s)
             """,
-            {"a": team_a_id, "b": team_b_id},
+            {"a": a, "b": b},
         )
         record = cur.fetchone()
 
-        # Batting numbers, scoped to this matchup only
+        # Wins broken down by venue, so the page can show "who owns this
+        # ground" for the matchup rather than just the overall record.
+        cur.execute(
+            """
+            SELECT
+                v.venue_id, v.venue_name,
+                COUNT(*) FILTER (WHERE m.winner_team_id = %(a)s) AS team1_wins,
+                COUNT(*) FILTER (WHERE m.winner_team_id = %(b)s) AS team2_wins,
+                COUNT(*) AS matches
+            FROM raw_cricsheet.matches m
+            LEFT JOIN raw_cricsheet.venues v ON v.venue_id = m.venue_id
+            WHERE (m.team1_id = %(a)s AND m.team2_id = %(b)s)
+               OR (m.team1_id = %(b)s AND m.team2_id = %(a)s)
+            GROUP BY v.venue_id, v.venue_name
+            ORDER BY matches DESC
+            """,
+            {"a": a, "b": b},
+        )
+        venue_wins = cur.fetchall()
+
+        # Batting numbers, scoped to this matchup only: average/highest
+        # score, plus the lowest total that still won while defending
+        # (batted first, i.e. innings_number = 1, and won the match).
         cur.execute(
             """
             SELECT
@@ -60,44 +88,48 @@ def teams_head_to_head(
                 COUNT(*)              AS innings,
                 ROUND(AVG(i.total_runs), 1) AS avg_score,
                 MAX(i.total_runs)     AS highest_score,
-                MIN(i.total_runs)     AS lowest_score
+                MIN(i.total_runs) FILTER (
+                    WHERE i.innings_number = 1 AND m.winner_team_id = i.batting_team_id
+                ) AS lowest_defended_score,
+                COUNT(*) FILTER (WHERE i.innings_number = 2) AS chases_batted,
+                COUNT(*) FILTER (
+                    WHERE i.innings_number = 2 AND m.winner_team_id = i.batting_team_id
+                ) AS chases_won,
+                COALESCE(SUM(bs.fours), 0) AS fours,
+                COALESCE(SUM(bs.sixes), 0) AS sixes,
+                COALESCE(SUM(bs.balls_faced), 0) AS balls_faced
             FROM raw_cricsheet.innings i
             JOIN raw_cricsheet.matches m ON m.match_id = i.match_id
+            LEFT JOIN raw_cricsheet.match_batting_scorecard bs ON bs.innings_id = i.innings_id
             WHERE ((m.team1_id = %(a)s AND m.team2_id = %(b)s)
                 OR (m.team1_id = %(b)s AND m.team2_id = %(a)s))
               AND i.batting_team_id IN (%(a)s, %(b)s)
             GROUP BY i.batting_team_id
             """,
-            {"a": team_a_id, "b": team_b_id},
+            {"a": a, "b": b},
         )
         batting_rows = {r["team_id"]: r for r in cur.fetchall()}
 
-        # Biggest win margins, per team, by runs and by wickets
-        def biggest_margin(team_id, column):
-            cur.execute(
-                f"""
-                SELECT match_date, {column} AS margin, s.season_year, ww.team_name AS beaten_team
-                FROM raw_cricsheet.matches m
-                JOIN raw_cricsheet.seasons s ON s.season_id = m.season_id
-                JOIN raw_cricsheet.teams ww
-                    ON ww.team_id = (CASE WHEN m.team1_id = m.winner_team_id THEN m.team2_id ELSE m.team1_id END)
-                WHERE m.winner_team_id = %(team_id)s
-                  AND {column} IS NOT NULL
-                  AND ((m.team1_id = %(a)s AND m.team2_id = %(b)s)
-                    OR (m.team1_id = %(b)s AND m.team2_id = %(a)s))
-                ORDER BY {column} DESC
-                LIMIT 1
-                """,
-                {"team_id": team_id, "a": team_a_id, "b": team_b_id},
-            )
-            return cur.fetchone()
-
-        margins = {
-            "a_by_runs": biggest_margin(team_a_id, "win_margin_runs"),
-            "a_by_wkts": biggest_margin(team_a_id, "win_margin_wickets"),
-            "b_by_runs": biggest_margin(team_b_id, "win_margin_runs"),
-            "b_by_wkts": biggest_margin(team_b_id, "win_margin_wickets"),
-        }
+        # Bowling numbers, scoped to this matchup: wickets + economy per
+        # team while they were the bowling side.
+        cur.execute(
+            f"""
+            SELECT
+                i.bowling_team_id AS team_id,
+                COALESCE(SUM(bw.wickets), 0) AS wickets,
+                COALESCE(SUM(bw.runs_conceded), 0) AS runs_conceded,
+                COALESCE(SUM({_overs_to_balls_expr('bw.overs_bowled')}), 0) AS balls_bowled
+            FROM raw_cricsheet.innings i
+            JOIN raw_cricsheet.matches m ON m.match_id = i.match_id
+            LEFT JOIN raw_cricsheet.match_bowling_scorecard bw ON bw.innings_id = i.innings_id
+            WHERE ((m.team1_id = %(a)s AND m.team2_id = %(b)s)
+                OR (m.team1_id = %(b)s AND m.team2_id = %(a)s))
+              AND i.bowling_team_id IN (%(a)s, %(b)s)
+            GROUP BY i.bowling_team_id
+            """,
+            {"a": a, "b": b},
+        )
+        bowling_rows = {r["team_id"]: r for r in cur.fetchall()}
 
         # Recent meetings
         cur.execute(
@@ -125,14 +157,45 @@ def teams_head_to_head(
             ORDER BY m.match_date DESC, m.match_id DESC
             LIMIT 8
             """,
-            {"a": team_a_id, "b": team_b_id},
+            {"a": a, "b": b},
         )
         recent = cur.fetchall()
 
+    def batting_summary(team_id):
+        r = batting_rows.get(team_id)
+        if not r:
+            return None
+        balls_faced = r["balls_faced"] or 0
+        chases_batted = r["chases_batted"] or 0
+        boundaries = (r["fours"] or 0) + (r["sixes"] or 0)
+        return {
+            "innings": r["innings"],
+            "average_score": float(r["avg_score"]) if r["avg_score"] is not None else None,
+            "highest_score": r["highest_score"],
+            "lowest_defended_score": r["lowest_defended_score"],
+            "chase_success_pct": (
+                round(r["chases_won"] / chases_batted * 100, 1) if chases_batted else None
+            ),
+            "fours": r["fours"],
+            "sixes": r["sixes"],
+            "boundary_pct": round(boundaries / balls_faced * 100, 2) if balls_faced else None,
+        }
+
+    def bowling_summary(team_id):
+        r = bowling_rows.get(team_id)
+        if not r:
+            return None
+        balls_bowled = r["balls_bowled"] or 0
+        return {
+            "wickets": r["wickets"],
+            "economy": round(r["runs_conceded"] / (balls_bowled / 6), 2) if balls_bowled else None,
+        }
+
     return {
         "record": record,
-        "batting": {"a": batting_rows.get(team_a_id), "b": batting_rows.get(team_b_id)},
-        "margins": margins,
+        "venue_wins": venue_wins,
+        "batting": {"team1": batting_summary(a), "team2": batting_summary(b)},
+        "bowling": {"team1": bowling_summary(a), "team2": bowling_summary(b)},
         "recent_meetings": recent,
     }
 

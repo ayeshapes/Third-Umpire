@@ -11,22 +11,41 @@
 @import "@fontsource/jetbrains-mono/700.css";
 
 :root {
-  /* --- Third Umpire design tokens: "night match under lights" --- */
-  --color-void: #0a0a0b;         /* base background */
-  --color-surface: #131316;      /* card surface */
-  --color-surface-2: #1c1c20;    /* elevated surface / hover */
-  --color-line: rgba(250, 248, 245, 0.09);
-  --color-line-strong: rgba(250, 248, 245, 0.16);
+  /* --- Third Umpire design tokens: "warm editorial" light theme ---
+     Token names are kept stable (void/surface/ivory/etc.) so every
+     component that already references them re-themes automatically;
+     only the underlying values change. */
 
-  --color-crimson: #a8112c;      /* primary -- wicket red */
-  --color-crimson-bright: #e01b3e;
-  --color-crimson-dim: #5e0e1c;
+  --color-void: #f7f3ec;         /* page canvas -- warm cream */
+  --color-surface: #fffdf9;      /* card surface -- soft paper white */
+  --color-surface-2: #efe7d9;    /* elevated surface / hover -- warm neutral */
+  --color-line: rgba(41, 30, 20, 0.09);
+  --color-line-strong: rgba(41, 30, 20, 0.16);
 
-  --color-ivory: #f7f5f1;        /* accent white */
-  --color-fg-muted: #a6a4a1;     /* secondary text on dark */
-  --color-fg-faint: #706e6c;
+  --color-crimson: #8a1c2b;      /* primary -- deep crimson, brand + CTAs only */
+  --color-crimson-bright: #a8283a;
+  --color-crimson-dim: #5c1119;
 
-  --color-amber: #e8a33d;        /* scoreboard LED signature accent */
+  --color-ivory: #241d17;        /* primary text -- warm ink */
+  --color-fg-muted: #6b6156;     /* secondary text */
+  --color-fg-faint: #9a8f80;     /* tertiary / placeholder text */
+
+  --color-amber: #a9752c;        /* secondary accent -- muted gold */
+
+  /* text placed directly on solid crimson / dark accent fills */
+  --color-on-crimson: #fbf3e6;
+  /* text placed on bright/light accent chips (e.g. amber, crimson-bright fills) */
+  --color-charcoal: #201811;
+
+  /* multi-color chart palette -- muted, professional, print-editorial.
+     Crimson is intentionally excluded so charts stop defaulting to "red
+     for everything"; crimson stays reserved for brand + highlights. */
+  --color-chart-1: #3d6a7d;  /* slate teal */
+  --color-chart-2: #b9862f;  /* muted gold */
+  --color-chart-3: #5f7a52;  /* sage green */
+  --color-chart-4: #8a5a72;  /* dusty plum */
+  --color-chart-5: #3c5a78;  /* deep denim */
+  --color-chart-6: #b5623f;  /* muted terracotta */
 
   --font-display: "Oswald", "Arial Narrow", sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
@@ -46,6 +65,15 @@
   --color-fg-muted: var(--color-fg-muted);
   --color-fg-faint: var(--color-fg-faint);
   --color-amber: var(--color-amber);
+  --color-on-crimson: var(--color-on-crimson);
+  --color-charcoal: var(--color-charcoal);
+
+  --color-chart-1: var(--color-chart-1);
+  --color-chart-2: var(--color-chart-2);
+  --color-chart-3: var(--color-chart-3);
+  --color-chart-4: var(--color-chart-4);
+  --color-chart-5: var(--color-chart-5);
+  --color-chart-6: var(--color-chart-6);
 
   --font-display: var(--font-display);
   --font-body: var(--font-body);
@@ -67,6 +95,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Typography hierarchy -- editorial display headings sit on Oswald with
+   tightened tracking at large sizes; body copy stays generously leaded. */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+p {
+  line-height: 1.65;
+}
+
 /* Scoreboard digit style -- the signature element used for KPI numbers,
    stat leaders, and any "big number" moment across the app. */
 .scoreboard-digits {
@@ -75,16 +114,17 @@ body {
   letter-spacing: -0.02em;
 }
 
-/* Subtle floodlight glow used behind hero / section headers */
+/* Soft editorial wash used behind hero / section headers -- replaces the
+   old dark "floodlight" glow with a warm paper-grain gradient. */
 .floodlight {
   background:
-    radial-gradient(600px circle at 15% -10%, rgba(168, 17, 44, 0.25), transparent 60%),
-    radial-gradient(500px circle at 85% -20%, rgba(232, 163, 61, 0.12), transparent 55%);
+    radial-gradient(700px circle at 12% -15%, rgba(138, 28, 43, 0.07), transparent 60%),
+    radial-gradient(600px circle at 88% -20%, rgba(169, 117, 44, 0.10), transparent 55%);
 }
 
 ::selection {
   background: var(--color-crimson);
-  color: var(--color-ivory);
+  color: var(--color-on-crimson);
 }
 
 ::-webkit-scrollbar {
@@ -95,7 +135,7 @@ body {
   background: var(--color-void);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-surface-2);
+  background: var(--color-line-strong);
   border-radius: 999px;
   border: 2px solid var(--color-void);
 }
@@ -104,7 +144,7 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-crimson-bright);
+  outline: 2px solid var(--color-crimson);
   outline-offset: 2px;
 }
 

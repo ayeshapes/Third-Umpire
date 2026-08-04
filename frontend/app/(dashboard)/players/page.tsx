@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useTransition } from "react";
 import Link from "next/link";
-import { Search, Users } from "lucide-react";
+import { ArrowLeftRight, Search, Users } from "lucide-react";
 import { api } from "@/lib/api";
 import { PageHeader } from "@/components/shared/page-header";
 import { Input } from "@/components/ui/input";
@@ -40,6 +40,15 @@ export default function PlayersPage() {
         eyebrow="Players"
         title="Player Search"
         description="Search the full PSL player pool by name to open a career profile — batting, bowling, and form."
+        action={
+          <Link
+            href="/players/compare"
+            className="inline-flex items-center gap-2 rounded-full border border-line-strong bg-surface px-4 py-2 text-sm font-medium text-ivory transition-colors hover:border-crimson-bright/50 hover:text-crimson-bright"
+          >
+            <ArrowLeftRight className="h-4 w-4" />
+            Compare Players
+          </Link>
+        }
       />
 
       <div className="relative max-w-lg">

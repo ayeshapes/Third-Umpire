@@ -1,98 +1,77 @@
-import Link from "next/link";
-import { api } from "@/lib/api";
-import { safe } from "@/lib/safe";
+"use client";
+
+/**
+ * Ticket 11.1 -- Records.
+ *
+ * "A comprehensive records section" -- five curated categories
+ * (Batting/Bowling/Team/Season/Match), each rendered by the same
+ * <RecordBoard> pointed at its own endpoint (see that component's
+ * docstring for why one component covers all five), plus the
+ * <RecordsSearchTable> flat/searchable view underneath for finding
+ * a specific record instead of browsing.
+ *
+ * FilterBar included like every other analytics page -- records are
+ * scoped by season/team/venue/etc the same way a leaderboard is
+ * (e.g. "records" can mean "records this season" as easily as
+ * "records all-time"), so this reuses the existing filter store
+ * rather than inventing a separate scoping mechanism.
+ *
+ * Chart endpoint paths are illustrative, same caveat as
+ * lib/api/charts.ts: the records/analytics routers aren't part of
+ * this codebase slice.
+ */
+
+import type { ReactNode } from "react";
 import { PageHeader } from "@/components/shared/page-header";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { OrangeCapTable, PurpleCapTable } from "@/components/shared/leaderboard-tables";
-import { formatNumber } from "@/lib/utils";
-import type { FieldingLeaderboardEntry, PlayerOfMatchLeader } from "@/types/api";
+import { FilterBar } from "@/components/filters/filter-bar";
+import { RecordBoard } from "@/components/records/record-board";
+import { RecordsSearchTable } from "@/components/records/records-search-table";
 
-export const revalidate = 60;
+function SectionLabel({ children }: { children: ReactNode }) {
+  return <p className="mb-4 text-xs font-medium uppercase tracking-widest text-fg-faint">{children}</p>;
+}
 
-export default async function RecordsPage() {
-  const [leaderboard, pomLeaders, fielding] = await Promise.all([
-    safe(() => api.leaderboards(undefined, 10), { orange_cap: [], purple_cap: [] }),
-    safe(() => api.playerOfMatchLeaders(), [] as PlayerOfMatchLeader[]),
-    safe(() => api.fieldingLeaderboard(), [] as FieldingLeaderboardEntry[]),
-  ]);
-
+export default function RecordsPage() {
   return (
     <div>
       <PageHeader
-        eyebrow="Records"
-        title="All-Time Records"
-        description="Career leaderboards across every recorded PSL season — runs, wickets, fielding, and match-winning performances."
+        eyebrow="Analytics"
+        title="Records"
+        description="Batting, bowling, team, season, and match records -- filter to a scope above, or search every record directly below."
       />
 
-      <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
-          <CardHeader>
-            <CardTitle>Orange Cap — Most Career Runs</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <OrangeCapTable entries={leaderboard.orange_cap} />
-          </CardContent>
-        </Card>
+      <div className="mb-8">
+        <FilterBar />
+      </div>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Purple Cap — Most Career Wickets</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <PurpleCapTable entries={leaderboard.purple_cap} />
-          </CardContent>
-        </Card>
+      <div className="mb-8">
+        <SectionLabel>Batting Records</SectionLabel>
+        <RecordBoard path="/api/records/batting" category="batting" />
+      </div>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Most Player-of-the-Match Awards</CardTitle>
-          </CardHeader>
-          <CardContent>
-            {pomLeaders.length === 0 ? (
-              <p className="py-6 text-center text-sm text-fg-faint">No data available.</p>
-            ) : (
-              <ol className="space-y-2.5">
-                {pomLeaders.slice(0, 10).map((p, i) => (
-                  <li key={p.player_id ?? i} className="flex items-center justify-between border-b border-line/60 pb-2.5 last:border-0">
-                    <Link
-                      href={p.player_id ? `/players/${p.player_id}` : "#"}
-                      className="flex items-center gap-2 text-sm hover:text-crimson-bright"
-                    >
-                      <span className="scoreboard-digits text-xs text-fg-faint">{String(i + 1).padStart(2, "0")}</span>
-                      <span className="text-ivory">{p.full_name ?? "Unknown"}</span>
-                    </Link>
-                    <span className="scoreboard-digits text-sm text-amber">
-                      {formatNumber(Number(p.awards ?? p.count ?? 0))}
-                    </span>
-                  </li>
-                ))}
-              </ol>
-            )}
-          </CardContent>
-        </Card>
+      <div className="mb-8">
+        <SectionLabel>Bowling Records</SectionLabel>
+        <RecordBoard path="/api/records/bowling" category="bowling" />
+      </div>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Fielding Leaderboard — Most Catches</CardTitle>
-          </CardHeader>
-          <CardContent>
-            {fielding.length === 0 ? (
-              <p className="py-6 text-center text-sm text-fg-faint">No data available.</p>
-            ) : (
-              <ol className="space-y-2.5">
-                {fielding.slice(0, 10).map((f, i) => (
-                  <li key={i} className="flex items-center justify-between border-b border-line/60 pb-2.5 last:border-0 text-sm">
-                    <span className="flex items-center gap-2 text-ivory">
-                      <span className="scoreboard-digits text-xs text-fg-faint">{String(i + 1).padStart(2, "0")}</span>
-                      {String(f.full_name ?? f.display_name ?? "Unknown")}
-                    </span>
-                    <span className="scoreboard-digits text-amber">{formatNumber(Number(f.catches ?? 0))}</span>
-                  </li>
-                ))}
-              </ol>
-            )}
-          </CardContent>
-        </Card>
+      <div className="mb-8">
+        <SectionLabel>Team Records</SectionLabel>
+        <RecordBoard path="/api/records/team" category="team" />
+      </div>
+
+      <div className="mb-8">
+        <SectionLabel>Season Records</SectionLabel>
+        <RecordBoard path="/api/records/season" category="season" />
+      </div>
+
+      <div className="mb-8">
+        <SectionLabel>Match Records</SectionLabel>
+        <RecordBoard path="/api/records/match" category="match" />
+      </div>
+
+      <div>
+        <SectionLabel>Search All Records</SectionLabel>
+        <RecordsSearchTable path="/api/records/search" />
       </div>
     </div>
   );

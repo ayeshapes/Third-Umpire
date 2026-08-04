@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import { ArrowLeftRight } from "lucide-react";
 import { api } from "@/lib/api";
 import { safe } from "@/lib/safe";
 import { PageHeader } from "@/components/shared/page-header";
@@ -41,9 +43,16 @@ export default async function PlayerDetailPage({ params }: { params: Promise<{ i
           .filter(Boolean)
           .join(" · ") || undefined}
         action={
-          <div className="flex gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             {player.primary_role && <Badge variant="crimson">{player.primary_role}</Badge>}
             {player.date_of_birth && <Badge variant="outline">Born {formatDate(player.date_of_birth)}</Badge>}
+            <Link
+              href={`/players/compare?p1=${player.player_id}`}
+              className="inline-flex items-center gap-2 rounded-full border border-line-strong bg-surface px-4 py-2 text-sm font-medium text-ivory transition-colors hover:border-crimson-bright/50 hover:text-crimson-bright"
+            >
+              <ArrowLeftRight className="h-4 w-4" />
+              Compare
+            </Link>
           </div>
         }
       />
