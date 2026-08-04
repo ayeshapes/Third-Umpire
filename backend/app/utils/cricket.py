@@ -23,3 +23,14 @@ def overs_to_balls_expr(column: str) -> str:
 def balls_to_overs_str(total_balls: int) -> str:
     """Convert a ball count back to cricket's X.Y overs notation."""
     return f"{total_balls // 6}.{total_balls % 6}"
+
+
+def clamp_pct(value, cap: float) -> float:
+    """
+    Scale a raw stat to a 0-100 axis score against a fixed, sport-realistic
+    ceiling, clamped both ends. Used by the player/team comparison radar
+    endpoints, which don't have a full population to percentile against.
+    """
+    if value is None or cap <= 0:
+        return 0.0
+    return max(0.0, min(100.0, round(value / cap * 100, 1)))

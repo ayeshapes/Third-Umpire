@@ -21,12 +21,21 @@ export interface ManhattanOver {
 }
 
 export interface ManhattanChartProps {
-  path: string;
+  /** Illustrative aggregate-chart path (see lib/api/charts.ts) -- ignored when `data` is provided. */
+  path?: string;
+  /** Pre-fetched data, e.g. from lib/api/match-charts.ts's `toManhattan` -- skips the internal fetch entirely. */
+  data?: ManhattanOver[] | null;
   title?: string;
 }
 
-export function ManhattanChart({ path, title = "Manhattan Chart" }: ManhattanChartProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<ManhattanOver[]>(path);
+export function ManhattanChart({ path, data: providedData, title = "Manhattan Chart" }: ManhattanChartProps) {
+  const query = useChartData<ManhattanOver[]>(path ?? "", { enabled: providedData === undefined && !!path });
+  const isLoading = providedData !== undefined ? false : query.isLoading;
+  const isError = providedData !== undefined ? false : query.isError;
+  const isFetching = providedData !== undefined ? false : query.isFetching;
+  const error = providedData !== undefined ? null : query.error;
+  const refetch = query.refetch;
+  const data = providedData !== undefined ? providedData : query.data;
 
   const maxRuns = data && data.length > 0 ? Math.max(...data.map((d) => d.runs), 1) : 1;
 

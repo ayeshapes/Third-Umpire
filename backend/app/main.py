@@ -25,6 +25,7 @@ from app.routers import (
     matches,
     overview,
     players,
+    records,
     seasons,
     teams,
     venues,
@@ -55,3 +56,4 @@ app.include_router(players.router)
 app.include_router(venues.router)
 app.include_router(leaderboards.router)
 app.include_router(analytics.router)
+app.include_router(records.router)

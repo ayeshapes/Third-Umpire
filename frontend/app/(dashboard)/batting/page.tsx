@@ -41,7 +41,7 @@ import { FilterBar } from "@/components/filters/filter-bar";
 import { SeasonOverviewCards } from "@/components/batting/season-overview-cards";
 import { BattingKpiCards } from "@/components/batting/batting-kpi-cards";
 import { BattingStatsTable } from "@/components/batting/batting-stats-table";
-import { WagonWheel } from "@/components/charts/wagon-wheel";
+import { BoundaryTiming } from "@/components/charts/boundary-timing";
 import { ManhattanChart } from "@/components/charts/manhattan-chart";
 import { WormGraph } from "@/components/charts/worm-graph";
 import { RunProgression } from "@/components/charts/run-progression";
@@ -82,7 +82,7 @@ export default function BattingAnalyticsPage() {
       <div className="mb-8">
         <SectionLabel>Visualizations</SectionLabel>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <WagonWheel path="/api/analytics/batting/wagon-wheel" title="Wagon Wheel" />
+          <BoundaryTiming path="/api/analytics/batting/boundary-timing" title="Boundary Timing" />
           <ManhattanChart path="/api/analytics/batting/manhattan" title="Manhattan Chart" />
           <WormGraph path="/api/analytics/batting/worm" title="Worm Graph" />
           <RunProgression path="/api/analytics/batting/run-progression" title="Run Progression" />

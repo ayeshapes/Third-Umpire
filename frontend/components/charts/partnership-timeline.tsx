@@ -14,7 +14,9 @@
  */
 
 import { useMemo } from "react";
-import { useChartData } from "@/hooks/use-chart-data";
+import { useFilters } from "@/store/filters";
+import { useMatchDetail } from "@/hooks/use-match-detail";
+import { toPartnershipTimeline } from "@/lib/api/match-charts";
 
 export interface PartnershipTimelineEntry {
   innings: 1 | 2;
@@ -32,12 +34,13 @@ export interface PartnershipTimelineData {
 }
 
 export interface PartnershipTimelineProps {
-  path: string;
   title?: string;
 }
 
-export function PartnershipTimeline({ path, title = "Partnership Timeline" }: PartnershipTimelineProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<PartnershipTimelineData>(path);
+export function PartnershipTimeline({ title = "Partnership Timeline" }: PartnershipTimelineProps) {
+  const { filters } = useFilters();
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = useMatchDetail(filters.match);
+  const data = useMemo(() => (raw ? toPartnershipTimeline(raw) : null), [raw]);
 
   const rows = useMemo(() => {
     if (!data) return { innings1: [], innings2: [] };

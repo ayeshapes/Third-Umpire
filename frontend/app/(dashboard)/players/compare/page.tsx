@@ -46,7 +46,11 @@ import { ComparisonRadarChart } from "@/components/players/comparison-radar-char
 import { CareerTimeline } from "@/components/players/career-timeline";
 import { ComparisonInsights } from "@/components/players/comparison-insights";
 
-const CAREER_STATS_PATH = "/api/players/compare/career-stats";
+// NOTE: Player Insights (below) now shares the same repointed
+// /api/players/compare query as Career Statistics (see
+// hooks/use-player-career-compare.ts + comparison-insights.tsx) --
+// it no longer has its own illustrative placeholder path. Venue/
+// Opposition and Radar/Timeline further down are still on theirs.
 
 function SectionLabel({ children }: { children: ReactNode }) {
   return <p className="mb-4 text-xs font-medium uppercase tracking-widest text-fg-faint">{children}</p>;
@@ -74,12 +78,12 @@ export default function PlayerComparisonPage() {
 
       <div className="mb-8">
         <SectionLabel>Career Statistics</SectionLabel>
-        <CareerStatsComparison path={CAREER_STATS_PATH} playerAId={playerAId} playerBId={playerBId} />
+        <CareerStatsComparison playerAId={playerAId} playerBId={playerBId} />
       </div>
 
       <div className="mb-8">
         <SectionLabel>Season Comparison</SectionLabel>
-        <SeasonComparison path="/api/players/compare/seasons" playerAId={playerAId} playerBId={playerBId} />
+        <SeasonComparison playerAId={playerAId} playerBId={playerBId} />
       </div>
 
       <div className="mb-8">
@@ -100,7 +104,7 @@ export default function PlayerComparisonPage() {
 
       <div>
         <SectionLabel>Player Insights</SectionLabel>
-        <ComparisonInsights careerStatsPath={CAREER_STATS_PATH} playerAId={playerAId} playerBId={playerBId} />
+        <ComparisonInsights playerAId={playerAId} playerBId={playerBId} />
       </div>
     </div>
   );

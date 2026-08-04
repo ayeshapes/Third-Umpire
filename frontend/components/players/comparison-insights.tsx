@@ -5,16 +5,25 @@
  *
  * Renders lib/player-insights.ts's derived read of the comparison:
  * a plain-language summary up top, then Strengths / Differences /
- * Observations underneath. Calls usePlayerComparison with the same
- * `careerStatsPath` <CareerStatsComparison> uses -- same query key,
- * so this reuses that cached response instead of firing a second
- * request (see the doc comment on lib/player-insights.ts).
+ * Observations underneath.
+ *
+ * Repoint fix: this used to call usePlayerComparison("/api/players/
+ * compare/career-stats", ...) -- a path that was never real (see
+ * lib/api/player-compare.ts's own doc comment; the actual backend
+ * route is /api/players/compare, already repointed for
+ * <CareerStatsComparison> via usePlayerCareerCompare). Reusing that
+ * same hook here means React Query serves both from one cached
+ * query (same `["players-compare", playerAId, playerBId]` key, same
+ * dedup reasoning as hooks/use-chart-data.ts) instead of firing a
+ * second, 404ing request -- which is what this component's docstring
+ * always claimed happened, just not what the code before this fix
+ * actually did.
  */
 
 import { useMemo } from "react";
-import { usePlayerComparison } from "@/hooks/use-player-comparison";
+import { usePlayerCareerCompare } from "@/hooks/use-player-career-compare";
+import { toCareerStats } from "@/lib/api/player-compare";
 import { buildComparisonInsights, type Insight, type InsightKind } from "@/lib/player-insights";
-import type { PlayerCareerComparisonData } from "./types";
 
 const KIND_LABELS: Record<InsightKind, string> = {
   strength: "Strengths",
@@ -45,18 +54,13 @@ function InsightGroup({ kind, insights }: { kind: InsightKind; insights: Insight
 }
 
 export interface ComparisonInsightsProps {
-  careerStatsPath: string;
   playerAId: number | null;
   playerBId: number | null;
 }
 
-export function ComparisonInsights({ careerStatsPath, playerAId, playerBId }: ComparisonInsightsProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = usePlayerComparison<PlayerCareerComparisonData>(
-    careerStatsPath,
-    playerAId,
-    playerBId
-  );
-
+export function ComparisonInsights({ playerAId, playerBId }: ComparisonInsightsProps) {
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = usePlayerCareerCompare(playerAId, playerBId);
+  const data = useMemo(() => (raw ? toCareerStats(raw) : null), [raw]);
   const insights = useMemo(() => (data ? buildComparisonInsights(data) : null), [data]);
 
   if (playerAId === null || playerBId === null) {

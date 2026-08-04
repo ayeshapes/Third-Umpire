@@ -13,10 +13,20 @@
  * exactly the kind of comparison this page exists for), so this
  * defaults to Runs but lets you flip to Wickets rather than forcing
  * one axis to fit both careers.
+ *
+ * Repoint fix (was `/api/players/compare/seasons`, which doesn't
+ * exist): despite the "Season Comparison" name, this chart compares
+ * two *players'* season-by-season output, not two seasons -- so
+ * `/api/seasons/compare` (season_a_id/season_b_id, league-wide
+ * per-season totals) is the wrong shape for it. The real match is
+ * `/api/players/compare`'s per-player `timeline` field, which this
+ * already fetches via useCareerStatsComparison's sibling hook -- see
+ * lib/api/player-compare.ts's `toSeasonComparison`.
  */
 
 import { useMemo, useState } from "react";
-import { usePlayerComparison } from "@/hooks/use-player-comparison";
+import { usePlayerCareerCompare } from "@/hooks/use-player-career-compare";
+import { toSeasonComparison } from "@/lib/api/player-compare";
 
 export interface SeasonComparisonPoint {
   season_year: number;
@@ -33,7 +43,6 @@ export interface SeasonComparisonData {
 }
 
 export interface SeasonComparisonProps {
-  path: string;
   playerAId: number | null;
   playerBId: number | null;
 }
@@ -47,13 +56,10 @@ const PAD_RIGHT = 10;
 
 type Metric = "runs" | "wickets";
 
-export function SeasonComparison({ path, playerAId, playerBId }: SeasonComparisonProps) {
+export function SeasonComparison({ playerAId, playerBId }: SeasonComparisonProps) {
   const [metric, setMetric] = useState<Metric>("runs");
-  const { data, isLoading, isError, error, refetch, isFetching } = usePlayerComparison<SeasonComparisonData>(
-    path,
-    playerAId,
-    playerBId
-  );
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = usePlayerCareerCompare(playerAId, playerBId);
+  const data = useMemo(() => (raw ? toSeasonComparison(raw) : null), [raw]);
 
   const geometry = useMemo(() => {
     if (!data || data.points.length === 0) return null;

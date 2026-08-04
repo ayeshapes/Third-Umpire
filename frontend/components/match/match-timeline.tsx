@@ -13,7 +13,10 @@
  * with an explanation of *why* each one mattered.
  */
 
-import { useChartData } from "@/hooks/use-chart-data";
+import { useMemo } from "react";
+import { useFilters } from "@/store/filters";
+import { useMatchDetail } from "@/hooks/use-match-detail";
+import { toMatchTimeline } from "@/lib/api/match-charts";
 
 export type TimelineEventType = "wicket" | "four" | "six" | "fifty" | "hundred" | "innings_break" | "milestone";
 
@@ -27,10 +30,6 @@ export interface TimelineEvent {
 
 export interface MatchTimelineData {
   events: TimelineEvent[];
-}
-
-export interface MatchTimelineProps {
-  path: string;
 }
 
 const EVENT_STYLES: Record<TimelineEventType, string> = {
@@ -53,8 +52,10 @@ const EVENT_LABELS: Record<TimelineEventType, string> = {
   milestone: "Milestone",
 };
 
-export function MatchTimeline({ path }: MatchTimelineProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<MatchTimelineData>(path);
+export function MatchTimeline() {
+  const { filters } = useFilters();
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = useMatchDetail(filters.match);
+  const data = useMemo(() => (raw ? toMatchTimeline(raw) : null), [raw]);
 
   return (
     <div className="rounded-2xl border border-line-strong bg-surface p-5">

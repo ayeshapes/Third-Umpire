@@ -88,6 +88,22 @@ export interface PlayerSearchResult {
   match_score?: number;
 }
 
+export interface TeamSearchResult {
+  team_id: number;
+  team_name: string;
+  team_code: string;
+  home_city: string | null;
+  match_score?: number;
+}
+
+export interface VenueSearchResult {
+  venue_id: number;
+  venue_name: string;
+  city: string | null;
+  country: string | null;
+  match_score?: number;
+}
+
 export interface PlayerFilterOptions {
   nationalities: string[];
   roles: string[];

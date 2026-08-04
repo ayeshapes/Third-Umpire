@@ -241,7 +241,8 @@ def match_detail(match_id: int):
                 SELECT p.wicket_number,
                        b1.display_name AS batter1_name, p.batter1_runs,
                        b2.display_name AS batter2_name, p.batter2_runs,
-                       p.runs, p.balls_faced, p.is_unbeaten
+                       p.runs, p.balls_faced, p.is_unbeaten,
+                       p.start_over, p.end_over
                 FROM raw_cricsheet.partnerships p
                 LEFT JOIN raw_cricsheet.players b1 ON b1.player_id = p.batter1_id
                 LEFT JOIN raw_cricsheet.players b2 ON b2.player_id = p.batter2_id
@@ -251,6 +252,24 @@ def match_detail(match_id: int):
                 {"innings_id": innings_id},
             )
             partnerships = cur.fetchall()
+
+            # Boundaries -- feeds the match Timeline (fours/sixes alongside
+            # the wickets already pulled above via fall_of_wickets). Same
+            # ball_number-within-over ordering caveat as fall_of_wickets.
+            cur.execute(
+                """
+                SELECT o.over_number, d.ball_number, d.runs_batter,
+                       p.display_name AS striker_name
+                FROM raw_cricsheet.deliveries d
+                JOIN raw_cricsheet.overs o ON o.over_id = d.over_id
+                LEFT JOIN raw_cricsheet.players p ON p.player_id = d.striker_id
+                WHERE d.innings_id = %(innings_id)s
+                  AND d.runs_batter IN (4, 6)
+                ORDER BY o.over_number, d.ball_number
+                """,
+                {"innings_id": innings_id},
+            )
+            boundaries = cur.fetchall()
 
             innings_out.append({
                 "innings_number": inn["innings_number"],
@@ -264,6 +283,7 @@ def match_detail(match_id: int):
                 "bowling": bowling,
                 "fall_of_wickets": fall_of_wickets,
                 "partnerships": partnerships,
+                "boundaries": boundaries,
             })
 
     return {"match": match, "innings": innings_out}

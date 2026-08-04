@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Command } from "cmdk";
 import { Search, Users, Shield, MapPin, LayoutDashboard, Trophy, Handshake } from "lucide-react";
 import { api } from "@/lib/api";
-import type { PlayerSearchResult, Team, Venue } from "@/types/api";
+import type { PlayerSearchResult, Team, TeamSearchResult, Venue, VenueSearchResult } from "@/types/api";
 
 const STATIC_LINKS = [
   { label: "Overview Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -19,6 +19,8 @@ export function CommandPalette() {
   const [players, setPlayers] = useState<PlayerSearchResult[]>([]);
   const [teams, setTeams] = useState<Team[]>([]);
   const [venues, setVenues] = useState<Venue[]>([]);
+  const [searchedTeams, setSearchedTeams] = useState<TeamSearchResult[]>([]);
+  const [searchedVenues, setSearchedVenues] = useState<VenueSearchResult[]>([]);
   const router = useRouter();
 
   useEffect(() => {
@@ -53,12 +55,19 @@ export function CommandPalette() {
   }, [open]);
 
   useEffect(() => {
-    if (query.trim().length < 2) return;
+    if (query.trim().length < 2) {
+      setSearchedTeams([]);
+      setSearchedVenues([]);
+      return;
+    }
     const handle = setTimeout(() => {
-      api
-        .playersSearch(query.trim())
-        .then(setPlayers)
-        .catch(() => setPlayers([]));
+      const q = query.trim();
+      api.playersSearch(q).then(setPlayers).catch(() => setPlayers([]));
+      // Fuzzy, typo-tolerant search (pg_trgm), same as players -- replaces
+      // the plain substring filter over the full teams/venues lists below
+      // once there's an actual query to search for.
+      api.teamsSearch(q).then(setSearchedTeams).catch(() => setSearchedTeams([]));
+      api.venuesSearch(q).then(setSearchedVenues).catch(() => setSearchedVenues([]));
     }, 250);
     return () => clearTimeout(handle);
   }, [query]);
@@ -73,8 +82,13 @@ export function CommandPalette() {
   );
 
   const q = query.trim().toLowerCase();
-  const filteredTeams = q ? teams.filter((t) => t.team_name.toLowerCase().includes(q) || t.team_code.toLowerCase().includes(q)) : teams.slice(0, 4);
-  const filteredVenues = q ? venues.filter((v) => v.venue_name.toLowerCase().includes(q)) : venues.slice(0, 4);
+  // Below 2 characters there's nothing to fuzzy-match against yet, so
+  // this just shows a handful of teams/venues as quick-glance defaults
+  // (same as before); at 2+ characters, searchedTeams/searchedVenues
+  // come from the pg_trgm-backed /api/teams/search and
+  // /api/venues/search endpoints, same typo-tolerant search players get.
+  const filteredTeams = q.length >= 2 ? searchedTeams : teams.slice(0, 4);
+  const filteredVenues = q.length >= 2 ? searchedVenues : venues.slice(0, 4);
 
   if (!open) return null;
 

@@ -87,8 +87,8 @@ export default function TeamComparisonPage() {
       <div className="mb-8">
         <SectionLabel>Head-to-Head</SectionLabel>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          <HeadToHeadSummary path="/api/teams/compare/head-to-head" teamAId={teamAId} teamBId={teamBId} />
-          <HeadToHeadMeetings path="/api/teams/compare/head-to-head/meetings" teamAId={teamAId} teamBId={teamBId} />
+          <HeadToHeadSummary teamAId={teamAId} teamBId={teamBId} />
+          <HeadToHeadMeetings teamAId={teamAId} teamBId={teamBId} />
         </div>
       </div>
 

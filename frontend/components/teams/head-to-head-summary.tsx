@@ -12,7 +12,9 @@
  * each other specifically*, which can diverge a lot from overall form.
  */
 
-import { useTeamComparison } from "@/hooks/use-team-comparison";
+import { useMemo } from "react";
+import { useTeamHeadToHead } from "@/hooks/use-team-head-to-head";
+import { toHeadToHeadSummary } from "@/lib/api/team-head-to-head";
 import type { TeamLite } from "./types";
 
 export interface HeadToHeadSummaryData {
@@ -30,7 +32,6 @@ export interface HeadToHeadSummaryData {
 }
 
 export interface HeadToHeadSummaryProps {
-  path: string;
   teamAId: number | null;
   teamBId: number | null;
 }
@@ -44,12 +45,9 @@ function StatBlock({ label, value, accentClass }: { label: string; value: string
   );
 }
 
-export function HeadToHeadSummary({ path, teamAId, teamBId }: HeadToHeadSummaryProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useTeamComparison<HeadToHeadSummaryData>(
-    path,
-    teamAId,
-    teamBId
-  );
+export function HeadToHeadSummary({ teamAId, teamBId }: HeadToHeadSummaryProps) {
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = useTeamHeadToHead(teamAId, teamBId);
+  const data = useMemo(() => (raw ? toHeadToHeadSummary(raw.raw, raw.teamA, raw.teamB) : null), [raw]);
 
   if (teamAId === null || teamBId === null) {
     return (

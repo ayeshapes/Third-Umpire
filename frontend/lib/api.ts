@@ -27,9 +27,11 @@ import type {
   SeasonAward,
   SeasonCompare,
   Team,
+  TeamSearchResult,
   TossImpact,
   Venue,
   VenueDetail,
+  VenueSearchResult,
 } from "@/types/api";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000";
@@ -73,6 +75,7 @@ export const api = {
   leagueEvolution: () => request<LeagueEvolutionPoint[]>("/api/league-evolution"),
 
   teams: () => request<Team[]>("/api/teams"),
+  teamsSearch: (q?: string, limit?: number) => request<TeamSearchResult[]>("/api/teams/search", { q, limit }),
   headToHead: (team1Id: number, team2Id: number) =>
     request<HeadToHead>("/api/teams/head-to-head", { team1_id: team1Id, team2_id: team2Id }),
 
@@ -94,6 +97,8 @@ export const api = {
     request<PlayerCompare>("/api/players/compare", { player1_id: player1Id, player2_id: player2Id }),
 
   venues: () => request<Venue[]>("/api/venues"),
+  venuesSearch: (q?: string, filters?: { city?: string; limit?: number }) =>
+    request<VenueSearchResult[]>("/api/venues/search", { q, ...filters }),
   venue: (venueId: number) => request<VenueDetail>(`/api/venues/${venueId}`),
 
   leaderboards: (seasonId?: number, limit?: number) =>

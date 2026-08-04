@@ -9,7 +9,9 @@
  * is visible without leaving the page.
  */
 
-import { useTeamComparison } from "@/hooks/use-team-comparison";
+import { useMemo } from "react";
+import { useTeamHeadToHead } from "@/hooks/use-team-head-to-head";
+import { toHeadToHeadMeetings } from "@/lib/api/team-head-to-head";
 
 export interface HeadToHeadMeeting {
   match_id: number;
@@ -29,17 +31,13 @@ export interface HeadToHeadMeetingsData {
 }
 
 export interface HeadToHeadMeetingsProps {
-  path: string;
   teamAId: number | null;
   teamBId: number | null;
 }
 
-export function HeadToHeadMeetings({ path, teamAId, teamBId }: HeadToHeadMeetingsProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useTeamComparison<HeadToHeadMeetingsData>(
-    path,
-    teamAId,
-    teamBId
-  );
+export function HeadToHeadMeetings({ teamAId, teamBId }: HeadToHeadMeetingsProps) {
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = useTeamHeadToHead(teamAId, teamBId);
+  const data = useMemo(() => (raw ? toHeadToHeadMeetings(raw.raw, raw.teamA, raw.teamB) : null), [raw]);
 
   if (teamAId === null || teamBId === null) {
     return (

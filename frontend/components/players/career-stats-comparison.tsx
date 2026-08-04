@@ -13,9 +13,10 @@
  * below it never disagree about who's ahead on a given stat.
  */
 
-import { Fragment } from "react";
-import { usePlayerComparison } from "@/hooks/use-player-comparison";
-import { COMPARISON_METRICS, type PlayerCareerComparisonData, type ComparisonMetric } from "./types";
+import { Fragment, useMemo } from "react";
+import { usePlayerCareerCompare } from "@/hooks/use-player-career-compare";
+import { toCareerStats } from "@/lib/api/player-compare";
+import { COMPARISON_METRICS, type ComparisonMetric } from "./types";
 
 const GROUP_LABELS: Record<ComparisonMetric["group"], string> = {
   batting: "Batting",
@@ -30,17 +31,13 @@ function leader(metric: ComparisonMetric, a: number | string | null, b: number |
 }
 
 export interface CareerStatsComparisonProps {
-  path: string;
   playerAId: number | null;
   playerBId: number | null;
 }
 
-export function CareerStatsComparison({ path, playerAId, playerBId }: CareerStatsComparisonProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = usePlayerComparison<PlayerCareerComparisonData>(
-    path,
-    playerAId,
-    playerBId
-  );
+export function CareerStatsComparison({ playerAId, playerBId }: CareerStatsComparisonProps) {
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = usePlayerCareerCompare(playerAId, playerBId);
+  const data = useMemo(() => (raw ? toCareerStats(raw) : null), [raw]);
 
   if (playerAId === null || playerBId === null) {
     return (

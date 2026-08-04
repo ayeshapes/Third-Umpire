@@ -14,7 +14,10 @@
  */
 
 import type { ReactNode } from "react";
-import { useChartData } from "@/hooks/use-chart-data";
+import { useMemo } from "react";
+import { useFilters } from "@/store/filters";
+import { useMatchDetail } from "@/hooks/use-match-detail";
+import { toMatchHighlights } from "@/lib/api/match-charts";
 
 export interface TurningPoint {
   innings: 1 | 2;
@@ -53,10 +56,6 @@ export interface MatchHighlightsData {
   match_facts: string[];
 }
 
-export interface MatchHighlightsProps {
-  path: string;
-}
-
 function HighlightCard({ title, children }: { title: string; children: ReactNode }) {
   return (
     <div className="rounded-2xl border border-line-strong bg-surface p-5">
@@ -84,8 +83,10 @@ function EventList({ items, emptyText }: { items: { over: number; innings: 1 | 2
   );
 }
 
-export function MatchHighlights({ path }: MatchHighlightsProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<MatchHighlightsData>(path);
+export function MatchHighlights() {
+  const { filters } = useFilters();
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = useMatchDetail(filters.match);
+  const data = useMemo(() => (raw ? toMatchHighlights(raw) : null), [raw]);
 
   if (isLoading) {
     return (

@@ -14,7 +14,9 @@
  */
 
 import { useMemo } from "react";
-import { useChartData } from "@/hooks/use-chart-data";
+import { useFilters } from "@/store/filters";
+import { useMatchDetail } from "@/hooks/use-match-detail";
+import { toRunRateComparison } from "@/lib/api/match-charts";
 
 export interface RunRatePoint {
   over: number; // 1-indexed
@@ -30,7 +32,6 @@ export interface RunRateComparisonData {
 }
 
 export interface RunRateComparisonProps {
-  path: string;
   title?: string;
 }
 
@@ -41,8 +42,10 @@ const PAD_BOTTOM = 22;
 const PAD_TOP = 10;
 const PAD_RIGHT = 10;
 
-export function RunRateComparison({ path, title = "Run Rate Comparison" }: RunRateComparisonProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<RunRateComparisonData>(path);
+export function RunRateComparison({ title = "Run Rate Comparison" }: RunRateComparisonProps) {
+  const { filters } = useFilters();
+  const { data: raw, isLoading, isError, error, refetch, isFetching } = useMatchDetail(filters.match);
+  const data = useMemo(() => (raw ? toRunRateComparison(raw) : null), [raw]);
 
   const geometry = useMemo(() => {
     if (!data || data.points.length === 0) return null;

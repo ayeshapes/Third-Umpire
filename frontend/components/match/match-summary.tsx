@@ -10,14 +10,15 @@
  * match got here -- this is the "what happened" a scorecard leads
  * with, so it sits first.
  *
- * Wired like every other section on this page: useChartData reads the
- * shared filter store, which is where the match picker (the last
- * level of the Ticket 6.7 cascade: season -> team -> player -> venue
- * -> match) writes the selected `match` id. Endpoint path is
- * illustrative -- see lib/api/charts.ts.
+ * Wired to the real backend: useMatchSummary (hooks/use-match-summary.ts)
+ * reads the shared filter store, which is where the match picker (the
+ * last level of the Ticket 6.7 cascade: season -> team -> player ->
+ * venue -> match) writes the selected `match` id, and fetches/maps
+ * `/api/matches/{match_id}/detail` -- see lib/api/match-detail.ts for
+ * the response-shape mapping.
  */
 
-import { useChartData } from "@/hooks/use-chart-data";
+import { useMatchSummary } from "@/hooks/use-match-summary";
 
 export interface MatchSummaryTeam {
   name: string;
@@ -41,10 +42,6 @@ export interface MatchSummaryData {
   player_of_match: string | null;
 }
 
-export interface MatchSummaryProps {
-  path: string;
-}
-
 function scoreLine(team: MatchSummaryTeam): string {
   const wkts = team.wickets >= 10 ? "" : `/${team.wickets}`;
   return `${team.runs}${wkts}`;
@@ -62,8 +59,8 @@ function TeamRow({ team, emphasize }: { team: MatchSummaryTeam; emphasize: boole
   );
 }
 
-export function MatchSummary({ path }: MatchSummaryProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<MatchSummaryData>(path);
+export function MatchSummary() {
+  const { data, isLoading, isError, error, refetch, isFetching } = useMatchSummary();
 
   return (
     <div className="rounded-2xl border border-line-strong bg-surface p-5">

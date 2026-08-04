@@ -34,12 +34,13 @@ import { useQuery, keepPreviousData, type UseQueryResult } from "@tanstack/react
 import { useFilters } from "@/store/filters";
 import { fetchChartData } from "@/lib/api/charts";
 
-export function useChartData<T>(path: string): UseQueryResult<T> {
+export function useChartData<T>(path: string, options?: { enabled?: boolean }): UseQueryResult<T> {
   const { filters } = useFilters();
 
   return useQuery({
     queryKey: ["chart", path, filters],
     queryFn: ({ signal }) => fetchChartData<T>(path, filters, signal),
+    enabled: options?.enabled ?? true,
     placeholderData: keepPreviousData,
     staleTime: 60 * 1000, // chart data moves more than the filter-option lists
     retry: 2,

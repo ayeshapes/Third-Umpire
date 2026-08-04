@@ -17,9 +17,18 @@
  *   1. Filter bar (global, shared with every other dashboard page)
  *   2. Bowling Overview -- season-wide counting stats (Ticket 8.1)
  *   3. Advanced KPIs -- economy/average/strike-rate/dot% (Ticket 8.1)
- *   4. Visualizations -- six purpose-built chart types (Ticket 8.2),
- *      each picked for the specific question it answers; see each
- *      component's own docstring for why that shape fits that data
+ *   4. Visualizations -- four purpose-built chart types (Ticket 8.2).
+ *      Originally six: <PitchMap> and <BowlingLengthAnalysis> were
+ *      removed because they depended on line/length data that was
+ *      never in the schema (raw_cricsheet.deliveries has no such
+ *      columns, same gap that killed the batting page's wagon wheel).
+ *      No replacement chart was added in their place -- <EconomyAnalysis>
+ *      below already covers economy-by-phase (see its own docstring,
+ *      and bowling-phase-analysis.tsx's, which says so explicitly),
+ *      which is what a pitch-map substitute would have reshaped
+ *      overs.phase into anyway, so a second copy of the same numbers
+ *      would just be noise. See each remaining component's own
+ *      docstring for why its shape fits its data.
  *   5. Match Conditions -- venue/opposition/phase/bowling-order
  *      breakdowns (Ticket 8.3), same "breakdown across a dimension"
  *      idea as the batting page's Match Conditions section -- these
@@ -38,12 +47,10 @@ import { FilterBar } from "@/components/filters/filter-bar";
 import { BowlingOverviewCards } from "@/components/bowling/bowling-overview-cards";
 import { BowlingKpiCards } from "@/components/bowling/bowling-kpi-cards";
 import { BowlingStatsTable } from "@/components/bowling/bowling-stats-table";
-import { PitchMap } from "@/components/charts/pitch-map";
 import { WicketDistribution } from "@/components/charts/wicket-distribution";
 import { EconomyAnalysis } from "@/components/charts/economy-analysis";
 import { DotBallAnalysis } from "@/components/charts/dot-ball-analysis";
 import { DismissalTypes } from "@/components/charts/dismissal-types";
-import { BowlingLengthAnalysis } from "@/components/charts/bowling-length-analysis";
 import { VenueComparison } from "@/components/charts/bowling-venue-comparison";
 import { OppositionComparison } from "@/components/charts/bowling-opposition-comparison";
 import { BowlingPhaseAnalysis } from "@/components/charts/bowling-phase-analysis";
@@ -59,7 +66,7 @@ export default function BowlingAnalyticsPage() {
       <PageHeader
         eyebrow="Analytics"
         title="Bowling"
-        description="Season totals, rate stats, pitch-by-pitch breakdowns, and rankings -- all scoped to the filters below."
+        description="Season totals, rate stats, phase-by-phase breakdowns, and rankings -- all scoped to the filters below."
       />
 
       <div className="mb-8">
@@ -79,12 +86,10 @@ export default function BowlingAnalyticsPage() {
       <div className="mb-8">
         <SectionLabel>Visualizations</SectionLabel>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <PitchMap path="/api/analytics/bowling/pitch-map" title="Pitch Map" />
           <WicketDistribution path="/api/analytics/bowling/wicket-distribution" title="Wicket Distribution" />
           <EconomyAnalysis path="/api/analytics/bowling/economy" title="Economy Analysis" />
           <DotBallAnalysis path="/api/analytics/bowling/dot-balls" title="Dot Ball Analysis" />
           <DismissalTypes path="/api/analytics/bowling/dismissal-types" title="Dismissal Types" />
-          <BowlingLengthAnalysis path="/api/analytics/bowling/length" title="Bowling Length Analysis" />
         </div>
       </div>
 

@@ -7,9 +7,10 @@
  * insights` route returning pre-written sentences) would let the
  * insight text and the numbers in <CareerStatsComparison> drift out
  * of sync, and duplicates a request the page has already made:
- * components/players/comparison-insights.tsx calls the same
- * usePlayerComparison(careerStatsPath, ...) the stats table does, so
- * React Query serves both from one cached query (same reasoning as
+ * components/players/comparison-insights.tsx shares
+ * hooks/use-player-career-compare.ts's `usePlayerCareerCompare`
+ * query with <CareerStatsComparison> (same query key), so React
+ * Query serves both from one cached response (same reasoning as
  * hooks/use-chart-data.ts's dedup) and this module turns that one
  * response into prose.
  *

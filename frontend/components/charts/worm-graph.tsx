@@ -26,7 +26,10 @@ export interface WormGraphData {
 }
 
 export interface WormGraphProps {
-  path: string;
+  /** Illustrative aggregate-chart path (see lib/api/charts.ts) -- ignored when `data` is provided. */
+  path?: string;
+  /** Pre-fetched data, e.g. from lib/api/match-charts.ts's `toWormGraph` -- skips the internal fetch entirely. */
+  data?: WormGraphData | null;
   title?: string;
 }
 
@@ -37,8 +40,14 @@ const PAD_BOTTOM = 22;
 const PAD_TOP = 10;
 const PAD_RIGHT = 10;
 
-export function WormGraph({ path, title = "Worm Graph" }: WormGraphProps) {
-  const { data, isLoading, isError, error, refetch, isFetching } = useChartData<WormGraphData>(path);
+export function WormGraph({ path, data: providedData, title = "Worm Graph" }: WormGraphProps) {
+  const query = useChartData<WormGraphData>(path ?? "", { enabled: providedData === undefined && !!path });
+  const isLoading = providedData !== undefined ? false : query.isLoading;
+  const isError = providedData !== undefined ? false : query.isError;
+  const isFetching = providedData !== undefined ? false : query.isFetching;
+  const error = providedData !== undefined ? null : query.error;
+  const refetch = query.refetch;
+  const data = providedData !== undefined ? providedData : query.data;
 
   const geometry = useMemo(() => {
     if (!data || data.points.length === 0) return null;
