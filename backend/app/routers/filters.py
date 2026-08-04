@@ -138,7 +138,7 @@ def _query_players(season_year: str | None = None, team_code: str | None = None)
         # appearances within that season/for that team.
         cur.execute(
             """
-            SELECT DISTINCT p.player_id, p.full_name, p.display_name
+            SELECT p.player_id, p.full_name, p.display_name
             FROM raw_cricsheet.players p
             WHERE EXISTS (
                 SELECT 1
@@ -361,6 +361,13 @@ def get_city_filters(response: Response):
 
 @router.get("/weather-ranges")
 def get_weather_range_filters(response: Response):
-    """Observed min/max for Temperature/Humidity/Wind Speed (Ticket 6.8), to bound the range-slider filters."""
+    """Weather range filters (Temperature/Humidity/Wind Speed) -- disabled for launch.
+
+    _query_weather_ranges() above still has a real schema bug (queries
+    raw_cricsheet.matches.temperature_c/wind_speed_kph, which don't
+    exist -- those live in match_weather.temperature_c/humidity_pct/wind_kph
+    instead) that needs fixing before this can come back. Shipping this
+    as "coming soon" rather than fixing+enabling now, per launch scope.
+    """
     _set_cache_header(response)
-    return _query_weather_ranges()
+    return {"available": False, "temperature": None, "humidity": None, "wind_speed": None}

@@ -12,9 +12,12 @@
  *
  * Ticket 6.8 (Advanced Filter Categories) adds: Toss Winner (reuses
  * the season-scoped team list -- <TeamArraySelect>), Batting Order,
- * Day/Night, and Weather (all static enums -- <StaticFilterSelect>),
- * plus Temperature/Humidity/Wind Speed range sliders
- * (<RangeFilterControl>) bounded by /api/filters/weather-ranges.
+ * and Day/Night (static enums -- <StaticFilterSelect>).
+ *
+ * Weather condition + Temperature/Humidity/Wind Speed range sliders
+ * are pulled from the bar for launch -- backend data isn't solid yet
+ * (see backend/app/routers/filters.py get_weather_range_filters).
+ * Coming soon.
  *
  * Every dropdown here shares loading/error/empty/retry rendering via
  * <ApiFilterSelect> -- React Query owns loading/error/empty/retry/
@@ -28,8 +31,7 @@ import { useFilter, useFilters, FILTER_LABELS } from "@/store/filters";
 import type { FilterKey } from "@/store/filters";
 import { Button } from "@/components/ui/button";
 import { StaticFilterSelect } from "./static-filter-select";
-import { RangeFilterControl } from "./range-filter-control";
-import { useCityOptions, useSeasonOptions, useWeatherRanges } from "@/hooks/use-filter-options";
+import { useCityOptions, useSeasonOptions } from "@/hooks/use-filter-options";
 import { useCascadingFilterOptions } from "@/hooks/use-cascading-filters";
 import type { TeamOption } from "@/lib/api/filters";
 
@@ -39,7 +41,6 @@ const INNINGS_OPTIONS = [1, 2] as const;
 const PHASE_OPTIONS = ["powerplay", "middle", "death"] as const;
 
 // Ticket 6.8 -- Advanced Filter Categories
-const WEATHER_OPTIONS = ["clear", "cloudy", "overcast", "rain", "humid", "windy"] as const;
 const DAY_NIGHT_OPTIONS = ["day", "day_night", "night"] as const;
 const BATTING_ORDER_OPTIONS = ["batting_first", "chasing"] as const;
 
@@ -155,7 +156,6 @@ function TeamArraySelect({
 export function FilterBar() {
   const seasons = useSeasonOptions();
   const cities = useCityOptions();
-  const weatherRanges = useWeatherRanges();
   const { teams, opponentOptions, players, venues, matches } = useCascadingFilterOptions();
   const { filters, resetFilters, activeCount, isDefault } = useFilters();
 
@@ -242,38 +242,11 @@ export function FilterBar() {
           format={(v) => (v === "day" ? "Day" : v === "night" ? "Night" : "Day/Night")}
         />
 
-        <StaticFilterSelect
-          filterKey="weather"
-          options={WEATHER_OPTIONS}
-          format={(v) => v[0].toUpperCase() + v.slice(1)}
-        />
+        {/* Weather condition + Temperature/Humidity/Wind Speed sliders --
+            pulled for launch (backend data isn't solid yet, see
+            backend/app/routers/filters.py get_weather_range_filters).
+            Coming soon. */}
 
-        {/* Each range control packs two number inputs + a "to" label, so
-            it needs more room than a single select -- span the full row
-            at the narrower breakpoints (2- and 3-col grid) so the pair
-            of inputs isn't squeezed into a ~140px cell; at lg (5-col,
-            more room per column) it fits fine as a single cell. */}
-        <RangeFilterControl
-          group="temperature"
-          label="Temperature"
-          bounds={weatherRanges.data?.temperature}
-          isLoadingBounds={weatherRanges.isLoading}
-          className="col-span-2 sm:col-span-3 lg:col-span-1"
-        />
-        <RangeFilterControl
-          group="humidity"
-          label="Humidity"
-          bounds={weatherRanges.data?.humidity}
-          isLoadingBounds={weatherRanges.isLoading}
-          className="col-span-2 sm:col-span-3 lg:col-span-1"
-        />
-        <RangeFilterControl
-          group="windSpeed"
-          label="Wind Speed"
-          bounds={weatherRanges.data?.wind_speed}
-          isLoadingBounds={weatherRanges.isLoading}
-          className="col-span-2 sm:col-span-3 lg:col-span-1"
-        />
       </div>
 
       <div className="mt-6 flex flex-wrap items-center gap-3">
