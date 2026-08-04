@@ -57,10 +57,14 @@ export interface WeatherRanges {
   wind_speed: WeatherRangeBound;
 }
 
-/** Drops null/undefined/empty entries, then serializes the rest as query params. */
-function toQueryString(params: Record<string, string | number | null | undefined>): string {
+/** Drops null/undefined/empty entries, then serializes the rest as query params.
+ * Takes `object` rather than `Record<string, ...>` -- TS interfaces (declared
+ * with `interface`, like TeamFilterParams below) are never structurally
+ * assignable to an indexed Record type even though every property matches,
+ * so a Record-typed param here would fail to typecheck for every caller. */
+function toQueryString(params: object): string {
   const search = new URLSearchParams();
-  Object.entries(params).forEach(([key, value]) => {
+  Object.entries(params as Record<string, string | number | null | undefined>).forEach(([key, value]) => {
     if (value === null || value === undefined || value === "") return;
     search.set(key, String(value));
   });
