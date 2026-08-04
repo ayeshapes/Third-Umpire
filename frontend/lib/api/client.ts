@@ -4,7 +4,10 @@
  * endpoints this powers.
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000";
+// Strip any trailing slash(es) so callers can pass NEXT_PUBLIC_API_URL with
+// or without one -- paths below always start with "/", and a stray trailing
+// slash here would silently produce "//api/..." which 404s on the backend.
+const API_BASE_URL = (process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000").replace(/\/+$/, "");
 
 export class ApiError extends Error {
   status: number;
