@@ -6,24 +6,20 @@
  * `/api/players/compare/seasons`, neither of which exist): the real
  * backend route is `/api/players/compare` (backend/app/routers/players.py),
  * which returns ONE bundle per player -- { player, batting, bowling,
- * catches, timeline } -- that already covers both sections, so both
- * components fetch it through the same query (see
+ * catches, run_outs, matches, timeline } -- that already covers both
+ * sections, so both components fetch it through the same query (see
  * hooks/use-player-career-compare.ts) instead of hitting the network twice.
  *
- * Three things the generic `usePlayerComparison` + `fetchPlayerComparison`
+ * Two things the generic `usePlayerComparison` + `fetchPlayerComparison`
  * path (lib/api/players.ts) can't do here, which is why this file exists:
  *   1. Query params are `player1_id`/`player2_id`, not the generic
  *      comparison hook's `player_a`/`player_b`.
  *   2. The response shape (`{ player1: {...}, player2: {...} }`, each
- *      with nested `batting`/`bowling`/`catches`/`timeline`) doesn't match
- *      either `PlayerCareerComparisonData` (components/players/types.ts)
- *      or `SeasonComparisonData` (components/players/season-comparison.tsx)
- *      -- `toCareerStats` / `toSeasonComparison` below do that mapping.
- *   3. The backend doesn't compute every stat the Career Statistics table
- *      has a column for (centuries, fifties, highest_score, not_outs,
- *      five_wicket_hauls, best_bowling_figures, run_outs, matches aren't
- *      returned) -- those come back `null` ("--" in the table) instead of
- *      being invented.
+ *      with nested `batting`/`bowling`/`catches`/`run_outs`/`matches`/
+ *      `timeline`) doesn't match either `PlayerCareerComparisonData`
+ *      (components/players/types.ts) or `SeasonComparisonData`
+ *      (components/players/season-comparison.tsx) -- `toCareerStats` /
+ *      `toSeasonComparison` below do that mapping.
  */
 
 import { apiGet } from "./client";
@@ -52,6 +48,13 @@ interface RawBattingProfile {
   dot_ball_pct: number | null;
   fours: number;
   sixes: number;
+  fifties: number;
+  hundreds: number;
+  not_outs: number;
+  // Plain run count, no not-out asterisk -- the Comparison Studio table
+  // sorts this column numerically (unlike the single-player page's
+  // pre-formatted "123*" string in types/api.ts).
+  highest_score: number | null;
 }
 
 interface RawBowlingProfile {
@@ -61,6 +64,8 @@ interface RawBowlingProfile {
   average: number | null;
   strike_rate: number | null;
   maidens: number;
+  five_wicket_hauls: number;
+  best_bowling_figures: string | null;
 }
 
 interface RawTimelinePoint {
@@ -74,6 +79,8 @@ interface RawPlayerCompareBundle {
   batting: RawBattingProfile;
   bowling: RawBowlingProfile;
   catches: number;
+  run_outs: number;
+  matches: number;
   timeline: RawTimelinePoint[];
 }
 
@@ -106,30 +113,29 @@ function toPlayerLite(p: RawPlayerCore): PlayerLite {
 function toCareerStatsRow(b: RawPlayerCompareBundle): PlayerCareerStats {
   return {
     player_id: b.player.player_id,
-    // Not returned by the backend bundle -- left null/0 rather than guessed.
-    matches: 0,
+    matches: b.matches,
     innings_batted: b.batting.innings,
 
     runs: b.batting.runs,
     batting_average: b.batting.average,
     strike_rate: b.batting.strike_rate,
-    highest_score: null,
-    centuries: 0,
-    fifties: 0,
+    highest_score: b.batting.highest_score,
+    centuries: b.batting.hundreds,
+    fifties: b.batting.fifties,
     fours: b.batting.fours,
     sixes: b.batting.sixes,
-    not_outs: 0,
+    not_outs: b.batting.not_outs,
 
     innings_bowled: b.bowling.innings,
     wickets: b.bowling.wickets,
     bowling_average: b.bowling.average,
     economy_rate: b.bowling.economy,
     bowling_strike_rate: b.bowling.strike_rate,
-    five_wicket_hauls: 0,
-    best_bowling_figures: null,
+    five_wicket_hauls: b.bowling.five_wicket_hauls,
+    best_bowling_figures: b.bowling.best_bowling_figures,
 
     catches: b.catches,
-    run_outs: 0,
+    run_outs: b.run_outs,
   };
 }
 

@@ -155,7 +155,9 @@ def _player_batting_profile(cur, player_id: int):
             COALESCE(SUM(bs.balls_faced), 0)                       AS balls_faced,
             COALESCE(SUM(bs.fours), 0)                             AS fours,
             COALESCE(SUM(bs.sixes), 0)                             AS sixes,
-            COUNT(*) FILTER (WHERE bs.dismissal_type IS NOT NULL)  AS times_out
+            COUNT(*) FILTER (WHERE bs.dismissal_type IS NOT NULL)  AS times_out,
+            COUNT(*) FILTER (WHERE bs.runs >= 50 AND bs.runs < 100) AS fifties,
+            COUNT(*) FILTER (WHERE bs.runs >= 100)                 AS hundreds
         FROM raw_cricsheet.match_batting_scorecard bs
         WHERE bs.player_id = %(player_id)s
         """,
@@ -175,9 +177,28 @@ def _player_batting_profile(cur, player_id: int):
     )
     dot_balls = cur.fetchone()["dot_balls"] or 0
 
+    # Same ordering as /api/players/{player_id}'s highest_score_row (highest
+    # score first, ties broken in favour of the not-out innings), but this
+    # feeds the Comparison Studio's numeric "higher is better" column
+    # (PlayerCareerStats.highest_score: number | null in
+    # components/players/types.ts) rather than the single-player page's
+    # pre-formatted "123*" string, so only the run count is kept here.
+    cur.execute(
+        """
+        SELECT bs.runs, (bs.dismissal_type IS NULL) AS not_out
+        FROM raw_cricsheet.match_batting_scorecard bs
+        WHERE bs.player_id = %(player_id)s
+        ORDER BY bs.runs DESC, (bs.dismissal_type IS NULL) DESC
+        LIMIT 1
+        """,
+        {"player_id": player_id},
+    )
+    highest_score_row = cur.fetchone()
+
     balls_faced = row["balls_faced"] or 0
     boundaries = (row["fours"] or 0) + (row["sixes"] or 0)
     times_out = row["times_out"] or 0
+    innings = row["innings"] or 0
 
     return {
         "innings": row["innings"],
@@ -190,6 +211,10 @@ def _player_batting_profile(cur, player_id: int):
         "dot_ball_pct": round(dot_balls / balls_faced * 100, 2) if balls_faced else None,
         "fours": row["fours"],
         "sixes": row["sixes"],
+        "fifties": row["fifties"],
+        "hundreds": row["hundreds"],
+        "not_outs": innings - times_out,
+        "highest_score": highest_score_row["runs"] if highest_score_row else None,
     }
 
 
@@ -201,7 +226,8 @@ def _player_bowling_profile(cur, player_id: int):
             COALESCE(SUM({_overs_to_balls_expr('bw.overs_bowled')}), 0) AS balls_bowled,
             COALESCE(SUM(bw.runs_conceded), 0)                      AS runs_conceded,
             COALESCE(SUM(bw.wickets), 0)                            AS wickets,
-            COALESCE(SUM(bw.maidens), 0)                            AS maidens
+            COALESCE(SUM(bw.maidens), 0)                            AS maidens,
+            COUNT(*) FILTER (WHERE bw.wickets >= 5)                 AS five_wicket_hauls
         FROM raw_cricsheet.match_bowling_scorecard bw
         WHERE bw.player_id = %(player_id)s
         """,
@@ -211,6 +237,19 @@ def _player_bowling_profile(cur, player_id: int):
     balls_bowled = row["balls_bowled"] or 0
     wickets = row["wickets"] or 0
 
+    # Same pattern as /api/players/{player_id}'s best_figures_row.
+    cur.execute(
+        """
+        SELECT wickets, runs_conceded
+        FROM raw_cricsheet.match_bowling_scorecard
+        WHERE player_id = %(player_id)s
+        ORDER BY wickets DESC, runs_conceded ASC
+        LIMIT 1
+        """,
+        {"player_id": player_id},
+    )
+    best_figures_row = cur.fetchone()
+
     return {
         "innings": row["innings"],
         "wickets": wickets,
@@ -218,6 +257,11 @@ def _player_bowling_profile(cur, player_id: int):
         "average": round(row["runs_conceded"] / wickets, 2) if wickets else None,
         "strike_rate": round(balls_bowled / wickets, 2) if wickets else None,
         "maidens": row["maidens"],
+        "five_wicket_hauls": row["five_wicket_hauls"],
+        "best_bowling_figures": (
+            f"{best_figures_row['wickets']}/{best_figures_row['runs_conceded']}"
+            if best_figures_row and wickets else None
+        ),
     }
 
 
@@ -236,6 +280,49 @@ def _player_catches(cur, player_id: int):
         {"player_id": player_id},
     )
     return cur.fetchone()["catches"] or 0
+
+
+def _player_run_outs(cur, player_id: int):
+    # Same run-out attribution as /api/fielding-leaderboard: credited via
+    # deliveries.fielder_id/fielder2_id on a 'run_out' dismissal (a run
+    # out can involve two fielders, e.g. a relay throw).
+    cur.execute(
+        """
+        SELECT COUNT(*) AS run_outs
+        FROM raw_cricsheet.deliveries d
+        CROSS JOIN LATERAL (VALUES (d.fielder_id), (d.fielder2_id)) AS f(fid)
+        WHERE d.dismissal_type = 'run_out'
+          AND f.fid = %(player_id)s
+        """,
+        {"player_id": player_id},
+    )
+    return cur.fetchone()["run_outs"] or 0
+
+
+def _player_matches(cur, player_id: int):
+    # A player "played" a match if they appear in either scorecard for
+    # it -- batting-only and bowling-only appearances (e.g. a specialist
+    # bowler who doesn't bat, or a non-bowling batter) both count, so
+    # this is a UNION of both rather than just the batting join used
+    # for the venue/opposition splits above.
+    cur.execute(
+        """
+        SELECT COUNT(DISTINCT match_id) AS matches
+        FROM (
+            SELECT i.match_id
+            FROM raw_cricsheet.match_batting_scorecard bs
+            JOIN raw_cricsheet.innings i ON i.innings_id = bs.innings_id
+            WHERE bs.player_id = %(player_id)s
+            UNION
+            SELECT i.match_id
+            FROM raw_cricsheet.match_bowling_scorecard bw
+            JOIN raw_cricsheet.innings i ON i.innings_id = bw.innings_id
+            WHERE bw.player_id = %(player_id)s
+        ) played
+        """,
+        {"player_id": player_id},
+    )
+    return cur.fetchone()["matches"] or 0
 
 
 def _player_timeline(cur, player_id: int):
@@ -289,6 +376,8 @@ def _player_compare_bundle(cur, player_id: int):
         "batting": _player_batting_profile(cur, player_id),
         "bowling": _player_bowling_profile(cur, player_id),
         "catches": _player_catches(cur, player_id),
+        "run_outs": _player_run_outs(cur, player_id),
+        "matches": _player_matches(cur, player_id),
         "timeline": _player_timeline(cur, player_id),
     }
 
@@ -597,26 +686,26 @@ def compare_players_career_stats(player_a: int = Query(...), player_b: int = Que
             "team_code": None,
             "debut_year": None,
             "stats": {
-                "matches": 0,
+                "matches": bundle["matches"],
                 "innings_batted": bundle["batting"]["innings"],
                 "runs": bundle["batting"]["runs"],
                 "batting_average": bundle["batting"]["average"],
                 "strike_rate": bundle["batting"]["strike_rate"],
-                "highest_score": None,
-                "centuries": 0,
-                "fifties": 0,
+                "highest_score": bundle["batting"]["highest_score"],
+                "centuries": bundle["batting"]["hundreds"],
+                "fifties": bundle["batting"]["fifties"],
                 "fours": bundle["batting"]["fours"],
                 "sixes": bundle["batting"]["sixes"],
-                "not_outs": 0,
+                "not_outs": bundle["batting"]["not_outs"],
                 "innings_bowled": bundle["bowling"]["innings"],
                 "wickets": bundle["bowling"]["wickets"],
                 "bowling_average": bundle["bowling"]["average"],
                 "economy_rate": bundle["bowling"]["economy"],
                 "bowling_strike_rate": bundle["bowling"]["strike_rate"],
-                "five_wicket_hauls": 0,
-                "best_bowling_figures": None,
+                "five_wicket_hauls": bundle["bowling"]["five_wicket_hauls"],
+                "best_bowling_figures": bundle["bowling"]["best_bowling_figures"],
                 "catches": bundle["catches"],
-                "run_outs": 0,
+                "run_outs": bundle["run_outs"],
             },
         }
 
