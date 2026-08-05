@@ -27,6 +27,7 @@ import type { ReactNode } from "react";
 import { PageHeader } from "@/components/shared/page-header";
 import { FilterBar } from "@/components/filters/filter-bar";
 import { useFilters } from "@/store/filters";
+import { AllVenuesOverview } from "@/components/venue/all-venues-overview";
 import { VenueOverview } from "@/components/venue/venue-overview";
 import { BattingConditions } from "@/components/venue/batting-conditions";
 import { BowlingConditions } from "@/components/venue/bowling-conditions";
@@ -40,7 +41,7 @@ function SectionLabel({ children }: { children: ReactNode }) {
 }
 
 export default function VenueIntelligencePage() {
-  const { filters } = useFilters();
+  const { filters, setFilter } = useFilters();
   const hasVenue = filters.venue !== null;
 
   return (
@@ -48,20 +49,35 @@ export default function VenueIntelligencePage() {
       <PageHeader
         eyebrow="Analytics"
         title="Venue Intelligence"
-        description="Pick a venue from the filter bar below for its full read -- conditions, par scores, toss impact, and trends over time."
+        description={
+          hasVenue
+            ? "Full conditions, par scores, toss impact, and trends for the selected venue."
+            : "General numbers across every venue below -- click one, or narrow with season/venue filters, for its full report."
+        }
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* Venue Intelligence only ever reads season + venue (see the
+            backend docstrings in routers/venues.py -- these routes
+            deliberately ignore the rest of FilterState), so that's all
+            this page's filter bar shows -- not the full 14-filter set. */}
+        <FilterBar fields={["season", "venue", "city"]} />
       </div>
 
       {!hasVenue ? (
-        <div className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line-strong bg-surface px-6 py-16 text-center">
-          <p className="text-sm font-medium text-ivory">No venue selected</p>
-          <p className="max-w-sm text-xs text-fg-faint">Pick a venue from the filter bar above to see its full intelligence report.</p>
-        </div>
+        <AllVenuesOverview onSelectVenue={(id) => setFilter("venue", String(id))} />
       ) : (
         <>
+          <div className="mb-4">
+            <button
+              type="button"
+              onClick={() => setFilter("venue", null)}
+              className="text-xs font-medium text-fg-faint underline underline-offset-2 hover:text-crimson-bright"
+            >
+              ← Back to all venues
+            </button>
+          </div>
+
           <div className="mb-8">
             <SectionLabel>Venue Overview</SectionLabel>
             <VenueOverview path="/api/venues/overview" />

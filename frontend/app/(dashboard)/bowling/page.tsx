@@ -70,7 +70,13 @@ export default function BowlingAnalyticsPage() {
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* Same reasoning as the batting page's filter set -- bowling
+            numbers move with season/team/opponent/player/venue and the
+            situational splits (phase, innings, batting order, day/night),
+            not with match/city/toss/result/toss-winner. */}
+        <FilterBar
+          fields={["season", "team", "opponent", "player", "venue", "phase", "innings", "battingOrder", "dayNight"]}
+        />
       </div>
 
       <div className="mb-8">

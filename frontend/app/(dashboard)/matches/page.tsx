@@ -75,7 +75,11 @@ export default function MatchInsightsPage() {
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* This page is driven by the season -> team -> opponent -> player
+            -> venue -> match cascade (picking a match is the point of the
+            page), plus city -- toss/result/innings/phase/etc don't scope
+            "which match" so they're left off here. */}
+        <FilterBar fields={["season", "team", "opponent", "player", "venue", "match", "city"]} />
       </div>
 
       {!hasMatch ? (

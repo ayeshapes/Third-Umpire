@@ -41,7 +41,11 @@ export default function RecordsPage() {
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* Records are browsed by season/team/venue, not by a single
+            player/match/toss/phase -- narrower field set than the full
+            14-filter bar so this doesn't show filters that don't scope
+            a "records" question. */}
+        <FilterBar fields={["season", "team", "opponent", "venue"]} />
       </div>
 
       <div className="mb-8">

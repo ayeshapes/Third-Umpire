@@ -11,6 +11,7 @@ from fastapi import APIRouter, Query
 
 from app.database.connection import get_conn
 from app.utils.cricket import overs_to_balls_expr as _overs_to_balls_expr
+from app.utils.search import pg_trgm_available
 
 router = APIRouter(tags=["venues"])
 
@@ -68,25 +69,37 @@ def search_venues(
     if q is not None and len(q.strip()) < 2:
         q = None
 
+    fuzzy = pg_trgm_available()
+
     name_clause = ""
     if q:
-        name_clause = """
-            AND (
-                v.venue_name ILIKE %(pattern)s OR v.city ILIKE %(pattern)s
-                OR similarity(v.venue_name, %(q)s) > 0.25
-                OR similarity(COALESCE(v.city, ''), %(q)s) > 0.25
-            )
+        if fuzzy:
+            name_clause = """
+                AND (
+                    v.venue_name ILIKE %(pattern)s OR v.city ILIKE %(pattern)s
+                    OR similarity(v.venue_name, %(q)s) > 0.25
+                    OR similarity(COALESCE(v.city, ''), %(q)s) > 0.25
+                )
+            """
+        else:
+            name_clause = "AND (v.venue_name ILIKE %(pattern)s OR v.city ILIKE %(pattern)s)"
+
+    match_score_expr = (
         """
+        GREATEST(
+            similarity(v.venue_name, COALESCE(%(q)s, v.venue_name)),
+            similarity(COALESCE(v.city, ''), COALESCE(%(q)s, v.city, ''))
+        )
+        """
+        if fuzzy else "0"
+    )
 
     with get_conn() as conn, conn.cursor() as cur:
         cur.execute(
             f"""
             SELECT
                 v.venue_id, v.venue_name, v.city, v.country,
-                GREATEST(
-                    similarity(v.venue_name, COALESCE(%(q)s, v.venue_name)),
-                    similarity(COALESCE(v.city, ''), COALESCE(%(q)s, v.city, ''))
-                ) AS match_score
+                {match_score_expr} AS match_score
             FROM raw_cricsheet.venues v
             WHERE 1=1
               {name_clause}

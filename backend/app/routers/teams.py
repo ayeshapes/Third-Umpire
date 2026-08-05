@@ -12,6 +12,7 @@ from fastapi import APIRouter, Query
 from app.database.connection import get_conn
 from app.utils.cricket import overs_to_balls_expr as _overs_to_balls_expr
 from app.utils.cricket import clamp_pct as _clamp_pct
+from app.utils.search import pg_trgm_available
 
 router = APIRouter(tags=["teams"])
 
@@ -49,25 +50,37 @@ def search_teams(
     if q is not None and len(q.strip()) < 2:
         q = None
 
+    fuzzy = pg_trgm_available()
+
     name_clause = ""
     if q:
-        name_clause = """
-            AND (
-                t.team_name ILIKE %(pattern)s OR t.team_code ILIKE %(pattern)s
-                OR similarity(t.team_name, %(q)s) > 0.25
-                OR similarity(t.team_code, %(q)s) > 0.25
-            )
+        if fuzzy:
+            name_clause = """
+                AND (
+                    t.team_name ILIKE %(pattern)s OR t.team_code ILIKE %(pattern)s
+                    OR similarity(t.team_name, %(q)s) > 0.25
+                    OR similarity(t.team_code, %(q)s) > 0.25
+                )
+            """
+        else:
+            name_clause = "AND (t.team_name ILIKE %(pattern)s OR t.team_code ILIKE %(pattern)s)"
+
+    match_score_expr = (
         """
+        GREATEST(
+            similarity(t.team_name, COALESCE(%(q)s, t.team_name)),
+            similarity(t.team_code, COALESCE(%(q)s, t.team_code))
+        )
+        """
+        if fuzzy else "0"
+    )
 
     with get_conn() as conn, conn.cursor() as cur:
         cur.execute(
             f"""
             SELECT
                 t.team_id, t.team_name, t.team_code, t.home_city,
-                GREATEST(
-                    similarity(t.team_name, COALESCE(%(q)s, t.team_name)),
-                    similarity(t.team_code, COALESCE(%(q)s, t.team_code))
-                ) AS match_score
+                {match_score_expr} AS match_score
             FROM raw_cricsheet.teams t
             WHERE 1=1
               {name_clause}

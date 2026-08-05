@@ -15,6 +15,7 @@ export default function PlayersPage() {
   const [results, setResults] = useState<PlayerSearchResult[]>([]);
   const [isPending, startTransition] = useTransition();
   const [searched, setSearched] = useState(false);
+  const [searchError, setSearchError] = useState<string | null>(null);
   const isActiveQuery = query.trim().length >= 2;
 
   useEffect(() => {
@@ -24,8 +25,13 @@ export default function PlayersPage() {
         try {
           const data = await api.playersSearch(query.trim());
           setResults(data);
-        } catch {
+          setSearchError(null);
+        } catch (err) {
+          // Distinguish "search failed" (backend/DB error) from "genuinely
+          // no matches" -- silently treating both as empty results is what
+          // made a broken search look identical to a normal empty state.
           setResults([]);
+          setSearchError(err instanceof Error ? err.message : "Search failed. Please try again.");
         } finally {
           setSearched(true);
         }
@@ -78,7 +84,14 @@ export default function PlayersPage() {
           </div>
         )}
 
-        {isActiveQuery && !isPending && searched && results.length === 0 && (
+        {isActiveQuery && !isPending && searched && searchError && (
+          <div className="flex flex-col items-center gap-2 rounded-2xl border border-crimson-bright/30 bg-surface px-6 py-10 text-center">
+            <p className="text-sm font-medium text-crimson-bright">Search failed</p>
+            <p className="max-w-sm text-xs text-fg-faint">{searchError}</p>
+          </div>
+        )}
+
+        {isActiveQuery && !isPending && searched && !searchError && results.length === 0 && (
           <p className="py-10 text-center text-sm text-fg-faint">No players found for &ldquo;{query}&rdquo;.</p>
         )}
 

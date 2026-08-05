@@ -66,7 +66,14 @@ export default function BattingAnalyticsPage() {
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* Batting analytics scope: season/team/opponent/player/venue plus
+            the situational splits that actually change a batting read
+            (phase, innings, batting order, day/night). Match/city/toss/
+            result/toss-winner don't change a batting number, so they're
+            left off this page's set. */}
+        <FilterBar
+          fields={["season", "team", "opponent", "player", "venue", "phase", "innings", "battingOrder", "dayNight"]}
+        />
       </div>
 
       <div className="mb-8">

@@ -69,7 +69,13 @@ export default function PlayerComparisonPage() {
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* Player A/B are picked below via <PlayerSelect>, so the shared
+            filter bar drops `player`/`match` here for the same reason
+            Team Comparison drops `team`/`opponent` -- one picker per
+            role, not two competing ones on the same page. */}
+        <FilterBar
+          fields={["season", "team", "opponent", "venue", "city", "toss", "result", "innings", "phase", "battingOrder", "dayNight"]}
+        />
       </div>
 
       <div className="mb-8">

@@ -11,6 +11,7 @@ from fastapi import APIRouter, Query
 
 from app.database.connection import get_conn
 from app.utils.cricket import overs_to_balls_expr as _overs_to_balls_expr
+from app.utils.search import pg_trgm_available
 
 router = APIRouter(tags=["players"])
 
@@ -29,8 +30,10 @@ def search_players(
     or both together.
 
     Fuzzy matching needs the pg_trgm extension (see
-    database/patch_v5_fuzzy_search.sql) -- without it, this still works
-    but falls back to substring-only matching (no typo tolerance).
+    database/patch_v5_fuzzy_search.sql). pg_trgm_available() checks
+    for that up front -- if it isn't installed yet, this falls back to
+    plain ILIKE substring matching (no typo tolerance, but it works)
+    instead of throwing a 500 on every request, fuzzy or not.
 
     Requires q to be at least 2 characters if provided, same as before,
     but q itself is now optional -- so "just show me Pakistani bowlers"
@@ -39,25 +42,39 @@ def search_players(
     if q is not None and len(q.strip()) < 2:
         q = None
 
+    fuzzy = pg_trgm_available()
+
     name_clause = ""
     if q:
-        name_clause = """
-            AND (
-                p.full_name ILIKE %(pattern)s OR p.display_name ILIKE %(pattern)s
-                OR similarity(p.full_name, %(q)s) > 0.25
-                OR similarity(COALESCE(p.display_name, ''), %(q)s) > 0.25
-            )
+        if fuzzy:
+            name_clause = """
+                AND (
+                    p.full_name ILIKE %(pattern)s OR p.display_name ILIKE %(pattern)s
+                    OR similarity(p.full_name, %(q)s) > 0.25
+                    OR similarity(COALESCE(p.display_name, ''), %(q)s) > 0.25
+                )
+            """
+        else:
+            name_clause = """
+                AND (p.full_name ILIKE %(pattern)s OR p.display_name ILIKE %(pattern)s)
+            """
+
+    match_score_expr = (
         """
+        GREATEST(
+            similarity(p.full_name, COALESCE(%(q)s, p.full_name)),
+            similarity(COALESCE(p.display_name, ''), COALESCE(%(q)s, p.display_name, ''))
+        )
+        """
+        if fuzzy else "0"
+    )
 
     with get_conn() as conn, conn.cursor() as cur:
         cur.execute(
             f"""
             SELECT
                 p.player_id, p.full_name, p.display_name, p.nationality, p.primary_role,
-                GREATEST(
-                    similarity(p.full_name, COALESCE(%(q)s, p.full_name)),
-                    similarity(COALESCE(p.display_name, ''), COALESCE(%(q)s, p.display_name, ''))
-                ) AS match_score
+                {match_score_expr} AS match_score
             FROM raw_cricsheet.players p
             WHERE 1=1
               {name_clause}

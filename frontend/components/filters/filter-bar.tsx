@@ -23,10 +23,21 @@
  * <ApiFilterSelect> -- React Query owns loading/error/empty/retry/
  * cache; this component just renders whichever state a given query is
  * in.
+ *
+ * `fields` + collapsible mode: originally every page that used this
+ * bar got the exact same 14-filter grid whether or not most of those
+ * filters were relevant there (e.g. Venue Intelligence showed Player/
+ * Match/Toss Winner alongside Venue). Pass `fields` to render only
+ * the filters that matter for that page; omit it for the full set
+ * (unchanged default, so existing call sites keep working). The bar
+ * is also collapsed by default behind a small toggle instead of
+ * always taking up the full width at the top of the page -- expand it
+ * when you actually want to filter.
  */
 
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import type { UseQueryResult } from "@tanstack/react-query";
+import { SlidersHorizontal, ChevronDown } from "lucide-react";
 import { useFilter, useFilters, FILTER_LABELS } from "@/store/filters";
 import type { FilterKey } from "@/store/filters";
 import { Button } from "@/components/ui/button";
@@ -153,110 +164,177 @@ function TeamArraySelect({
 /* Filter bar                                                          */
 /* ------------------------------------------------------------------ */
 
-export function FilterBar() {
+/** Every filter this bar knows how to render -- the default when `fields` is omitted. */
+const ALL_FIELDS: FilterKey[] = [
+  "season", "team", "opponent", "player", "venue", "match", "city",
+  "toss", "result", "innings", "phase", "tossWinner", "battingOrder", "dayNight",
+];
+
+interface FilterBarProps {
+  /** Which filters to show, in order. Omit for the full 14-filter set (previous behavior). */
+  fields?: FilterKey[];
+  /** Render collapsed behind a toggle instead of always expanded. Default true. */
+  collapsible?: boolean;
+  /** Only relevant when collapsible -- start expanded. Default false. */
+  defaultOpen?: boolean;
+}
+
+export function FilterBar({ fields, collapsible = true, defaultOpen = false }: FilterBarProps) {
+  const [open, setOpen] = useState(defaultOpen);
   const seasons = useSeasonOptions();
   const cities = useCityOptions();
   const { teams, opponentOptions, players, venues, matches } = useCascadingFilterOptions();
   const { filters, resetFilters, activeCount, isDefault } = useFilters();
 
+  const active = new Set(fields ?? ALL_FIELDS);
+  const show = (key: FilterKey) => active.has(key);
+  const expanded = !collapsible || open;
+
   return (
     <div>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-        {/* Cascade level 1: independent */}
-        <ApiFilterSelect
-          filterKey="season"
-          query={seasons}
-          getValue={(s) => String(s.season_year)}
-          getLabel={(s) => s.season_year}
-        />
+      {collapsible && (
+        <button
+          type="button"
+          onClick={() => setOpen((o) => !o)}
+          aria-expanded={open}
+          className="inline-flex items-center gap-2 rounded-full border border-line-strong bg-surface px-4 py-2 text-sm font-medium text-ivory transition-colors hover:border-crimson-bright/50"
+        >
+          <SlidersHorizontal className="h-4 w-4" />
+          Filters
+          {activeCount > 0 && (
+            <span className="rounded-full bg-crimson-bright/20 px-2 py-0.5 text-xs font-semibold text-crimson-bright">
+              {activeCount}
+            </span>
+          )}
+          <ChevronDown className={`h-4 w-4 text-fg-faint transition-transform ${open ? "rotate-180" : ""}`} />
+        </button>
+      )}
 
-        {/* Cascade level 2: scoped to season */}
-        <TeamArraySelect filterKey="team" teams={teams.data ?? []} isLoading={teams.isLoading} />
-        <TeamArraySelect filterKey="opponent" teams={opponentOptions} isLoading={teams.isLoading} />
+      {expanded && (
+        <div className={collapsible ? "mt-4" : undefined}>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+            {/* Cascade level 1: independent */}
+            {show("season") && (
+              <ApiFilterSelect
+                filterKey="season"
+                query={seasons}
+                getValue={(s) => String(s.season_year)}
+                getLabel={(s) => s.season_year}
+              />
+            )}
 
-        {/* Cascade level 3: scoped to season + team */}
-        <ApiFilterSelect
-          filterKey="player"
-          query={players}
-          getValue={(p) => String(p.player_id)}
-          getLabel={(p) => p.display_name ?? p.full_name}
-          disabledHint={filters.team ? "No players for this team/season" : "No players available"}
-        />
+            {/* Cascade level 2: scoped to season */}
+            {show("team") && <TeamArraySelect filterKey="team" teams={teams.data ?? []} isLoading={teams.isLoading} />}
+            {show("opponent") && (
+              <TeamArraySelect filterKey="opponent" teams={opponentOptions} isLoading={teams.isLoading} />
+            )}
 
-        {/* Cascade level 4: scoped to season + team + player */}
-        <ApiFilterSelect
-          filterKey="venue"
-          query={venues}
-          getValue={(v) => String(v.venue_id)}
-          getLabel={(v) => v.venue_name}
-          disabledHint="No venues match the current filters"
-        />
+            {/* Cascade level 3: scoped to season + team */}
+            {show("player") && (
+              <ApiFilterSelect
+                filterKey="player"
+                query={players}
+                getValue={(p) => String(p.player_id)}
+                getLabel={(p) => p.display_name ?? p.full_name}
+                disabledHint={filters.team ? "No players for this team/season" : "No players available"}
+              />
+            )}
 
-        {/* Cascade level 5 (bottom): scoped to everything above */}
-        <ApiFilterSelect
-          filterKey="match"
-          query={matches}
-          getValue={(m) => String(m.match_id)}
-          getLabel={(m) => `${m.team1_name} vs ${m.team2_name} -- ${m.match_date}`}
-          disabledHint="No matches match the current filters"
-        />
+            {/* Cascade level 4: scoped to season + team + player */}
+            {show("venue") && (
+              <ApiFilterSelect
+                filterKey="venue"
+                query={venues}
+                getValue={(v) => String(v.venue_id)}
+                getLabel={(v) => v.venue_name}
+                disabledHint="No venues match the current filters"
+              />
+            )}
 
-        {/* Independent of the cascade */}
-        <ApiFilterSelect filterKey="city" query={cities} getValue={(c) => c} getLabel={(c) => c} />
+            {/* Cascade level 5 (bottom): scoped to everything above */}
+            {show("match") && (
+              <ApiFilterSelect
+                filterKey="match"
+                query={matches}
+                getValue={(m) => String(m.match_id)}
+                getLabel={(m) => `${m.team1_name} vs ${m.team2_name} -- ${m.match_date}`}
+                disabledHint="No matches match the current filters"
+              />
+            )}
 
-        <StaticFilterSelect
-          filterKey="toss"
-          options={TOSS_OPTIONS}
-          format={(v) => (v === "bat" ? "Bat first" : "Bowl first")}
-        />
-        <StaticFilterSelect
-          filterKey="result"
-          options={RESULT_OPTIONS}
-          format={(v) => (v === "no_result" ? "No result" : v[0].toUpperCase() + v.slice(1))}
-        />
-        <StaticFilterSelect
-          filterKey="innings"
-          options={INNINGS_OPTIONS}
-          format={(v) => `${v === 1 ? "1st" : "2nd"} innings`}
-        />
-        <StaticFilterSelect
-          filterKey="phase"
-          options={PHASE_OPTIONS}
-          format={(v) => (v === "powerplay" ? "Powerplay" : v === "middle" ? "Middle overs" : "Death overs")}
-        />
+            {/* Independent of the cascade */}
+            {show("city") && (
+              <ApiFilterSelect filterKey="city" query={cities} getValue={(c) => c} getLabel={(c) => c} />
+            )}
 
-        {/* Ticket 6.8: Advanced Filter Categories ------------------- */}
+            {show("toss") && (
+              <StaticFilterSelect
+                filterKey="toss"
+                options={TOSS_OPTIONS}
+                format={(v) => (v === "bat" ? "Bat first" : "Bowl first")}
+              />
+            )}
+            {show("result") && (
+              <StaticFilterSelect
+                filterKey="result"
+                options={RESULT_OPTIONS}
+                format={(v) => (v === "no_result" ? "No result" : v[0].toUpperCase() + v.slice(1))}
+              />
+            )}
+            {show("innings") && (
+              <StaticFilterSelect
+                filterKey="innings"
+                options={INNINGS_OPTIONS}
+                format={(v) => `${v === 1 ? "1st" : "2nd"} innings`}
+              />
+            )}
+            {show("phase") && (
+              <StaticFilterSelect
+                filterKey="phase"
+                options={PHASE_OPTIONS}
+                format={(v) => (v === "powerplay" ? "Powerplay" : v === "middle" ? "Middle overs" : "Death overs")}
+              />
+            )}
 
-        {/* Same season-scoped team list as Team/Opponent above -- a toss winner is just a team. */}
-        <TeamArraySelect filterKey="tossWinner" teams={teams.data ?? []} isLoading={teams.isLoading} />
+            {/* Ticket 6.8: Advanced Filter Categories ------------------- */}
 
-        <StaticFilterSelect
-          filterKey="battingOrder"
-          options={BATTING_ORDER_OPTIONS}
-          format={(v) => (v === "batting_first" ? "Batting first" : "Chasing")}
-        />
+            {/* Same season-scoped team list as Team/Opponent above -- a toss winner is just a team. */}
+            {show("tossWinner") && (
+              <TeamArraySelect filterKey="tossWinner" teams={teams.data ?? []} isLoading={teams.isLoading} />
+            )}
 
-        <StaticFilterSelect
-          filterKey="dayNight"
-          options={DAY_NIGHT_OPTIONS}
-          format={(v) => (v === "day" ? "Day" : v === "night" ? "Night" : "Day/Night")}
-        />
+            {show("battingOrder") && (
+              <StaticFilterSelect
+                filterKey="battingOrder"
+                options={BATTING_ORDER_OPTIONS}
+                format={(v) => (v === "batting_first" ? "Batting first" : "Chasing")}
+              />
+            )}
 
-        {/* Weather condition + Temperature/Humidity/Wind Speed sliders --
-            pulled for launch (backend data isn't solid yet, see
-            backend/app/routers/filters.py get_weather_range_filters).
-            Coming soon. */}
+            {show("dayNight") && (
+              <StaticFilterSelect
+                filterKey="dayNight"
+                options={DAY_NIGHT_OPTIONS}
+                format={(v) => (v === "day" ? "Day" : v === "night" ? "Night" : "Day/Night")}
+              />
+            )}
 
-      </div>
+            {/* Weather condition + Temperature/Humidity/Wind Speed sliders --
+                pulled for launch (backend data isn't solid yet, see
+                backend/app/routers/filters.py get_weather_range_filters).
+                Coming soon. */}
+          </div>
 
-      <div className="mt-6 flex flex-wrap items-center gap-3">
-        <Button variant="outline" size="sm" disabled={isDefault} onClick={resetFilters}>
-          Reset all
-        </Button>
-        <span className="text-xs text-fg-faint">
-          {activeCount} filter{activeCount === 1 ? "" : "s"} active
-        </span>
-      </div>
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <Button variant="outline" size="sm" disabled={isDefault} onClick={resetFilters}>
+              Reset all
+            </Button>
+            <span className="text-xs text-fg-faint">
+              {activeCount} filter{activeCount === 1 ? "" : "s"} active
+            </span>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

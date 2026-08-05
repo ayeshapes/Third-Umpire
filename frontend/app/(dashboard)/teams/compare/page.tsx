@@ -77,7 +77,11 @@ export default function TeamComparisonPage() {
       />
 
       <div className="mb-8">
-        <FilterBar />
+        {/* Team A/B are picked below via <TeamSelect>, so the shared
+            filter bar drops team/opponent/tossWinner/player/match here --
+            showing them next to a dedicated Team A/B picker would just
+            be two competing ways to pick a team on the same page. */}
+        <FilterBar fields={["season", "venue", "city", "toss", "result", "innings", "phase", "battingOrder", "dayNight"]} />
       </div>
 
       <div className="mb-8">
