@@ -13,26 +13,15 @@
  *     match-specific to build there.
  *
  * Repoint fix: every section below was pointed at a separate
- * illustrative placeholder path (`/api/matches/timeline`, `/worm`,
- * `/manhattan`, `/run-rate-comparison`, `/partnership-timeline`,
- * `/highlights`) that doesn't exist. None of them needed a new
- * endpoint -- `/api/matches/{match_id}/detail` already returns
- * everything (see lib/api/match-charts.ts for the six mappings), so
- * this page fetches it once via useMatchDetail and hands each section
- * its slice directly instead of each section fetching its own path.
- * Timeline/Run Rate/Partnership Timeline/Highlights fetch that same
- * payload internally now (same queryKey, so still one network call
- * total); Worm/Manhattan take pre-mapped `data` because they're also
- * reused on Batting/Bowling as aggregate, filter-scoped charts.
+ * illustrative placeholder path that doesn't exist. None of them
+ * needed a new endpoint -- `/api/matches/{match_id}/detail` already
+ * returns everything (see lib/api/match-charts.ts), so this page
+ * fetches it once via useMatchDetail and hands each section its
+ * slice directly instead of each section fetching its own path.
  *
- * Manhattan shows one innings per call -- the component renders a
- * single series -- so this page renders it twice (once per team)
- * instead of the original single illustrative call, which could only
- * ever have shown one side of a two-innings match anyway.
- *
- * Estimated Win Probability is a genuine model output (resources,
- * required rate, wickets in hand -> win%) -- out of scope for this
- * pass, still on its placeholder path.
+ * Manhattan, Partnership Timeline, and Estimated Win Probability were
+ * removed from this page; Momentum Changes, Best Partnership, and
+ * Match Facts were removed from <MatchHighlights>.
  */
 
 import type { ReactNode } from "react";
@@ -41,15 +30,12 @@ import { PageHeader } from "@/components/shared/page-header";
 import { FilterBar } from "@/components/filters/filter-bar";
 import { useFilters } from "@/store/filters";
 import { useMatchDetail } from "@/hooks/use-match-detail";
-import { toWormGraph, toManhattan } from "@/lib/api/match-charts";
+import { toWormGraph } from "@/lib/api/match-charts";
 import { MatchSummary } from "@/components/match/match-summary";
 import { MatchTimeline } from "@/components/match/match-timeline";
 import { MatchHighlights } from "@/components/match/match-highlights";
 import { WormGraph } from "@/components/charts/worm-graph";
-import { ManhattanChart } from "@/components/charts/manhattan-chart";
 import { RunRateComparison } from "@/components/charts/run-rate-comparison";
-import { PartnershipTimeline } from "@/components/charts/partnership-timeline";
-import { WinProbability } from "@/components/charts/win-probability";
 
 function SectionLabel({ children }: { children: ReactNode }) {
   return <p className="mb-4 text-xs font-medium uppercase tracking-widest text-fg-faint">{children}</p>;
@@ -61,10 +47,6 @@ export default function MatchInsightsPage() {
   const { data: raw } = useMatchDetail(filters.match);
 
   const wormData = useMemo(() => (raw ? toWormGraph(raw) : null), [raw]);
-  const inn1 = useMemo(() => raw?.innings.find((i) => i.batting_team_id === raw.match?.team1_id), [raw]);
-  const inn2 = useMemo(() => raw?.innings.find((i) => i.batting_team_id === raw.match?.team2_id), [raw]);
-  const manhattan1 = useMemo(() => toManhattan(inn1), [inn1]);
-  const manhattan2 = useMemo(() => toManhattan(inn2), [inn2]);
 
   return (
     <div>
@@ -107,15 +89,7 @@ export default function MatchInsightsPage() {
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <WormGraph data={wormData} title="Worm Graph" />
               <RunRateComparison title="Run Rate Comparison" />
-              <ManhattanChart data={manhattan1} title={`Manhattan -- ${raw?.match?.team1_name ?? "Team 1"} innings`} />
-              <ManhattanChart data={manhattan2} title={`Manhattan -- ${raw?.match?.team2_name ?? "Team 2"} innings`} />
-              <PartnershipTimeline title="Partnership Timeline" />
             </div>
-          </div>
-
-          <div className="mb-8">
-            <SectionLabel>Estimated Win Probability</SectionLabel>
-            <WinProbability path="/api/matches/win-probability" title="Estimated Win Probability" />
           </div>
 
           <div>

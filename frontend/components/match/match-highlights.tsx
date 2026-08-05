@@ -91,7 +91,7 @@ export function MatchHighlights() {
   if (isLoading) {
     return (
       <div role="status" aria-label="Loading match highlights" className="grid grid-cols-1 gap-4 md:grid-cols-2">
-        {Array.from({ length: 5 }).map((_, i) => (
+        {Array.from({ length: 2 }).map((_, i) => (
           <div key={i} className="h-40 animate-pulse rounded-2xl bg-surface-2" />
         ))}
       </div>
@@ -123,39 +123,6 @@ export function MatchHighlights() {
         <EventList items={data.turning_points} emptyText="No standout turning points identified for this match." />
       </HighlightCard>
 
-      <HighlightCard title="Momentum Changes">
-        {data.momentum_changes.length === 0 ? (
-          <p className="text-xs text-fg-faint">The match stayed one-sided throughout -- no major momentum swings.</p>
-        ) : (
-          <ul className="flex flex-col gap-3">
-            {data.momentum_changes.map((m, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="mt-0.5 shrink-0 text-xs font-medium tabular-nums text-fg-faint">
-                  {m.innings}.{m.over.toFixed(1)}
-                </span>
-                <span className="text-sm text-fg-muted">{m.description}</span>
-              </li>
-            ))}
-          </ul>
-        )}
-      </HighlightCard>
-
-      <HighlightCard title="Best Partnership">
-        {data.best_partnership ? (
-          <div>
-            <p className="text-sm font-medium text-ivory">
-              {data.best_partnership.batter1} &amp; {data.best_partnership.batter2}
-            </p>
-            <p className="mt-1 text-xs text-fg-faint">
-              {ordinal(data.best_partnership.wicket)} wicket · {data.best_partnership.runs} runs off{" "}
-              {data.best_partnership.balls} balls
-            </p>
-          </div>
-        ) : (
-          <p className="text-xs text-fg-faint">No partnership data available.</p>
-        )}
-      </HighlightCard>
-
       <HighlightCard title="Best Bowling Spell">
         {data.best_bowling_spell ? (
           <div>
@@ -168,27 +135,7 @@ export function MatchHighlights() {
           <p className="text-xs text-fg-faint">No bowling spell data available.</p>
         )}
       </HighlightCard>
-
-      <HighlightCard title="Match Facts">
-        {data.match_facts.length === 0 ? (
-          <p className="text-xs text-fg-faint">No additional facts recorded for this match.</p>
-        ) : (
-          <ul className="flex flex-col gap-2">
-            {data.match_facts.map((fact, i) => (
-              <li key={i} className="flex gap-2 text-sm text-fg-muted">
-                <span className="text-fg-faint">•</span>
-                <span>{fact}</span>
-              </li>
-            ))}
-          </ul>
-        )}
-      </HighlightCard>
     </div>
   );
 }
 
-function ordinal(n: number): string {
-  const s = ["th", "st", "nd", "rd"];
-  const v = n % 100;
-  return `${n}${s[(v - 20) % 10] ?? s[v] ?? s[0]}`;
-}
