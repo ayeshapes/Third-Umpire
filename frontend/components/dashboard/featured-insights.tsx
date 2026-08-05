@@ -3,10 +3,19 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { Flame, Trophy, Crosshair, type LucideIcon } from "lucide-react";
+import { Flame, Trophy, Crosshair } from "lucide-react";
+
+// Server Components (dashboard/page.tsx) can't import a plain object of
+// icon components from this "use client" file and read properties off
+// it -- across the RSC boundary that object is a client reference, not
+// the real thing, so e.g. `InsightIcons.Flame` silently evaluates to
+// undefined server-side. Passing a string key instead (resolved to the
+// real component here, entirely client-side) avoids that trap.
+const ICON_MAP = { flame: Flame, trophy: Trophy, crosshair: Crosshair } as const;
+export type InsightIconKey = keyof typeof ICON_MAP;
 
 interface Insight {
-  icon: LucideIcon;
+  icon: InsightIconKey;
   eyebrow: string;
   headline: string;
   stat: string;
@@ -20,7 +29,9 @@ export function FeaturedInsights({ insights }: { insights: Insight[] }) {
 
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {insights.map((insight, i) => (
+      {insights.map((insight, i) => {
+        const Icon = ICON_MAP[insight.icon];
+        return (
         <motion.div
           key={insight.eyebrow}
           initial={{ opacity: 0, y: 14 }}
@@ -45,7 +56,7 @@ export function FeaturedInsights({ insights }: { insights: Insight[] }) {
                     : "border-amber/30 bg-amber/12 text-amber"
                 )}
               >
-                <insight.icon className="h-4 w-4" />
+                <Icon className="h-4 w-4" />
               </span>
             </div>
 
@@ -68,9 +79,8 @@ export function FeaturedInsights({ insights }: { insights: Insight[] }) {
             <p className="relative mt-3 text-xs leading-relaxed text-fg-muted">{insight.blurb}</p>
           </Card>
         </motion.div>
-      ))}
+        );
+      })}
     </div>
   );
 }
-
-export const InsightIcons = { Flame, Trophy, Crosshair };
