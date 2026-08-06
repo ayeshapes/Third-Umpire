@@ -1,12 +1,22 @@
 "use client";
 
-import { Search, Bell } from "lucide-react";
+import { Search, Bell, Menu } from "lucide-react";
 import { openCommandPalette } from "@/components/shared/command-palette";
+import { openMobileNav } from "@/components/layout/sidebar";
 
 export function Topbar({ title = "Third Umpire" }: { title?: string }) {
   return (
     <header className="sticky top-0 z-40 flex h-16 items-center justify-between gap-4 border-b border-line bg-void/90 px-6 backdrop-blur-md shadow-[0_1px_2px_rgba(41,30,20,0.03)]">
-      <h1 className="font-display text-lg font-semibold uppercase tracking-wide text-ivory">{title}</h1>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={openMobileNav}
+          className="flex h-9 w-9 items-center justify-center rounded-xl border border-line text-fg-muted transition-colors hover:border-line-strong hover:text-ivory md:hidden"
+          aria-label="Open menu"
+        >
+          <Menu className="h-4 w-4" />
+        </button>
+        <h1 className="font-display text-lg font-semibold uppercase tracking-wide text-ivory">{title}</h1>
+      </div>
 
       <div className="flex flex-1 items-center justify-end gap-3">
         <button

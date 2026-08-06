@@ -9,7 +9,10 @@ import { Badge } from "@/components/ui/badge";
 import { PlayerRadarChart } from "@/components/charts/player-radar-chart";
 import { formatDate } from "@/lib/utils";
 
-export const revalidate = 60;
+// Player profiles are looked up individually and can be corrected at the
+// data level at any time (e.g. a mis-tagged primary_role) -- staleness
+// here is confusing, not a meaningful perf win, so always fetch fresh.
+export const dynamic = "force-dynamic";
 
 function clamp(n: number, min = 0, max = 100) {
   return Math.max(min, Math.min(max, n));
