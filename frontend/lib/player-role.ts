@@ -29,9 +29,10 @@ const BOWLER_OVERS_PER_MATCH_THRESHOLD = 3;
 /**
  * Product rule: anyone who's bowled a meaningful workload (~3+ overs a
  * match on average) should show as "Bowler" regardless of what the DB's
- * primary_role says -- including players tagged 'batter'. Players
- * tagged 'allrounder' are exempt from this override and always keep
- * showing as "All-Rounder", no matter their bowling workload.
+ * primary_role says -- including players tagged 'batter'. Everyone else
+ * (including allrounders who don't clear the bar) falls back to the
+ * plain roleLabel() mapping, so 'allrounder' still reads "All-Rounder"
+ * unless their bowling workload earns them the "Bowler" override.
  *
  * Requires real bowling numbers, not just the role string -- only call
  * this where avgOversBowledPerMatch is actually available (currently
@@ -44,11 +45,7 @@ export function effectiveRoleLabel(
   primaryRole: string | null | undefined,
   avgOversBowledPerMatch: number | null | undefined
 ): string | null {
-  if (
-    primaryRole?.toLowerCase() !== "allrounder" &&
-    avgOversBowledPerMatch != null &&
-    avgOversBowledPerMatch >= BOWLER_OVERS_PER_MATCH_THRESHOLD
-  ) {
+  if (avgOversBowledPerMatch != null && avgOversBowledPerMatch >= BOWLER_OVERS_PER_MATCH_THRESHOLD) {
     return "Bowler";
   }
   return roleLabel(primaryRole);
