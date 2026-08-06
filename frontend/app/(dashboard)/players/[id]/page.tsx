@@ -1,8 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeftRight } from "lucide-react";
-import { api } from "@/lib/api";
-import { safe } from "@/lib/safe";
+import { ArrowLeftRight, TriangleAlert } from "lucide-react";
+import { api, ApiError } from "@/lib/api";
 import { PageHeader } from "@/components/shared/page-header";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -23,8 +22,22 @@ export default async function PlayerDetailPage({ params }: { params: Promise<{ i
   const playerId = Number(id);
   if (Number.isNaN(playerId)) notFound();
 
-  const detail = await safe(() => api.player(playerId), null);
-  if (!detail || "error" in (detail as unknown as Record<string, unknown>)) notFound();
+  // Deliberately NOT using the safe() wrapper here: safe() swallows every
+  // failure (network error, 500, timeout, DB hiccup) into the same `null`
+  // fallback, and this page used to treat that identically to "player
+  // doesn't exist" -- so a transient backend issue rendered as a hard
+  // "this page could not be found" 404 for a player who's really there.
+  // We only want notFound() for the genuine case (backend responds with
+  // {error: "player not found"}); anything else should show as an actual
+  // error the person can retry, not a false 404.
+  let detail;
+  try {
+    detail = await api.player(playerId);
+  } catch (err) {
+    if (err instanceof ApiError && err.status === 404) notFound();
+    return <PlayerLoadError />;
+  }
+  if ("error" in (detail as unknown as Record<string, unknown>)) notFound();
 
   const { player, batting, bowling } = detail;
 
@@ -112,6 +125,18 @@ function Stat({ label, value }: { label: string; value: string | number }) {
     <div>
       <p className="text-xs uppercase tracking-widest text-fg-faint">{label}</p>
       <p className="scoreboard-digits mt-1 text-xl font-semibold text-ivory">{value}</p>
+    </div>
+  );
+}
+
+function PlayerLoadError() {
+  return (
+    <div className="flex flex-col items-center justify-center gap-3 rounded-2xl border border-line bg-surface px-6 py-16 text-center">
+      <TriangleAlert className="h-8 w-8 text-crimson-bright" />
+      <p className="text-lg font-semibold text-ivory">Couldn&apos;t load this player right now</p>
+      <p className="max-w-sm text-sm text-fg-muted">
+        The backend didn&apos;t respond -- this is likely a temporary issue, not a missing player. Try refreshing the page.
+      </p>
     </div>
   );
 }

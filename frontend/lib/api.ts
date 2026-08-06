@@ -43,7 +43,11 @@ class ApiError extends Error {
   }
 }
 
-async function request<T>(path: string, params?: Record<string, string | number | undefined>): Promise<T> {
+async function request<T>(
+  path: string,
+  params?: Record<string, string | number | undefined>,
+  options?: { noStore?: boolean }
+): Promise<T> {
   const url = new URL(path, API_URL);
   if (params) {
     for (const [key, value] of Object.entries(params)) {
@@ -55,8 +59,11 @@ async function request<T>(path: string, params?: Record<string, string | number 
   const res = await fetch(url.toString(), {
     // Dashboard data changes as new matches are scraped/loaded, not on every
     // request -- a short revalidation window keeps pages fast without
-    // serving stale season/leaderboard data for too long.
-    next: { revalidate: 60 },
+    // serving stale season/leaderboard data for too long. Callers that need
+    // guaranteed-fresh data (e.g. a single player profile right after a
+    // data correction) pass noStore to bypass this explicitly rather than
+    // relying on the calling page's route-segment config to override it.
+    ...(options?.noStore ? { cache: "no-store" as const } : { next: { revalidate: 60 } }),
   });
   if (!res.ok) {
     throw new ApiError(res.status, `${res.status} ${res.statusText} for ${path}`);
@@ -90,7 +97,7 @@ export const api = {
     filters?: { nationality?: string; team_id?: number; role?: string; limit?: number }
   ) => request<PlayerSearchResult[]>("/api/players/search", { q, ...filters }),
   playerFilters: () => request<PlayerFilterOptions>("/api/players/filters"),
-  player: (playerId: number) => request<PlayerDetail>(`/api/players/${playerId}`),
+  player: (playerId: number) => request<PlayerDetail>(`/api/players/${playerId}`, undefined, { noStore: true }),
   playerPhases: (playerId: number) => request<PlayerPhases>(`/api/players/${playerId}/phases`),
   playerConsistency: (playerId: number) => request<PlayerConsistency>(`/api/players/${playerId}/consistency`),
   playersCompare: (player1Id: number, player2Id: number) =>
