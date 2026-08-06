@@ -72,22 +72,59 @@ def search_players(
     with get_conn() as conn, conn.cursor() as cur:
         cur.execute(
             f"""
-            SELECT
-                p.player_id, p.full_name, p.display_name, p.nationality, p.primary_role,
-                {match_score_expr} AS match_score
-            FROM raw_cricsheet.players p
-            WHERE 1=1
-              {name_clause}
-              AND (%(nationality)s IS NULL OR p.nationality = %(nationality)s)
-              AND (%(role)s IS NULL OR p.primary_role = %(role)s)
-              AND (
-                  %(team_id)s IS NULL OR EXISTS (
-                      SELECT 1 FROM raw_cricsheet.player_season ps
-                      WHERE ps.player_id = p.player_id AND ps.team_id = %(team_id)s
+            WITH matched AS (
+                SELECT
+                    p.player_id, p.full_name, p.display_name, p.nationality, p.primary_role,
+                    {match_score_expr} AS match_score
+                FROM raw_cricsheet.players p
+                WHERE 1=1
+                  {name_clause}
+                  AND (%(nationality)s IS NULL OR p.nationality = %(nationality)s)
+                  AND (%(role)s IS NULL OR p.primary_role = %(role)s)
+                  AND (
+                      %(team_id)s IS NULL OR EXISTS (
+                          SELECT 1 FROM raw_cricsheet.player_season ps
+                          WHERE ps.player_id = p.player_id AND ps.team_id = %(team_id)s
+                      )
                   )
-              )
-            ORDER BY match_score DESC, p.full_name
-            LIMIT %(limit)s
+                ORDER BY match_score DESC, p.full_name
+                LIMIT %(limit)s
+            )
+            -- Bowling workload is only computed for the already-limited
+            -- result set (LATERAL joins run per output row, not per
+            -- candidate before LIMIT) so this stays cheap regardless of
+            -- how many players a broad query matches. Same fields/
+            -- definition as get_player()'s avg_overs_per_match --
+            -- lib/player-role.ts's effectiveRoleLabel() uses this to
+            -- show "Bowler" for anyone with a heavy bowling workload
+            -- even if primary_role says otherwise.
+            SELECT
+                m.player_id, m.full_name, m.display_name, m.nationality, m.primary_role,
+                m.match_score,
+                CASE WHEN played.matches > 0
+                     THEN ROUND(bowled.total_balls::numeric / played.matches / 6, 2)
+                     ELSE NULL END AS avg_overs_per_match
+            FROM matched m
+            LEFT JOIN LATERAL (
+                SELECT COALESCE(SUM({_overs_to_balls_expr('bw.overs_bowled')}), 0) AS total_balls
+                FROM raw_cricsheet.match_bowling_scorecard bw
+                WHERE bw.player_id = m.player_id
+            ) bowled ON true
+            LEFT JOIN LATERAL (
+                SELECT COUNT(DISTINCT match_id) AS matches
+                FROM (
+                    SELECT i.match_id
+                    FROM raw_cricsheet.match_batting_scorecard bs
+                    JOIN raw_cricsheet.innings i ON i.innings_id = bs.innings_id
+                    WHERE bs.player_id = m.player_id
+                    UNION
+                    SELECT i.match_id
+                    FROM raw_cricsheet.match_bowling_scorecard bw2
+                    JOIN raw_cricsheet.innings i ON i.innings_id = bw2.innings_id
+                    WHERE bw2.player_id = m.player_id
+                ) played
+            ) played ON true
+            ORDER BY m.match_score DESC, m.full_name
             """,
             {
                 "q": q, "pattern": f"%{q}%" if q else None,
@@ -111,7 +148,13 @@ def player_filter_options():
         cur.execute(
             "SELECT unnest(enum_range(NULL::raw_cricsheet.player_role))::text AS role"
         )
-        roles = [r["role"] for r in cur.fetchall()]
+        # 'allrounder' is a real DB value but the product decision is to
+        # never surface "All-Rounder" as a distinct label in the UI --
+        # see frontend/lib/player-role.ts for where the same collapse
+        # happens on already-fetched player rows. Drop it here too so a
+        # role filter dropdown built against this endpoint doesn't offer
+        # a category the rest of the app doesn't display.
+        roles = [r["role"] for r in cur.fetchall() if r["role"] != "allrounder"]
 
     return {"nationalities": nationalities, "roles": roles}
 
@@ -811,8 +854,20 @@ def get_player(player_id: int):
         if total_wickets else None
     )
 
+    # Matches played (not just bowling innings) -- needed so the frontend
+    # can compute overs bowled *per match*, diluted across games this
+    # player didn't bowl in at all, rather than per bowling innings.
+    # That's what lib/player-role.ts's effectiveRoleLabel() uses to
+    # decide whether someone's bowling workload is heavy enough to
+    # display as "Bowler" regardless of their DB-tagged primary_role.
+    matches = _player_matches(cur, player_id)
+    avg_overs_per_match = (
+        round(total_balls_bowled / matches / 6, 2) if matches else None
+    )
+
     return {
         "player": player,
+        "matches": matches,
         "batting": {
             "innings": batting["innings_batted"],
             "runs": batting["total_runs"],
@@ -830,6 +885,7 @@ def get_player(player_id: int):
         "bowling": {
             "innings": bowling["innings_bowled"],
             "overs": career_overs_bowled if total_balls_bowled else None,
+            "avg_overs_per_match": avg_overs_per_match,
             "wickets": total_wickets,
             "best_figures": (
                 f"{best_figures_row['wickets']}/{best_figures_row['runs_conceded']}"

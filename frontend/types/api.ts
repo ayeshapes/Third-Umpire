@@ -86,6 +86,12 @@ export interface PlayerSearchResult {
   nationality: string | null;
   primary_role: string | null;
   match_score?: number;
+  // Total balls bowled / matches / 6, diluted across every match this
+  // player has appeared in. See lib/player-role.ts's effectiveRoleLabel().
+  // Optional: app/page.tsx builds a lightweight PlayerSearchResult-shaped
+  // object from leaderboard data (to reuse <FeaturedPlayers>) that was
+  // never fetched from /api/players/search and has no bowling stats.
+  avg_overs_per_match?: number | null;
 }
 
 export interface TeamSearchResult {
@@ -163,6 +169,7 @@ export interface PlayerDetail {
     bowler_type: string | null;
     bowling_subtype: string | null;
   };
+  matches: number;
   batting: {
     innings: number;
     runs: number;
@@ -177,6 +184,11 @@ export interface PlayerDetail {
   bowling: {
     innings: number;
     overs: string | null;
+    // Total balls bowled / matches / 6 -- diluted across every match
+    // played, including ones this player didn't bowl in at all. Used by
+    // lib/player-role.ts's effectiveRoleLabel() to decide whether to
+    // show "Bowler" regardless of the DB's primary_role tag.
+    avg_overs_per_match: number | null;
     wickets: number;
     best_figures: string | null;
     average: number | null;

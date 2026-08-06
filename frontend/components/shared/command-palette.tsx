@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { Command } from "cmdk";
 import { Search, Users, Shield, MapPin, LayoutDashboard, Trophy, Handshake } from "lucide-react";
 import { api } from "@/lib/api";
+import { effectiveRoleLabel } from "@/lib/player-role";
 import type { PlayerSearchResult, Team, TeamSearchResult, Venue, VenueSearchResult } from "@/types/api";
 
 const STATIC_LINKS = [
@@ -142,7 +143,7 @@ export function CommandPalette() {
                 >
                   <Users className="h-4 w-4 text-crimson-bright" />
                   {p.display_name ?? p.full_name}
-                  {p.primary_role && <span className="ml-auto text-xs text-fg-faint">{p.primary_role}</span>}
+                  {p.primary_role && <span className="ml-auto text-xs text-fg-faint">{effectiveRoleLabel(p.primary_role, p.avg_overs_per_match)}</span>}
                 </Command.Item>
               ))}
             </Command.Group>

@@ -4,6 +4,7 @@ import { useEffect, useState, useTransition } from "react";
 import Link from "next/link";
 import { ArrowLeftRight, Search, Users } from "lucide-react";
 import { api } from "@/lib/api";
+import { effectiveRoleLabel } from "@/lib/player-role";
 import { PageHeader } from "@/components/shared/page-header";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
@@ -106,7 +107,7 @@ export default function PlayersPage() {
                   <div>
                     <p className="text-sm font-medium text-ivory">{p.display_name ?? p.full_name}</p>
                     <p className="mt-0.5 text-xs text-fg-faint">
-                      {p.primary_role ?? "—"}
+                      {effectiveRoleLabel(p.primary_role, p.avg_overs_per_match) ?? "—"}
                       {p.nationality ? ` · ${p.nationality}` : ""}
                     </p>
                   </div>
