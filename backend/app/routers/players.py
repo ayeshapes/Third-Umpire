@@ -831,6 +831,22 @@ def get_player(player_id: int):
         )
         best_figures_row = cur.fetchone()
 
+        # Matches played (not just bowling innings) -- needed so the frontend
+        # can compute overs bowled *per match*, diluted across games this
+        # player didn't bowl in at all, rather than per bowling innings.
+        # That's what lib/player-role.ts's effectiveRoleLabel() uses to
+        # decide whether someone's bowling workload is heavy enough to
+        # display as "Bowler" regardless of their DB-tagged primary_role.
+        #
+        # This has to run inside this same `with` block: conn.cursor()'s
+        # context manager closes `cur` on exit (unlike `with conn:`, which
+        # only commits/rolls back -- it does NOT close the connection).
+        # Calling cur.execute() again after that point raises psycopg2's
+        # "cursor already closed", which is exactly the 500 error that was
+        # previously getting masked as a false "player not found" 404 by
+        # the old safe() wrapper.
+        matches = _player_matches(cur, player_id)
+
     # --- derive rate stats in Python, guarding every divide-by-zero ---
     total_balls_faced = batting["total_balls_faced"] or 0
     times_out = batting["times_out"] or 0
@@ -854,13 +870,6 @@ def get_player(player_id: int):
         if total_wickets else None
     )
 
-    # Matches played (not just bowling innings) -- needed so the frontend
-    # can compute overs bowled *per match*, diluted across games this
-    # player didn't bowl in at all, rather than per bowling innings.
-    # That's what lib/player-role.ts's effectiveRoleLabel() uses to
-    # decide whether someone's bowling workload is heavy enough to
-    # display as "Bowler" regardless of their DB-tagged primary_role.
-    matches = _player_matches(cur, player_id)
     avg_overs_per_match = (
         round(total_balls_bowled / matches / 6, 2) if matches else None
     )

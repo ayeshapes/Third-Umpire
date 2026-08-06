@@ -1,19 +1,22 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { LayoutDashboard, LineChart, Menu, Shield, Trophy, Users, X } from "lucide-react";
+import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 const NAV_LINKS = [
-  { href: "/dashboard", label: "Overview" },
-  { href: "/players", label: "Players" },
-  { href: "/teams", label: "Teams" },
-  { href: "/records", label: "Records" },
-  { href: "/analytics", label: "Analytics" },
+  { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
+  { href: "/players", label: "Players", icon: Users },
+  { href: "/teams", label: "Teams", icon: Shield },
+  { href: "/records", label: "Records", icon: Trophy },
+  { href: "/analytics", label: "Analytics", icon: LineChart },
 ];
 
 export function PublicNavbar() {
+  const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
@@ -76,17 +79,33 @@ export function PublicNavbar() {
                 <X className="h-4 w-4" />
               </button>
             </div>
-            <nav className="flex-1 space-y-1 px-3">
-              {NAV_LINKS.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block rounded-xl px-3 py-2.5 text-sm font-medium text-fg-muted transition-colors hover:bg-surface-2 hover:text-ivory"
-                >
-                  {link.label}
-                </Link>
-              ))}
+            <nav className="flex-1 space-y-1 overflow-y-auto px-3 pb-5">
+              {NAV_LINKS.map((link) => {
+                const active = pathname === link.href || pathname?.startsWith(link.href + "/");
+                const Icon = link.icon;
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className={cn(
+                      "group flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-colors",
+                      active
+                        ? "bg-crimson/15 text-ivory"
+                        : "text-fg-muted hover:bg-surface-2 hover:text-ivory"
+                    )}
+                  >
+                    <Icon
+                      className={cn(
+                        "h-[18px] w-[18px] shrink-0",
+                        active ? "text-crimson-bright" : "text-fg-muted group-hover:text-ivory"
+                      )}
+                    />
+                    <span className="truncate">{link.label}</span>
+                    {active && <span className="ml-auto h-1.5 w-1.5 rounded-full bg-crimson-bright" />}
+                  </Link>
+                );
+              })}
             </nav>
           </div>
         </div>

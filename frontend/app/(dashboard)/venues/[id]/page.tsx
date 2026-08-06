@@ -1,20 +1,36 @@
 import { notFound } from "next/navigation";
-import { api } from "@/lib/api";
-import { safe } from "@/lib/safe";
+import { TriangleAlert } from "lucide-react";
+import { api, ApiError } from "@/lib/api";
 import { PageHeader } from "@/components/shared/page-header";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { formatDate, formatNumber } from "@/lib/utils";
 import { VenueMapDynamic } from "@/components/shared/venue-map-dynamic";
 
-export const revalidate = 60;
+// Venue profiles are looked up individually and can be corrected at the
+// data level at any time -- staleness here is confusing, not a meaningful
+// perf win, so always fetch fresh (same reasoning as players/[id]).
+export const dynamic = "force-dynamic";
 
 export default async function VenueDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const venueId = Number(id);
   if (Number.isNaN(venueId)) notFound();
 
-  const detail = await safe(() => api.venue(venueId), null);
-  if (!detail || !detail.venue || "error" in detail.venue) notFound();
+  // Deliberately NOT using the safe() wrapper here: safe() swallows every
+  // failure (network error, 500, timeout, DB hiccup) into the same fallback
+  // (null), and this page used to treat that identically to "venue doesn't
+  // exist" -- so a transient backend issue rendered as a hard 404 for a
+  // venue that's really there. We only want notFound() for the genuine
+  // case (backend responds with {error: "venue not found"}); anything else
+  // should show as an actual error the person can retry, not a false 404.
+  let detail;
+  try {
+    detail = await api.venue(venueId);
+  } catch (err) {
+    if (err instanceof ApiError && err.status === 404) notFound();
+    return <VenueLoadError />;
+  }
+  if ("error" in detail.venue) notFound();
 
   const venue = detail.venue;
 
@@ -105,6 +121,18 @@ function Stat({ label, value }: { label: string; value: number | null }) {
     <div>
       <p className="text-xs uppercase tracking-widest text-fg-faint">{label}</p>
       <p className="scoreboard-digits mt-1 text-xl font-semibold text-ivory">{value ?? "—"}</p>
+    </div>
+  );
+}
+
+function VenueLoadError() {
+  return (
+    <div className="flex flex-col items-center justify-center gap-3 rounded-2xl border border-line bg-surface px-6 py-16 text-center">
+      <TriangleAlert className="h-8 w-8 text-crimson-bright" />
+      <p className="text-lg font-semibold text-ivory">Couldn&apos;t load this venue right now</p>
+      <p className="max-w-sm text-sm text-fg-muted">
+        The backend didn&apos;t respond -- this is likely a temporary issue, not a missing venue. Try refreshing the page.
+      </p>
     </div>
   );
 }
