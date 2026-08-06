@@ -2,6 +2,8 @@ import { api } from "@/lib/api";
 import { safe } from "@/lib/safe";
 import { formatNumber } from "@/lib/utils";
 import { PublicNavbar } from "@/components/layout/public-navbar";
+import { Topbar } from "@/components/layout/topbar";
+import { Sidebar } from "@/components/layout/sidebar";
 import { Hero } from "@/components/home/hero";
 import { StatsPreview } from "@/components/home/stats-preview";
 import { FeaturedPlayers, FeaturedTeams, RecentMatches } from "@/components/home/featured-sections";
@@ -37,6 +39,14 @@ export default async function HomePage() {
 
   return (
     <div className="min-h-screen bg-void">
+      {/* Desktop: full public nav with links + CTAs (hidden below md).
+          Mobile: the same Topbar + Sidebar-drawer combo every other page
+          uses, so the mobile nav actually looks/behaves consistently
+          instead of a second hand-rolled menu drifting out of sync. */}
+      <div className="md:hidden">
+        <Topbar title="Third Umpire" />
+      </div>
+      <Sidebar showDesktopRail={false} />
       <PublicNavbar />
       <Hero ticker={ticker} />
       <StatsPreview
